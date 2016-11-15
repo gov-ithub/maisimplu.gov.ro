@@ -1,0 +1,193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP CSV Exporter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Sun Jul 19 2015 15:18:15 GMT+0400 (Московское время "
+"(зима))\n"
+"PO-Revision-Date: Sun Jul 19 2015 15:39:24 GMT+0400 (Московское время "
+"(зима))\n"
+"Last-Translator: Compaz Admin <chushte@gmail.com>\n"
+"Language-Team: \n"
+"Language: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: ru_RU\n"
+"X-Generator: Loco - https://localise.biz/"
+
+msgid "CSV Export"
+msgstr "CSV Export"
+
+msgid "\"Status\" is a required field."
+msgstr "\"Статус\" это обязательное поле."
+
+msgid "The number of posts must be entered in numerical format."
+msgstr "Количество записей должна быть введены в цифровом формате."
+
+msgid "Please set the fields you would like to export with CSV."
+msgstr ""
+"Пожалуйста, установить значения в полях которые вы хотели бы экспортировать "
+"в CSV."
+
+msgid ""
+"Please adjust your permissions so that you are able to edit the below "
+"directory."
+msgstr ""
+"Пожалуйста, настроить права доступа, так что бы вы моли редактировать "
+"подпапки."
+
+msgid "Post ID"
+msgstr "Post ID"
+
+msgid "Post Type"
+msgstr "Post Type"
+
+msgid "Slug"
+msgstr "Slug"
+
+msgid "Post Title"
+msgstr "Post Title"
+
+msgid "Post Content"
+msgstr "Post Content"
+
+msgid "Publish"
+msgstr "Publish"
+
+msgid "Pending"
+msgstr "Pending"
+
+msgid "Draft"
+msgstr "Draft"
+
+msgid "Future"
+msgstr "Future"
+
+msgid "Private"
+msgstr "Private"
+
+msgid "Trash"
+msgstr "Trash"
+
+msgid "Inherit"
+msgstr "Inherit"
+
+msgid "Author"
+msgstr "Author"
+
+msgid "Post Date"
+msgstr "Post Date"
+
+msgid "Date Modified"
+msgstr "Date Modified"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Taxonomies"
+msgstr "Таксономии"
+
+msgid "Select all"
+msgstr "Выделить все"
+
+msgid "Unselect all"
+msgstr "Очистить все"
+
+msgid "There are no registered custom taxonomies."
+msgstr "Нет зарегистрированные пользовательские таксономии."
+
+msgid "Custom Fields"
+msgstr "Настраиваемые Поля"
+
+msgid "There are not registered custom fields. "
+msgstr "Нет зарегистрированых пользовательских полей."
+
+msgid "Settings"
+msgstr "Параметры"
+
+msgid "*All downloaded if \"0\" selected."
+msgstr ""
+"* Будут загружены \n"
+"Все записи \n"
+", если \n"
+"выбран\n"
+" \"0\" ."
+
+msgid "Number of posts to download."
+msgstr "Количество записей для скачивания."
+
+msgid "Select period to display."
+msgstr "Выберите период для отображения."
+
+msgid "Select date modified."
+msgstr "Выбрать дату изменнения."
+
+msgid "Character Code"
+msgstr "Кодировка"
+
+msgid "Export"
+msgstr "Экспорт"
+
+msgid "Others"
+msgstr "Дополнительные настройки экспорта"
+
+msgid "Status"
+msgstr "Состояние"
+
+msgid "WP CSV Exporter"
+msgstr "WP CSV Exporter"
+
+msgid "Post Excerpt"
+msgstr "Post Excerpt"
+
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+msgid "License key has been authenticated."
+msgstr "Лицензионный ключ был идентифицирован."
+
+msgid "License key authentication failed."
+msgstr "Не удалось идентификационный ключ лицензии."
+
+msgid "WP CSV Exporter Add-Ons"
+msgstr "WP CSV Exporter Add-Ons"
+
+msgid ""
+"Add-Ons will enable you to download CSVs for static pages and custom post "
+"types in addition to those for posts."
+msgstr ""
+"Дополнения позволит вам скачать томов CSV для статических страниц и "
+"пользовательских типов должностей в дополнение к тем, для сообщений."
+
+msgid "Add-Ons can be purchased from the website below."
+msgstr "Дополнения могут быть приобретены с сайта ниже."
+
+msgid "Authenticated"
+msgstr "Прошедшие проверку"
+
+msgid "Enter license key"
+msgstr "Введите лицензионный ключ"
+
+msgid "Please use Add-Ons to download CSVs for custom post types."
+msgstr ""
+"Пожалуйста, используйте Дополнения для загрузки томов CSV для "
+"пользовательских типов почтовых."
+
+msgid "Sorting by date."
+msgstr "Сортировка по дате."
+
+msgid "DESC"
+msgstr "По убыванию"
+
+msgid "ASC"
+msgstr "По возрастанию"

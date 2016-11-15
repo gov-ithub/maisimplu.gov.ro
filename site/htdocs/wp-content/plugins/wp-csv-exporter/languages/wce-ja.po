@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Check Copy Contents\n"
+"Report-Msgstr-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-06 12:00+0900\n"
+"POT-Creation-Date: 2012-04-19 14:58+0900\n"
+"PO-Revision-Date: 2016-02-04 09:51+0900\n"
+"Last-Translator: Masahiro Nakashima <kanakogi@gmail.com>\n"
+"Language-Team: JAPANESE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Language: ja_JP\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#
+msgid "CSV Export"
+msgstr "CSVエクスポート"
+
+msgid "\"Status\" is a required field."
+msgstr "\"ステータス\"は必須項目です。"
+
+msgid "The number of posts must be entered in numerical format."
+msgstr "\"記事件数\"は数値のみが入力可能です。"
+
+msgid "Please set the fields you would like to export with CSV."
+msgstr "CSVでエクスポートする項目を設定してください。"
+
+msgid ""
+"Please adjust your permissions so that you are able to edit the below "
+"directory."
+msgstr ""
+"以下のディクレトリに書き込みができるようにパーミッションを変更してください。"
+
+msgid "Post ID"
+msgstr "投稿ID"
+
+msgid "Post Type"
+msgstr "投稿タイプ"
+
+msgid "Slug"
+msgstr "スラッグ"
+
+msgid "Post Title"
+msgstr "記事タイトル"
+
+msgid "Post Content"
+msgstr "記事本文"
+
+msgid "Publish"
+msgstr "公開済み（publish）"
+
+msgid "Pending"
+msgstr "レビュー待ち（pending）"
+
+msgid "Draft"
+msgstr "下書き（draft）"
+
+msgid "Future"
+msgstr "スケジュール済み（future）"
+
+msgid "Private"
+msgstr "非公開（private）"
+
+msgid "Trash"
+msgstr "ゴミ箱入り（trash）"
+
+msgid "Inherit"
+msgstr "inherit"
+
+msgid "Author"
+msgstr "投稿者"
+
+msgid "Post Date"
+msgstr "公開日時"
+
+msgid "Date Modified"
+msgstr "変更日時"
+
+msgid "Tags"
+msgstr "タグ"
+
+msgid "Taxonomies"
+msgstr "タクソノミー"
+
+msgid "Select all"
+msgstr "全選択"
+
+msgid "Unselect all"
+msgstr "全解除"
+
+msgid "There are no registered custom taxonomies."
+msgstr "登録されているカスタムタクソノミーはありません。"
+
+msgid "Custom Fields"
+msgstr "カスタムフィールド"
+
+msgid "There are not registered custom fields. "
+msgstr "登録されているカスタムフィールドはありません。"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "*All downloaded if \"0\" selected."
+msgstr "※0の場合はすべてダウンロード"
+
+msgid "Number of posts to download."
+msgstr "ダウンロードする記事件数"
+
+msgid "Select period to display."
+msgstr "公開日の期間指定"
+
+msgid "Select date modified."
+msgstr "変更日の期間指定"
+
+msgid "Character Code"
+msgstr "文字コード"
+
+msgid "Export"
+msgstr "エクスポート"
+
+msgid "Others"
+msgstr "その他"
+
+msgid "Status"
+msgstr "ステータス"
+
+msgid "WP CSV Exporter"
+msgstr "WP CSV Exporter"
+
+msgid "Post Excerpt"
+msgstr "抜粋"
+
+msgid "Thumbnail"
+msgstr "アイキャッチ画像"
+
+msgid "License key has been authenticated."
+msgstr "ライセンスキーが認証されました。"
+
+msgid "License key authentication failed."
+msgstr "ライセンスキーの認証に失敗しました。"
+
+msgid "WP CSV Exporter Add-Ons"
+msgstr "WP CSV Exporter アドオン"
+
+msgid ""
+"Add-Ons will enable you to download CSVs for static pages and custom post "
+"types in addition to those for posts."
+msgstr ""
+"アドオンを購入すると「投稿」以外の「固定ページ」や「カスタム投稿タイプ」のCSV"
+"もダウンロードが出来るようになります。"
+
+msgid "Add-Ons can be purchased from the website below."
+msgstr "アドオンは、以下のWEBサイトから購入ができます。"
+
+msgid "Authenticated"
+msgstr "認証済み"
+
+msgid "Enter license key"
+msgstr "ライセンスキーの登録"
+
+msgid "Please use Add-Ons to download CSVs for custom post types."
+msgstr ""
+"カスタム投稿タイプのCSVをダウンロードするにはアドオンを使用してください。"
+
+msgid "Sorting by date."
+msgstr "日付のソート順"
+
+msgid "DESC"
+msgstr "降順"
+
+msgid "ASC"
+msgstr "昇順"
+
+msgid "*Number of posts to start"
+msgstr "※ダウンロードする記事の開始位置"

@@ -1,0 +1,1229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-FB-AutoConnect\n"
+"POT-Creation-Date: 2016-01-15 14:59-0800\n"
+"PO-Revision-Date: 2016-01-15 14:59-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: AdminPage.php:21
+msgid "Settings"
+msgstr ""
+
+#: AdminPage.php:61 AdminPage.php:70 AdminPage.php:79 AdminPage.php:91
+#: AdminPage.php:123 AdminPage.php:141 Premium.php:39
+msgid "Warning"
+msgstr ""
+
+#: AdminPage.php:62
+#, php-format
+msgid ""
+"This version of WP-FB-AutoConnect is only compatible with Premium addon "
+"version 30 or better (you're currently using version %s).  If you haven't "
+"done so already, please read the important information in FAQ46 of the "
+"plugin documentation:"
+msgstr ""
+
+#: AdminPage.php:63
+msgid ""
+"If you'd like to revert to a previous version of the free plugin until "
+"you're ready to update the addon, previous versions can be downloaded from:"
+msgstr ""
+
+#: AdminPage.php:70
+msgid ""
+"WP-FB-AutoConnect requires the JSON PHP extension to work.  Please install / "
+"enable it before attempting to use this plugin."
+msgstr ""
+
+#: AdminPage.php:79
+msgid ""
+"In some situations, W3-Total-Cache has been reported to cause problems with "
+"WP-FB-AutoConnect's Facebook logins.  If you're experiencing issues with WP-"
+"FB-AutoConnect (for instance, the Widget doesn't properly show the logged-in "
+"state immediately after a login), please try temporarily disabling W3-Total-"
+"Cache.  If that fixes it, you may re-enable W3-Total-Cache and try "
+"selectively enabling its various caching/CDN options until you find a "
+"combination that works for you."
+msgstr ""
+
+#: AdminPage.php:80 AdminPage.php:92
+msgid "Hide this message"
+msgstr ""
+
+#: AdminPage.php:91
+msgid ""
+"It looks like your site is running on WPEngine.  Some users have reported "
+"that WPEngine's built-in caching causes problems with WP-FB-AutoConnect's "
+"Facebook logins.  If you're experiencing issues with WP-FB-AutoConnect (for "
+"instance, the Widget doesn't properly show the logged-in state immediately "
+"after a login), please contact WPEngine support and ask them to add a cache "
+"exclusion for the WP-FB-AutoConnect plugin folder (and for the Premium "
+"addon, if you're using it)."
+msgstr ""
+
+#: AdminPage.php:118
+msgid "Sorry, but as of v1.3.0, WP-FB AutoConnect requires PHP5."
+msgstr ""
+
+#: AdminPage.php:123
+msgid ""
+"Wordpress MultiSite is only fully supported by the premium version of this "
+"plugin; please visit the documentation page for more details:"
+msgstr ""
+
+#: AdminPage.php:127
+msgid "Notice"
+msgstr ""
+
+#: AdminPage.php:128
+msgid "You seem to've uploaded the premium addon to the wrong directory."
+msgstr ""
+
+#: AdminPage.php:129
+#, php-format
+msgid ""
+"The %s file needs to go in your plugins directory (%s), not the WP-FB-"
+"AutoConnect directory (%s). This is to prevent it from getting overwritten "
+"when you auto-update the core plugin."
+msgstr ""
+
+#: AdminPage.php:174
+msgid "Failed to confirm your app access token."
+msgstr ""
+
+#: AdminPage.php:176
+msgid ""
+"Your plugin will probably function as normal, but if you encounter this "
+"message, please report it to the WP-FB-AutoConnect author."
+msgstr ""
+
+#: AdminPage.php:181
+msgid "Successfully connected with:"
+msgstr ""
+
+#: AdminPage.php:187
+msgid "Failed to validate your App ID and Secret."
+msgstr ""
+
+#: AdminPage.php:212 Premium.php:213
+msgid "Options saved"
+msgstr ""
+
+#: AdminPage.php:245
+msgid "All plugin settings have been cleared."
+msgstr ""
+
+#: AdminPage.php:263
+msgid "Facebook Setup"
+msgstr ""
+
+#: AdminPage.php:264 AdminPage.php:342
+msgid "Basic Options"
+msgstr ""
+
+#: AdminPage.php:265 AdminPage.php:502 Premium.php:306
+msgid "Premium Options"
+msgstr ""
+
+#: AdminPage.php:266
+msgid "Uninstall"
+msgstr ""
+
+#: AdminPage.php:267
+msgid "Support Info"
+msgstr ""
+
+#: AdminPage.php:310
+msgid "Setup Instructions"
+msgstr ""
+
+#: AdminPage.php:311
+msgid ""
+"To allow your users to login with their Facebook accounts, you must first "
+"setup a Facebook Application for your website:"
+msgstr ""
+
+#: AdminPage.php:313
+#, php-format
+msgid "Visit %s and select 'Add a New App' from the 'Apps' menu at the top."
+msgstr ""
+
+#: AdminPage.php:314
+msgid ""
+"When the 'Add a New App' window pops up, click the 'advanced setup' link at "
+"the bottom."
+msgstr ""
+
+#: AdminPage.php:315
+msgid ""
+"Type in a name (i.e. the name of your site), select a category, and click "
+"'Create App.'"
+msgstr ""
+
+#: AdminPage.php:316
+msgid ""
+"Go to the 'Settings' page and click 'Add Platform,' then 'Website,' then "
+"fill in your 'Site URL.'"
+msgstr ""
+
+#: AdminPage.php:317
+msgid "Note: http://example.com/ and http://www.example.com/ are NOT the same."
+msgstr ""
+
+#: AdminPage.php:318
+msgid ""
+"Also on the 'Settings' page, enter a Contact EMail, note the App ID and App "
+"Secret (you'll need them in a minute), and save changes."
+msgstr ""
+
+#: AdminPage.php:319
+msgid ""
+"Go to the 'Status & Review' page and make the app live (flip the switch at "
+"the top)."
+msgstr ""
+
+#: AdminPage.php:320
+msgid ""
+"Copy the App ID and App Secret to the boxes below, and click the 'Connect' "
+"button."
+msgstr ""
+
+#: AdminPage.php:321
+#, php-format
+msgid ""
+"In your Wordpress admin panel, navigate to Appearance->Widgets (%s) and add "
+"the WP-FB AutoConnect widget to your sidebar."
+msgstr ""
+
+#: AdminPage.php:324
+#, php-format
+msgid ""
+"That's it - users should now be able to login to your blog with their "
+"Facebook accounts.  For more complete documentation and help, please visit "
+"the %s plugin homepage %s."
+msgstr ""
+
+#: AdminPage.php:328
+msgid "Facebook Connect"
+msgstr ""
+
+#: AdminPage.php:333
+msgid "Connect"
+msgstr ""
+
+#: AdminPage.php:340 AdminPage.php:396
+msgid ""
+"You must enter a valid App ID and Secret under the 'Facebook Setup' tab "
+"before this plugin will function."
+msgstr ""
+
+#: AdminPage.php:344
+msgid "Autoregistered Usernames"
+msgstr ""
+
+#: AdminPage.php:345
+msgid "Based on Facebook ID (i.e. FB_123456)"
+msgstr ""
+
+#: AdminPage.php:346
+msgid "Based on real name with prefix (i.e. FB_John_Smith)"
+msgstr ""
+
+#: AdminPage.php:347
+msgid "Based on real name without prefix (i.e. John_Smith)"
+msgstr ""
+
+#: AdminPage.php:347
+msgid "Recommended for BuddyPress"
+msgstr ""
+
+#: AdminPage.php:348
+msgid "Legacy Format (i.e. John.Smith)"
+msgstr ""
+
+#: AdminPage.php:349 AdminPage.php:372
+msgid "Not recommended"
+msgstr ""
+
+#: AdminPage.php:349
+msgid ""
+"Although the original 'BuddyPress-friendly' username format included a "
+"period, I later learned that this creates issues with author links in "
+"Wordpress.  I've left the option here for legacy support, but advise against "
+"using it (unless you have only one author on your blog, in which case "
+"Facebook-connected users won't have author links and so it doesn't matter).  "
+"If you do have multiple authors and are experiencing broken author links, "
+"changing this option will fix it for all NEW users, but you may want to "
+"consider fixing your existing users by replacing all of the '.'s with '_'s "
+"in the 'user_nicename' field of the 'wp_users' database table."
+msgstr ""
+
+#: AdminPage.php:351
+msgid "E-Mail"
+msgstr ""
+
+#: AdminPage.php:352
+msgid "Request permission to get the connecting user's email address"
+msgstr ""
+
+#: AdminPage.php:353
+#, php-format
+msgid ""
+"Fetching your users' Facebook e-mail addresses will enable the plugin to "
+"give new (autoregistered) user accounts a valid e-mail.  However, note that "
+"this is only a request - they may still deny permission in the Facebook "
+"login popup.  If that happens, their autoregistered user account will be "
+"created with a 'placeholder' e-mail %s.<br/><br/>If you would like to "
+"require visiters to approve access to their e-mail before they're allowed to "
+"login, please check out the 'Request and REQUIRE' option under the Premium "
+"tab of the admin panel."
+msgstr ""
+
+#: AdminPage.php:355
+msgid "Announcement"
+msgstr ""
+
+#: AdminPage.php:357
+msgid ""
+"Request permission to post the following announcement on users' Facebook "
+"walls when they connect for the first time:"
+msgstr ""
+
+#: AdminPage.php:359
+msgid ""
+"Unfortunately, Facebook has stopped granting this permission for new apps as "
+"of April 30 2015, effectively killing off this great feature.  <b>The option "
+"will thus only function on sites that were already using it before.</b>"
+msgstr ""
+
+#: AdminPage.php:361 AdminPage.php:565 Premium.php:369
+msgid "Avatars"
+msgstr ""
+
+#: AdminPage.php:362
+msgid "Use Facebook profile pictures as avatars"
+msgstr ""
+
+#: AdminPage.php:364
+msgid "Appreciation"
+msgstr ""
+
+#: AdminPage.php:365
+msgid ""
+"Display a 'Powered By' link in the blog footer (would be appreciated! :))"
+msgstr ""
+
+#: AdminPage.php:366
+msgid "Periodically report usage stats to the plugin author"
+msgstr ""
+
+#: AdminPage.php:366
+msgid ""
+"Reports include some very basic server info & a login count, to help me "
+"understand how & where the plugin is most used, and how I should focus my "
+"development.  No names or e-mail addresses are sent."
+msgstr ""
+
+#: AdminPage.php:368
+msgid "Debug"
+msgstr ""
+
+#: AdminPage.php:370
+msgid "Send event logs to:"
+msgstr ""
+
+#: AdminPage.php:370
+msgid ""
+"Event logs show detailed information about the login process, and are useful "
+"for debugging various types of issues.  However, note that this option will "
+"send you an e-mail every time the login form is submitted - whether it's by "
+"a person or an automated spambot probing your site for vulnerabilities.  The "
+"latter type of submission is very common and is nothing to worry about, as "
+"both Wordpress and this plugin have various types of security to prevent the "
+"bots from getting in.  To avoid these spambot-generated messages, you may "
+"disable the suboption below."
+msgstr ""
+
+#: AdminPage.php:371
+#, php-format
+msgid "Include '%s' error events"
+msgstr ""
+
+#: AdminPage.php:372
+msgid "Disable nonce security check"
+msgstr ""
+
+#: AdminPage.php:373
+msgid "Delay redirect after login"
+msgstr ""
+
+#: AdminPage.php:373 AdminPage.php:374
+msgid "Not for production sites!"
+msgstr ""
+
+#: AdminPage.php:374
+msgid "Show full log on error"
+msgstr ""
+
+#: AdminPage.php:389
+msgid "Save"
+msgstr ""
+
+#: AdminPage.php:405
+msgid "Delete All Plugin Options"
+msgstr ""
+
+#: AdminPage.php:406
+msgid ""
+"The following button will PERMANENTLY delete all of this plugin's options "
+"from your Wordpress database, as if it had never been installed.  Use with "
+"care!"
+msgstr ""
+
+#: AdminPage.php:409
+msgid "Delete"
+msgstr ""
+
+#: AdminPage.php:414
+msgid "Support Information"
+msgstr ""
+
+#: AdminPage.php:416
+#, php-format
+msgid ""
+"Before submitting a support request, please make sure to carefully read all "
+"the documentation and FAQs on the %s plugin homepage %s.  Every problem "
+"that's ever been reported has a solution posted there."
+msgstr ""
+
+#: AdminPage.php:417
+#, php-format
+msgid ""
+"If you do choose to submit a request, please do so via the %s plugin "
+"homepage %s, not on Wordpress.org (which I rarely check).  Also, please "
+"specifically mention that you've tried it with all other plugins disabled "
+"and the default theme (see %s) and include the following information about "
+"your Wordpress environment:"
+msgstr ""
+
+#: AdminPage.php:419
+msgid ""
+"To copy the system info, click below then press Ctrl + C (PC) or Cmd + C "
+"(Mac)"
+msgstr ""
+
+#: AdminPage.php:466
+msgid "Click for more info"
+msgstr ""
+
+#: AdminPage.php:469
+msgid "Close"
+msgstr ""
+
+#: AdminPage.php:502 Premium.php:306
+msgid "Check for Updates"
+msgstr ""
+
+#: AdminPage.php:508 Premium.php:312 Widget.php:90
+msgid "The following options are available to Premium users only."
+msgstr ""
+
+#: AdminPage.php:508 Premium.php:312 Widget.php:92
+msgid ""
+"For information about the WP-FB-AutoConnect Premium Add-On, including "
+"purchasing instructions, please visit the plugin homepage:"
+msgstr ""
+
+#: AdminPage.php:513 Premium.php:317
+msgid "MultiSite Support"
+msgstr ""
+
+#: AdminPage.php:515 Premium.php:319
+msgid "Automatically enabled when a MultiSite install is detected"
+msgstr ""
+
+#: AdminPage.php:516 Premium.php:320
+msgid ""
+"The free plugin is not aware of users registered on other sites in your WPMU "
+"installation, which can result in problems i.e. if someone tries to register "
+"on more than one site.  The Premium version will actively detect and handle "
+"existing users across all your sites."
+msgstr ""
+
+#: AdminPage.php:518 Premium.php:322
+msgid "E-Mail Permissions"
+msgstr ""
+
+#: AdminPage.php:519 Premium.php:323
+msgid "Request and REQUIRE access to user's email address"
+msgstr ""
+
+#: AdminPage.php:520 Premium.php:324
+msgid ""
+"The basic option to request user email addresses will prompt your visitors, "
+"but they can still choose not to share it (in the Facebook login prompt).  "
+"This option performs a secondary check to REQUIRE them to share; if they "
+"don't, the site won't log them in (until they click the button again, and "
+"agree to share their address)."
+msgstr ""
+
+#: AdminPage.php:521 Premium.php:325
+msgid "Sorry, this site requires an e-mail address to log you in."
+msgstr ""
+
+#: AdminPage.php:522 Premium.php:326
+msgid "Message to users who deny e-mail access:"
+msgstr ""
+
+#: AdminPage.php:524 Premium.php:328
+msgid "Button Style"
+msgstr ""
+
+#: AdminPage.php:535 Premium.php:339
+msgid "Original"
+msgstr ""
+
+#: AdminPage.php:536 Premium.php:340
+msgid "Text"
+msgstr ""
+
+#: AdminPage.php:537 Premium.php:341
+msgid "Style"
+msgstr ""
+
+#: AdminPage.php:538 Premium.php:342
+msgid "Small"
+msgstr ""
+
+#: AdminPage.php:539 Premium.php:343
+msgid "Medium"
+msgstr ""
+
+#: AdminPage.php:540 Premium.php:344
+msgid "Large"
+msgstr ""
+
+#: AdminPage.php:541 Premium.php:345
+msgid "X-Large"
+msgstr ""
+
+#: AdminPage.php:545 Premium.php:349
+msgid "Image (styleable)"
+msgstr ""
+
+#: AdminPage.php:546 Premium.php:350
+msgid "URL"
+msgstr ""
+
+#: AdminPage.php:547 Premium.php:351
+msgid "Preview"
+msgstr ""
+
+#: AdminPage.php:550 Premium.php:354
+msgid "Additional Buttons"
+msgstr ""
+
+#: AdminPage.php:551 Premium.php:355
+msgid "Add a Facebook Login button below the comment form"
+msgstr ""
+
+#: AdminPage.php:552 Premium.php:356
+msgid "Add a Facebook Login button to the standard Login page"
+msgstr ""
+
+#: AdminPage.php:553 Premium.php:357
+msgid "Add a Facebook Login button to the Registration page"
+msgstr ""
+
+#: AdminPage.php:554 Premium.php:358
+msgid "Add a Facebook Login button to the BuddyPress Registration page"
+msgstr ""
+
+#: AdminPage.php:555 Premium.php:359
+msgid "Add a Facebook Login button to the Signup page (WPMU Only)"
+msgstr ""
+
+#: AdminPage.php:573 AdminPage.php:575 Premium.php:377 Premium.php:379
+msgid "Cache Facebook avatars locally"
+msgstr ""
+
+#: AdminPage.php:573 Premium.php:377
+msgid "thumbnail"
+msgstr ""
+
+#: AdminPage.php:573 Premium.php:377
+msgid ""
+"This will make a local copy of Facebook avatars, so they'll always load "
+"reliably, even if Facebook's servers go offline or if a user deletes their "
+"photo from Facebook. They will be fetched and updated whenever a user logs "
+"in."
+msgstr ""
+
+#: AdminPage.php:575 Premium.php:379
+msgid "large"
+msgstr ""
+
+#: AdminPage.php:579 Premium.php:383
+msgid ""
+"The 'thumbnail' avatar is what will be shown when your theme requests "
+"avatars sized 50x50 or less (Facebook's default thumbnail size).  If your "
+"theme displays avatars larger than this, you'll want to cache larger avatars "
+"as well (but note that there's a small per-login performance cost to copying "
+"the files locally, so if you're not actually using large avatars, I "
+"recommend leaving this option disabled)."
+msgstr ""
+
+#: AdminPage.php:580 Premium.php:384
+msgid ""
+"Please note that the dimensions you specify should be considered a MAXIMUM; "
+"Facebook will attempt to scale the avatar as close to your requested "
+"dimensions as possible, and then crop it down to fit.  If you just want the "
+"largest possible image, you can enter very large numbers (i.e. "
+"99999x99999).  But since the final size is not precisely guaranteed, please "
+"consider using CSS to ensure the images mesh nicely with your theme."
+msgstr ""
+
+#: AdminPage.php:583 Premium.php:387
+msgid "Cache dir"
+msgstr ""
+
+#: AdminPage.php:613 Premium.php:417
+msgid ""
+"Changing the cache directory will not move existing avatars or update "
+"existing users; it only applies to subsequent logins.  It's therefore "
+"recommended that you choose a cache directory once, then leave it be."
+msgstr ""
+
+#: AdminPage.php:615 Premium.php:419
+msgid "Use Facebook avatars for comments imported by the Wordbooker plugin"
+msgstr ""
+
+#: AdminPage.php:616 Premium.php:420
+msgid ""
+"The Wordbooker plugin allows you to push blog posts to your Facebook wall, "
+"and also to import comments on these posts back to your blog.  This option "
+"will display real Facebook avatars for imported comments, provided the "
+"commentor logs into your site at least once."
+msgstr ""
+
+#: AdminPage.php:619 Premium.php:423
+msgid "Manual Linking & Unlinking"
+msgstr ""
+
+#: AdminPage.php:620 Premium.php:424
+msgid ""
+"Allow users to manually link their Wordpress/Buddypress accounts to Facebook"
+msgstr ""
+
+#: AdminPage.php:621 Premium.php:425
+msgid ""
+"This will add a button to each non-Facebook-connected user's Wordpress (and "
+"Buddypress) profile page, allowing them to manually link their blog account "
+"to their Facebook profile.  Although this plugin does try to match "
+"connecting Facebook users to existing Wordpress accounts by e-mail, this "
+"option provides a way for users to explicitly identify their local blog "
+"account - even if their e-mails don't match."
+msgstr ""
+
+#: AdminPage.php:622 Premium.php:426
+msgid ""
+"Allow users to disassociate their Wordpress/Buddypress accounts from Facebook"
+msgstr ""
+
+#: AdminPage.php:623 Premium.php:427
+msgid ""
+"This will add a button to each connected user's Wordpress (and Buddypress) "
+"profile page, allowing them to disassociate their blog account from their "
+"Facebook profile.  User accounts which are not connected to Facebook will "
+"display 'Not Connected' in place of a button."
+msgstr ""
+
+#: AdminPage.php:624 Premium.php:428
+msgid ""
+"Allow administrators to disassociate Wordpress/Buddypress user accounts from "
+"Facebook"
+msgstr ""
+
+#: AdminPage.php:625 Premium.php:429
+msgid "This option is always enabled for administrators."
+msgstr ""
+
+#: AdminPage.php:627 Premium.php:431 Premium.php:1614 Premium.php:1655
+msgid "Link with Facebook"
+msgstr ""
+
+#: AdminPage.php:628 Premium.php:432 Premium.php:1615 Premium.php:1656
+msgid "Disassociate From Facebook"
+msgstr ""
+
+#: AdminPage.php:629 Premium.php:433
+msgid "Link button text (shown on user profiles)"
+msgstr ""
+
+#: AdminPage.php:630 Premium.php:434
+msgid "Disassociate button text (shown on user profiles)"
+msgstr ""
+
+#: AdminPage.php:632 Premium.php:436
+msgid "Shortcode Support"
+msgstr ""
+
+#: AdminPage.php:634 Premium.php:438
+msgid "Enable shortcode for rendering Facebook buttons to your posts and pages"
+msgstr ""
+
+#: AdminPage.php:636 Premium.php:440
+#, php-format
+msgid ""
+"Shortcode support will allow you to manually place Facebook login buttons in "
+"your posts or pages, simply by inserting the tag %s in their content. The "
+"Facebook button will only be shown when nobody is logged into the site; "
+"otherwise, nothing is shown.  If you'd like to specify something to output "
+"for logged-in users, you can use the %s parameter, like %s."
+msgstr ""
+
+#: AdminPage.php:638 Premium.php:442
+#, php-format
+msgid ""
+"With the Premium addon installed, shortcode support is always enabled.  For "
+"general information on Wordpress shortcode, please see %s."
+msgstr ""
+
+#: AdminPage.php:641 Premium.php:445
+msgid "Double Logins"
+msgstr ""
+
+#: AdminPage.php:643 Premium.php:447
+msgid "Automatically handle double logins"
+msgstr ""
+
+#: AdminPage.php:644 Premium.php:448
+#, php-format
+msgid ""
+"If a visitor opens two browser windows, logs into one, then logs into the "
+"other, the security nonce check will fail.  This is because in the second "
+"window, the current user no longer matches the user for which the nonce was "
+"generated.  The free version of the plugin reports this to the visitor, "
+"giving them a link to their desired redirect page.  The premium version will "
+"transparently handle such double-logins: to visitors, it'll look like the "
+"page has just been refreshed and they're now logged in.  For more "
+"information on nonces, please visit %s."
+msgstr ""
+
+#: AdminPage.php:646 Premium.php:450
+msgid "Autoregistered User Role"
+msgstr ""
+
+#: AdminPage.php:653 Premium.php:457
+msgid ""
+"Users who are autoregistered with Facebook will be created with the role:"
+msgstr ""
+
+#: AdminPage.php:658 Premium.php:462
+msgid "Widget Appearance"
+msgstr ""
+
+#: AdminPage.php:659 Premium.php:463
+#, php-format
+msgid "Please use the %s if you'd like to:"
+msgstr ""
+
+#: AdminPage.php:660 Premium.php:464
+msgid "Customize the Widget's text"
+msgstr ""
+
+#: AdminPage.php:660 Premium.php:464
+msgid ""
+"You can customize the text of: User, Pass, Login, Remember, Forgot, Logout, "
+"Edit Profile, Welcome."
+msgstr ""
+
+#: AdminPage.php:661 Premium.php:465
+msgid "Show/Hide any of the Widget's links, checkboxes, or textfields"
+msgstr ""
+
+#: AdminPage.php:661 Premium.php:465
+msgid "You can show or hide:"
+msgstr ""
+
+#: AdminPage.php:661 Premium.php:465
+msgid "The User/Pass fields (leaving Facebook as the only way to login)"
+msgstr ""
+
+#: AdminPage.php:661 Premium.php:465
+msgid ""
+"The 'Register' link (only applicable if registration is enabled on the site/"
+"network)"
+msgstr ""
+
+#: AdminPage.php:661 Premium.php:465
+msgid "The 'Remember' tickbox"
+msgstr ""
+
+#: AdminPage.php:661 Premium.php:465
+msgid "The 'Edit Profile' link"
+msgstr ""
+
+#: AdminPage.php:661 Premium.php:465
+msgid "The 'Forgot Password' link"
+msgstr ""
+
+#: AdminPage.php:662 Premium.php:466
+msgid "Show the user's avatar next to their username (when logged in)"
+msgstr ""
+
+#: AdminPage.php:663 Premium.php:467
+msgid "Point the 'Edit Profile' link to the BP profile, rather than WP"
+msgstr ""
+
+#: AdminPage.php:664 Premium.php:468
+msgid "Point the 'Forgot Password' link to a custom URL of your choosing"
+msgstr ""
+
+#: AdminPage.php:665 Premium.php:469
+msgid "Allow the user to simultaneously logout of your site *and* Facebook"
+msgstr ""
+
+#: AdminPage.php:667 Premium.php:471
+msgid "AJAX Spinner"
+msgstr ""
+
+#: AdminPage.php:668 Premium.php:472
+msgid "Don't show an AJAX spinner"
+msgstr ""
+
+#: AdminPage.php:669 Premium.php:473
+msgid "Show a white AJAX spinner to indicate the login process has started"
+msgstr ""
+
+#: AdminPage.php:670 Premium.php:474
+msgid "Show a black AJAX spinner to indicate the login process has started"
+msgstr ""
+
+#: AdminPage.php:672 Premium.php:476
+msgid "AutoRegistration Restrictions"
+msgstr ""
+
+#: AdminPage.php:674 Premium.php:478
+msgid "Open - Anyone can login (Default)"
+msgstr ""
+
+#: AdminPage.php:675 Premium.php:479
+msgid "Closed - Only login existing blog users"
+msgstr ""
+
+#: AdminPage.php:676 Premium.php:480
+#, php-format
+msgid ""
+"Invitational - Only autoregister users who've been invited via the %s plugin"
+msgstr ""
+
+#: AdminPage.php:676 Premium.php:480
+msgid ""
+"For invites to work, the connecting user's Facebook email must be "
+"accessible, and it must match the email to which the invitation was sent."
+msgstr ""
+
+#: AdminPage.php:677 Premium.php:481
+msgid "Friendship - Only autoregister friends of Facebook user id:"
+msgstr ""
+
+#: AdminPage.php:677 Premium.php:481
+#, php-format
+msgid ""
+"To find your Facebook uid, login and view your Profile Pictures album.  The "
+"URL will be something like '%s'.  In this example, your uid would be 789 "
+"(the numbers after the last decimal point).<br/><br/>Note: For this feature "
+"to work, the user you enter here must login via this Facebook app at least "
+"once."
+msgstr ""
+
+#: AdminPage.php:678 Premium.php:482
+msgid "Membership - Only autoregister members of Facebook group id:"
+msgstr ""
+
+#: AdminPage.php:678 Premium.php:482
+#, php-format
+msgid ""
+"To find a group's id, view its URL.  If it's something like '%s', the id "
+"would be 12345678.  If it uses a vanity URL (like %s) and is public, you can "
+"use %s to find its id.  If the group is both private/secret AND it uses a "
+"vanity URL, you'll have to use Facebook's Graph Explorer tool to lookup the "
+"id.  Visit %s, then click 'Submit.'  Assuming you're a member of the group, "
+"you should see it listed in the result, along with its id."
+msgstr ""
+
+#: AdminPage.php:678 AdminPage.php:679 Premium.php:482 Premium.php:483
+msgid ""
+"In order to use this option, you'll need to submit your app for review by "
+"Facebook.  Please see FAQ#56 for more info:"
+msgstr ""
+
+#: AdminPage.php:679 Premium.php:483
+msgid "Fanpage - Only autoregister fans of Facebook page id:"
+msgstr ""
+
+#: AdminPage.php:679 Premium.php:483
+#, php-format
+msgid ""
+"To find a page's id, view one of its photo albums.  The URL will be "
+"something like '%s'.  In this example, the id would be 789 (the numbers "
+"after the last decimal point)."
+msgstr ""
+
+#: AdminPage.php:680 Premium.php:484
+msgid "Redirect URL for denied logins:"
+msgstr ""
+
+#: AdminPage.php:682 Premium.php:486
+msgid "Custom Redirects"
+msgstr ""
+
+#: AdminPage.php:686 Premium.php:490
+msgid "When a new user is autoregistered on your site, redirect them to:"
+msgstr ""
+
+#: AdminPage.php:687 AdminPage.php:691 AdminPage.php:695 Premium.php:491
+#: Premium.php:495 Premium.php:499
+msgid "Default (refresh current page)"
+msgstr ""
+
+#: AdminPage.php:688 AdminPage.php:692 AdminPage.php:696 Premium.php:492
+#: Premium.php:496 Premium.php:500
+msgid "Custom URL"
+msgstr ""
+
+#: AdminPage.php:689 AdminPage.php:693 Premium.php:493 Premium.php:497
+#, php-format
+msgid "Supports %s variables"
+msgstr ""
+
+#: AdminPage.php:690 Premium.php:494
+msgid "When an existing user returns to your site, redirect them to:"
+msgstr ""
+
+#: AdminPage.php:694 Premium.php:498
+msgid "When a user logs out of your site, redirect them to:"
+msgstr ""
+
+#: AdminPage.php:699 Premium.php:503
+msgid "Welcome Message"
+msgstr ""
+
+#: AdminPage.php:702 Premium.php:506
+msgid "Send a custom welcome e-mail to users who register via Facebook"
+msgstr ""
+
+#: AdminPage.php:702 Premium.php:506
+msgid "If we know their address"
+msgstr ""
+
+#: AdminPage.php:706 Premium.php:510
+msgid "BuddyPress Activity Stream"
+msgstr ""
+
+#: AdminPage.php:707 Premium.php:511
+#, php-format
+msgid "%s logged in with Facebook"
+msgstr ""
+
+#: AdminPage.php:708 Premium.php:512
+#, php-format
+msgid "%s registered with Facebook"
+msgstr ""
+
+#: AdminPage.php:709 Premium.php:513
+msgid ""
+"When a new user autoconnects to your site, post to the BP Activity Stream:"
+msgstr ""
+
+#: AdminPage.php:711 Premium.php:515
+msgid ""
+"When an existing user returns to your site, post to the BP Activity Stream:"
+msgstr ""
+
+#: AdminPage.php:714 Premium.php:518
+msgid "BuddyPress X-Profile Mappings"
+msgstr ""
+
+#: AdminPage.php:715 Premium.php:519
+msgid ""
+"This section will let you automatically fill in your Buddypress users' X-"
+"Profile data from their Facebook profiles."
+msgstr ""
+
+#: AdminPage.php:716 Premium.php:520
+msgid ""
+"Some limitations exist regarding which X-Profile fields can be populated"
+msgstr ""
+
+#: AdminPage.php:716 Premium.php:520
+msgid ""
+"Only 'Text Box,' 'Multi-Line Text Box,' and 'Date Selector'-type profile "
+"fields can be mapped at this time.  Due to unpredictability in matching "
+"freeform values from Facebook to pre-defined values on BuddyPress, support "
+"for dropdowns, radiobuttons, and checkboxes MAY be added in the future."
+msgstr ""
+
+#: AdminPage.php:717 Premium.php:521
+msgid "Some limitations exist regarding which Facebook fields can be imported"
+msgstr ""
+
+#: AdminPage.php:717 Premium.php:521
+msgid ""
+"Because some Facebook fields are formatted differently, each one needs to be "
+"explicitly implemented.  I've included an initial selection of fields (i.e. "
+"Name, Gender, Birthday, Bio, etc), but if you need another field to be "
+"available, please request it on the support page and I'll do my best to add "
+"it to the next update."
+msgstr ""
+
+#: AdminPage.php:718 Premium.php:522
+msgid ""
+"In order to import fields marked with an asterisk (i.e. Birthday*), you'll "
+"need to submit your app for review by Facebook.  Please see FAQ#56 for more "
+"info:"
+msgstr ""
+
+#: AdminPage.php:722 Premium.php:526
+msgid ""
+"BuddyPress Not Found.  This section is only available on BuddyPress-enabled "
+"sites."
+msgstr ""
+
+#: AdminPage.php:723 Premium.php:527
+msgid ""
+"Error: BuddyPress Profile Not Found.  This should never happen - if you see "
+"this message, please report it on the plugin support page."
+msgstr ""
+
+#: AdminPage.php:727 Premium.php:531
+msgid "Disable Mapping"
+msgstr ""
+
+#: AdminPage.php:728 Premium.php:532
+msgid "Map New Users Only"
+msgstr ""
+
+#: AdminPage.php:729 Premium.php:533
+msgid "Map New And Returning Users"
+msgstr ""
+
+#: AdminPage.php:769 Premium.php:573
+msgid "No Mappings Available"
+msgstr ""
+
+#: AdminPage.php:776 Premium.php:580
+msgid "No Mapping"
+msgstr ""
+
+#: AdminPage.php:786 Premium.php:590
+msgid "Save Premium"
+msgstr ""
+
+#: Premium.php:39
+#, php-format
+msgid ""
+"The WP-FB-AutoConnect Premium Addon you're using requires WP-FB-AutoConnect "
+"%s or newer (you currently have %s).  Please update your WP-FB-AutoConnect "
+"plugin."
+msgstr ""
+
+#: Premium.php:626
+msgid "Visit"
+msgstr ""
+
+#: Premium.php:1538
+msgid "Update check failed"
+msgstr ""
+
+#: Premium.php:1549
+msgid ""
+"WP-FB-AutoConnect Premium update notifications will no longer be shown for "
+"this version.  You can re-enable them by manually clicking the 'Check for "
+"Updates' link on the Premium Options page."
+msgstr ""
+
+#: Premium.php:1566
+msgid "Hide for this version"
+msgstr ""
+
+#: Premium.php:1575
+#, php-format
+msgid ""
+"Update check successful. You already have the most up-to-date version of the "
+"Premium addon (%s)."
+msgstr ""
+
+#: Premium.php:1633
+msgid ""
+"This user cannot be disassociated from Facebook until they have a valid e-"
+"mail address"
+msgstr ""
+
+#: Premium.php:1662
+msgid "Associated Account"
+msgstr ""
+
+#: Premium.php:1873 Widget.php:13
+msgid "A Login/Logout widget with Facebook Connect button"
+msgstr ""
+
+#: Premium.php:1918 Premium.php:2047 Widget.php:120
+msgid "Logout of Facebook too?"
+msgstr ""
+
+#: Premium.php:2007 Premium.php:2025 Widget.php:43 Widget.php:98
+msgid "User"
+msgstr ""
+
+#: Premium.php:2008 Premium.php:2026 Widget.php:45 Widget.php:99
+msgid "Pass"
+msgstr ""
+
+#: Premium.php:2009 Premium.php:2027 Widget.php:44 Widget.php:100
+msgid "Login"
+msgstr ""
+
+#: Premium.php:2010 Premium.php:2028 Widget.php:101
+msgid "Remember"
+msgstr ""
+
+#: Premium.php:2011 Premium.php:2029 Widget.php:47 Widget.php:102
+msgid "Forgot"
+msgstr ""
+
+#: Premium.php:2012 Premium.php:2030 Widget.php:35 Widget.php:103
+msgid "Logout"
+msgstr ""
+
+#: Premium.php:2013 Premium.php:2031 Widget.php:35 Widget.php:104
+msgid "Edit Profile"
+msgstr ""
+
+#: Premium.php:2014 Premium.php:2032 Widget.php:32 Widget.php:105
+msgid "Welcome"
+msgstr ""
+
+#: Premium.php:2020 Widget.php:80
+msgid "Title"
+msgstr ""
+
+#: Premium.php:2024 Widget.php:97
+msgid "Labels"
+msgstr ""
+
+#: Premium.php:2035 Widget.php:108
+msgid "Other"
+msgstr ""
+
+#: Premium.php:2037 Widget.php:110
+msgid "Show WP User/Pass Login"
+msgstr ""
+
+#: Premium.php:2039 Widget.php:112
+msgid "Show 'Remember'"
+msgstr ""
+
+#: Premium.php:2041 Widget.php:114
+msgid "Show 'Register'"
+msgstr ""
+
+#: Premium.php:2043 Widget.php:116
+msgid "Show 'Forgot?'"
+msgstr ""
+
+#: Premium.php:2045 Widget.php:118
+msgid "Show 'Edit Profile'"
+msgstr ""
+
+#: Premium.php:2047 Widget.php:120
+msgid "Prompt"
+msgstr ""
+
+#: Premium.php:2049 Widget.php:122
+msgid "Edit profile links to BP (if available)"
+msgstr ""
+
+#: Premium.php:2051 Widget.php:124
+msgid "Show Avatar (when logged in)"
+msgstr ""
+
+#: Premium.php:2052 Widget.php:125
+msgid "Avatar Size"
+msgstr ""
+
+#: Premium.php:2053 Widget.php:126
+msgid "Forgot Pass URL"
+msgstr ""
+
+#: _process_login.php:33
+#, php-format
+msgid "User '%s' has already logged in via another browser session."
+msgstr ""
+
+#: _process_login.php:36
+msgid "Continue"
+msgstr ""
+
+#: _process_login.php:39
+msgid ""
+"This error is usually due to your browser's privacy settings or a server-"
+"side caching plugin.  If you get this error on multiple browsers, please "
+"contact the site administrator."
+msgstr ""
+
+#: _process_login.php:57
+#, php-format
+msgid ""
+"If you're receiving this notice via e-mail as a site administrator, it's "
+"nearly always safe to ignore (these errors are due to spambots automatically "
+"hitting your site).  If you're seeing this as a real person attempting to "
+"login, please report it to the plugin author at %s."
+msgstr ""
+
+#: _process_login.php:225
+msgid ""
+"If you get this error while running Wordpress MultiSite, it means you'll "
+"need to purchase the premium addon to enable full MultiSite support.  Please "
+"see here for more information:"
+msgstr ""
+
+#: _process_login.php:227
+msgid ""
+"If you're NOT using MultiSite, please report this bug to the plugin author "
+"on the support page:"
+msgstr ""
+
+#: _process_login.php:242
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr ""
+
+#: _process_login.php:243
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: _process_login.php:244
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: _process_login.php:245
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""

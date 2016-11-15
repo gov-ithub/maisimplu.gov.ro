@@ -1,0 +1,17 @@
+.wppb-select2 span.select2-container{
+	width: 15em !important;
+}
+@media screen and (max-width: 782px){
+	.wppb-select2 span.select2-container{
+		width: 100% !important;
+	}
+	.wppb-select2 span.select2-selection{
+		height: 40px !important;
+		font-size: 16px;
+		line-height: 1.5;
+		padding-top: 7px;
+		padding-right: 10px;
+		padding-bottom: 7px;
+		padding-left: 10px;
+	}
+}

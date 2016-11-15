@@ -1,0 +1,64 @@
+/*
+ * Sample styles for WP-FB-AutoConnect 
+ */
+
+.widget_loginlogout #wp-submit, .widget_autoconnect_premium #wp-submit{
+	height:23px;
+	width:46px;
+	padding:0;
+	margin:0 0 0 7px;
+}
+
+.widget_loginlogout #user_pass, .widget_autoconnect_premium #user_pass,
+.widget_loginlogout #user_login, .widget_autoconnect_premium #user_login{
+	width:86px;
+	padding:3px;
+}
+
+.widget_loginlogout #loginform label, .widget_autoconnect_premium #loginform label{
+	display:inline-block;
+	width:2.75em;
+}
+
+.widget_loginlogout #rememberme, .widget_autoconnect_premium #rememberme{
+	border:0;
+	padding:0;
+	margin: 0 2px;
+	background:none;
+}
+
+.widget_loginlogout #forgotText, .widget_autoconnect_premium #forgotText{
+	display:inline-block;
+	margin-left:6px;
+	height:26px;
+	font-size:80%;
+}
+
+.fbLoginButton{
+	display:block;
+	position:relative;
+	top:0;
+    padding:0;
+    margin:0;
+    border:0;
+	height:18px;
+	vertical-align:top;
+}
+
+.fb_iframe_widget span{
+    vertical-align:top !important;
+}
+
+.wpfb-widget-avatar{
+	float: left;
+}
+
+.wpfb-widget-avatar img.avatar{
+	float:none;
+	margin:0;
+}
+
+.wpfbac-button:hover{
+    text-decoration:none;
+    border-bottom:0 !important;
+}
