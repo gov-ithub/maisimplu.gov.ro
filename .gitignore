@@ -243,15 +243,15 @@ ModelManifest.xml
 
 *.log
 wp-config.external.php
-htdocs/wp-content/advanced-cache.php
-htdocs/wp-content/backup-db/
-htdocs/wp-content/backups/
-htdocs/wp-content/blogs.dir/
-htdocs/wp-content/cache/
-htdocs/wp-content/upgrade/
-htdocs/wp-content/uploads/
-htdocs/wp-content/wp-cache-config.php
-htdocs/wp-content/plugins/hello.php
+site/htdocs/wp-content/advanced-cache.php
+site/htdocs/wp-content/backup-db/
+site/htdocs/wp-content/backups/
+site/htdocs/wp-content/blogs.dir/
+site/htdocs/wp-content/cache/
+site/htdocs/wp-content/upgrade/
+site/htdocs/wp-content/uploads/
+site/htdocs/wp-content/wp-cache-config.php
+site/htdocs/wp-content/plugins/hello.php
 
 /.htaccess
 /license.txt
