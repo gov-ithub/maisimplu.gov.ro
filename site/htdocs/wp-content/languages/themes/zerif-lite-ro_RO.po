@@ -1,0 +1,1936 @@
+# Translation of Zerif Lite in Romanian
+# This file is distributed under the same license as the Zerif Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-01-27 14:51:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Zerif Lite\n"
+
+#. Theme Name of the plugin/theme
+msgid "Zerif Lite"
+msgstr "Zerif Lite"
+
+#. Description of the plugin/theme
+msgid "Zerif LITE is a free one page Wordpress theme. It's perfect for web agency business,corporate business,personal and parallax business portfolio, photography sites and freelancer.Is built on BootStrap with parallax support, is responsive, clean, modern, flat and minimal. Zerif Lite is ecommerce (WooCommerce) Compatible, WPML, RTL, Retina-Ready, SEO Friendly and with parallax, full screen image is one of the best business themes."
+msgstr "Zerif LITE este o temă gratuită WordPress de o pagină. Este perfectă pentru o agenție web, o afacere, o companie, un portofoliu personal sau de afaceri cu efect paralax, situri de fotografie sau liber profesioniști. Este construită pe Bootstrap cu suport pentru efecte paralax, e responsivă, curată, modernă, plată și minimală. Zerif Lite este compatibilă cu e-comerț (WooCommerce), WPML, RTL, Retina-Ready, SEO Friendly, cu imagini pe întreg ecranul și efecte paralax fiind una din cele mai bune teme pentru afaceri."
+
+#: content-large.php:66 content.php:63 sections/latest_news.php:99
+#: sections/latest_news.php:134
+msgid "[...]"
+msgstr "[...]"
+
+#: content-large.php:66 content.php:63 sections/latest_news.php:99
+#: sections/latest_news.php:134
+msgid "about "
+msgstr "despre"
+
+#: inc/customizer.php:237
+msgid "Footer Content"
+msgstr "Conținut subsol"
+
+#: inc/customizer.php:155 inc/customizer.php:377
+msgid "Footer Copyright"
+msgstr "Copyright în subsol"
+
+#: inc/customizer.php:161
+msgid "Footer Social Icons"
+msgstr "Iconuri rețele sociale în subsol"
+
+#: inc/customizer.php:231 inc/customizer.php:438
+msgid "Instagram link"
+msgstr "Legătură Instagram"
+
+#: functions.php:151
+msgid "Footer area %d"
+msgstr "Zonă subsol %d"
+
+#: functions.php:96
+msgid "Get the one page template"
+msgstr "Ia șablonul de o pagină"
+
+#: functions.php:97
+msgid "If you just installed Zerif Lite, and are not able to see the one page template, you need to go to Settings -> Reading , Front page displays and select \"Your latest posts\"."
+msgstr "Dacă tocmai ai instalat Zerif Lite și nu poți vedea șablonul de o pagină, trebuie să intri la Setări -> Afișare, \"Afișează pe prima pagină\" afișează și să selectezi \"Ultimele articole\"."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:192
+msgid "Revive Old Post"
+msgstr "Revive Old Post"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:193
+msgid "A plugin to share about your old posts on twitter, facebook, linkedin to get more hits for them and keep them alive."
+msgstr "Un modul despre partajarea pe Twitter, Facebook sau LinkedIn a articolelor tale mai vechi, pentru a avea mai multe vizualizări și a le menține în viață."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:203
+msgid "Install Revive Old Post"
+msgstr "Install Revive Old Post"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:126
+msgid "Read more"
+msgstr "Citeşte mai multe"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:109
+#: inc/admin/welcome-screen/sections/child-themes.php:111
+msgid "ResponsiveBoat"
+msgstr "ResponsiveBoat"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:124
+msgid "ResponsiveBoat - Current theme"
+msgstr "ResponsiveBoat - Temă curentă"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:35
+msgid "Get now"
+msgstr "Ia-o acum"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:118
+msgid "Get %s now"
+msgstr "Ia acum %s"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:80
+msgid "Add a search bar in the top menu"
+msgstr "adaugă bara de căutare în meniul principal"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:81
+msgid "Find out how to add a search bar in the top menu bar, in an easy way be following the link below."
+msgstr "Află cum să adaugi o bară de căutare la bara de meniu, într-un mod simplu, urmărind legătura de mai jos."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:124
+msgid "30 Experts Share: The Top *Non-Obvious* WordPress Plugins That'll Make You a Better Blogger"
+msgstr "30 Experts Share: The Top *Non-Obvious* WordPress Plugins That'll Make You a Better Blogger"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:125
+msgid " At the address below you will find a cool set of original WordPress plugins that can give you great benefits despite being a little lesser known out there."
+msgstr "La adresa de mai jos vei găsi un set fain de module originale WordPress ce-ți pot oferi mari beneficii în ciuda faptului că sunt mai puțin cunoscute în lume."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:118
+msgid "Configure the portfolio"
+msgstr "Configurează portofoliul"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:57
+msgid "In the below documentation you will find an easy way to translate Zerif Lite into your native language or any other language you need for you site."
+msgstr "În documentația de mai jos vei găsi o modalitate ușoară de a traduce Zerif Lite în limba ta maternă sau orice altă limbă de care ai nevoie pentru situl tău."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:119
+msgid "Set up your portfolio section in an easy way be following the link below."
+msgstr "Inițializează-ți secțiunea Portofoliu într-un mod simplu urmărind legătura de mai jos."
+
+#: inc/customizer.php:2034
+msgid "View Documentation"
+msgstr "Accesează documentația"
+
+#: inc/customizer.php:1539 inc/customizer.php:1597
+msgid "Use pinterest layout?"
+msgstr "Folosești un aranjament similar Pinterest?"
+
+#: inc/customizer.php:1864
+msgid "For more advanced settings please go to Settings -> Pirate Forms"
+msgstr "Pentru setări mai avansate te rog intră la Setări --> Formuri Pirat"
+
+#: inc/admin/welcome-screen/welcome-screen.php:214
+msgid "Changelog"
+msgstr "Istoric"
+
+#: inc/admin/welcome-screen/sections/github.php:16
+msgid "Zerif Lite on GitHub"
+msgstr "Zerif Lite pe Github"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:56
+#: inc/admin/welcome-screen/sections/github.php:22
+msgid "Translate Zerif Lite"
+msgstr "Tradu Zerif Lite"
+
+#: inc/customizer.php:638 inc/customizer.php:785
+msgid "Image 1"
+msgstr "Imagine 1"
+
+#: inc/customizer.php:651 inc/customizer.php:798
+msgid "Image 2"
+msgstr "Imagine 2"
+
+#: inc/customizer.php:662 inc/customizer.php:809
+msgid "Video background"
+msgstr "Fundal video"
+
+#: inc/admin/welcome-screen/welcome-screen.php:213
+msgid "Contribute"
+msgstr "Contribuie"
+
+#: inc/admin/welcome-screen/welcome-screen.php:142
+msgid "View Theme Info"
+msgstr "Vezi informații despre temă"
+
+#: inc/customizer.php:836 inc/customizer.php:1410
+msgid "Content"
+msgstr "Conținut"
+
+#: inc/customizer.php:626 inc/customizer.php:773
+msgid "Use parallax effect?"
+msgstr "Folosire efect paralaxă?"
+
+#: inc/admin/welcome-screen/sections/github.php:19
+msgid "Or would you like to translate Zerif Lite to your language? Get involved at wordpress.org."
+msgstr "Sau vrei să traduci Zerif Lite în limba ta? Implică-te la wordpress.org"
+
+#: inc/admin/welcome-screen/sections/github.php:25
+msgid "Are you enjoying Zerif Lite?"
+msgstr "Își place Zerif Lite?"
+
+#: inc/admin/welcome-screen/sections/github.php:27
+msgid "Leave us a review on %sWordPress.org%s. We'd really appreciate it!"
+msgstr "Lasă-ne o impresie la %sWordPress.org%s. Am aprecia foarte mult asta!"
+
+#: inc/admin/welcome-screen/welcome-screen.php:66
+msgid "Welcome! Thank you for choosing Zerif Lite! To fully take advantage of the best our theme can offer please make sure you visit our %swelcome page%s."
+msgstr "Bine ai venit! Îți mulțumim că ai ales Zerif Lite! Pentru a profita la maxim de cele oferite de tema noastră te rog fă o vizită la %spagina noastră de întâmpinare%s."
+
+#: inc/admin/welcome-screen/welcome-screen.php:67
+msgid "Get started with Zerif Lite"
+msgstr "Începe cu Zerif Lite"
+
+#: inc/admin/welcome-screen/welcome-screen.php:211
+msgid "Actions required"
+msgstr "Acțiuni necesare"
+
+#: inc/admin/welcome-screen/welcome-screen.php:212
+msgid "Child themes"
+msgstr "Teme copil"
+
+#: inc/admin/welcome-screen/welcome-screen.php:215
+msgid "Free VS PRO"
+msgstr "Gratis vs Pro"
+
+#: inc/customizer.php:44
+msgid "Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a nice looking background video!"
+msgstr "Uită-te la <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">versiunea PRO</a> pentru a adăuga un video ce arată bine pe fundal!"
+
+#: inc/customizer.php:143 inc/customizer.php:365
+msgid "Enable accessibility?"
+msgstr "Validezi accesibilitatea?"
+
+#: inc/customizer.php:592
+msgid "Green button label"
+msgstr "Etichetă buton verde"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:145
+msgid "Recommended plugins"
+msgstr "Extensii recomandate"
+
+#: inc/admin/welcome-screen/sections/github.php:9
+msgid "Can I Contribute?"
+msgstr "Pot să contribui?"
+
+#: inc/admin/welcome-screen/sections/github.php:11
+msgid "Found a bug?"
+msgstr "Ai găsit o eroare (bug)?"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:68
+msgid "Turn off the animations"
+msgstr "Dezactivează animațiile"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:151
+msgid "WP Product Review"
+msgstr "WP Product Review"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:162
+msgid "Install WP Product Review"
+msgstr "Instalează WP Product Review"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:172
+msgid "Custom Login Customizer"
+msgstr "Custom Login Customizer"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:245
+msgid "Install Visualizer"
+msgstr "Instalează Visualizer"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:42
+msgid "Create a child theme"
+msgstr "Creează o temă copil"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:43
+msgid "If you want to make changes to the theme's files, those changes are likely to be overwritten when you next update the theme. In order to prevent that from happening, you need to create a child theme. For this, please follow the documentation below."
+msgstr "Dacă vrei să faci modificări în fișierele temei, acele modificări vor fi probabil suprascrise la următoarea actualizare a temei. Pentru a preveni acest lucru, trebuie să creezi o temă copil. Pentru asta, te rog urmează documentația de mai jos."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:44
+#: inc/admin/welcome-screen/sections/getting-started.php:50
+#: inc/admin/welcome-screen/sections/getting-started.php:58
+#: inc/admin/welcome-screen/sections/getting-started.php:64
+#: inc/admin/welcome-screen/sections/getting-started.php:70
+#: inc/admin/welcome-screen/sections/getting-started.php:76
+#: inc/admin/welcome-screen/sections/getting-started.php:82
+#: inc/admin/welcome-screen/sections/getting-started.php:90
+#: inc/admin/welcome-screen/sections/getting-started.php:96
+#: inc/admin/welcome-screen/sections/getting-started.php:102
+#: inc/admin/welcome-screen/sections/getting-started.php:108
+#: inc/admin/welcome-screen/sections/getting-started.php:114
+#: inc/admin/welcome-screen/sections/getting-started.php:120
+msgid "View how to do this"
+msgstr "Vezi cum se face asta"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:48
+msgid "Slider in big title section"
+msgstr "Carusel în secțiunea Titlu mare"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:49
+msgid "If you are in the position where you want to change the default appearance of the big title section, you may want to replace it with a nice looking slider. This can be accomplished by following the documention below."
+msgstr "Dacă ești în măsură să schimbi aspectul implicit al secțiunii Titlu  mare, vei vrea poate să o înlocuiești cu un carusel ce să arate bine. Asta poate fi făcut dacă urmărești documentația de mai jos."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:62
+msgid "Change dimensions for footer social icons"
+msgstr "Schimbă dimensiunile iconurilor de rețele sociale din subsol"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:63
+msgid "In the below documentation you will find an easy way to change the default dimensions for you social icons."
+msgstr "În documentația ce urmează vei găsi o modalitate simplă de a schimba dimensiunile implicite ale iconurilor rețelelor sociale din subsol."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:69
+msgid "You can turn off the animation effects you see when Zerif Lite loads a section in an easy way with just few changes. Check the documentation below."
+msgstr "Poți opri efectele animate pe care le vezi când Zerif Lite încarcă o secțiune într-un mod simplu cu doar câteva modificări. Vezi documentația de mai jos."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:74
+msgid "Replace the skills section with an image"
+msgstr "Înlocuiește secțiunea Priceperi cu o imagine"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:75
+msgid "If you feel the default About us section is not exactly what you need, you can maybe try change it with an image."
+msgstr "Dacă crezi că secțiunea Despre noi nu e exact ce-ți dorești, poți eventual s-o schimbi cu o imagine."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:88
+msgid "Speed up your site"
+msgstr "Accelerează-și situl"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:89
+msgid "If you find yourself in the situation where everything on your site is running very slow, you might consider having a look at the below documentation where you will find the most common issues causing this and possible solutions for each of the issues."
+msgstr "Dacă te afli în situația în care totul pe situl tău rulează foarte lent, ar trebui să te gândești să arunci un ochi pe documentația de mai jos unde vei găsi cele mai comune probleme ce pot provoca asta și posibilele soluții pentru fiecare dintre ele."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:94
+msgid "Link Menu to sections"
+msgstr "Leagă meniul la secțiuni"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:95
+msgid "Linking the frontpage sections with the top menu is very simple, all you need to do is assign section anchors to the menu. In the below documentation you will find a nice tutorial about this."
+msgstr "Legarea secțiunilor de pe prima pagină la meniul principal e foarte simplă, tot ce trebuie să faci sete să atribui ancorele secțiunilor la meniu. În documentația de mai jos vei găsi un tutorial drăguț despre asta."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:100
+msgid "Change anchors"
+msgstr "Schimbă ancorele"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:101
+msgid "To better suit your site's needs, you can change each section's anchor to what you want. The entire process is described below."
+msgstr "Pentru o adaptare mai bună la nevoile sitului tău, poți schimba după dorință ancora fiecărei secțiuni. Întregul proces e descris mai jos."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:106
+msgid "Change the page template"
+msgstr "Schimbă șablonul paginii"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:107
+msgid "Zerif Lite has three page templates available, two for the blog and one for full width pages. To make sure you take full advantage of those page templates, make sure you read the documentation."
+msgstr "Zerif Lite are disponibile trei șabloane de pagină, două pentru blog și unul pentru pagini pe întreaga lățime. Pentru a fi sigur că folosești toate avantajele oferite de aceste șabloane, asigură-te că ai citit documentația."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:112
+msgid "Remove the opacity"
+msgstr "Înlătură opacitatea"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:113
+msgid "You don't like the way Zerif Lite looks with its background opacity? No problem. Just remove it using the steps below."
+msgstr "Nu-ți place cum arată Zerif Lite cu această opacitate din fundal? Nicio problemă. Înlătur-o urmând pașii de mai jos."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:136
+msgid "View full documentation"
+msgstr "Vezi întreaga documentație"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:137
+msgid "Need more details? Please check our full documentation for detailed information on how to use Zerif Lite."
+msgstr "Ai nevoie de mai multe detalii? Te rog verifică documentația noastră completă pentru informații detaliate legate de utilizarea Zerif Lite."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:138
+msgid "Read full documentation"
+msgstr "Citește întreaga documentație."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:152
+msgid "Easily turn your basic posts into in-depth reviews with ratings, pros and cons, affiliate links, rich snippets and user reviews."
+msgstr "Transformă cu ușurință articolele tale simple în versiuni aprofundate, cu evaluări, opțiuni pro și contra, legături de afiliere, fragmente îmbogățite și impresii ale utilizatorilor."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:156
+#: inc/admin/welcome-screen/sections/getting-started.php:177
+#: inc/admin/welcome-screen/sections/getting-started.php:197
+#: inc/admin/welcome-screen/sections/getting-started.php:219
+#: inc/admin/welcome-screen/sections/getting-started.php:239
+msgid "Already activated"
+msgstr "Deja activat"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:173
+msgid "Login Customizer plugin allows you to easily customize your login page straight from your WordPress Customizer! You can preview your changes before you save them!"
+msgstr "Modulul Login Customizer permite personalizarea ușoară a paginii de autentificare direct din Personalizatorul WordPress! Poți previzualiza modificările înainte de a le salva!"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:183
+msgid "Install Custom Login Customizer"
+msgstr "Instalează modulul Login Customizer"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:214
+msgid "ShortPixel Image Optimizer"
+msgstr "ShortPixel Image Optimizer"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:215
+msgid "Fast, easy-to-use and lightweight plugin that optimizes images & PDFs. Preserve a high visual quality of images and make your website load faster!"
+msgstr "Un modul rapid, ușor de folosit și restrâns, care optimizează imaginile și PDF-urile. Păstrează o calitate vizuală superioară a imaginilor și fă-ți situl să se încarce mai rapid!"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:225
+msgid "Install ShortPixel Image Optimizer"
+msgstr "Instalare ShortPixel Image Optimizer"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:234
+msgid "Visualizer: Charts and Graphs"
+msgstr "Visualizer: Charts and Graphs"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:235
+msgid "A simple, easy to use and quite powerful chart tool to create, manage and embed interactive charts into your WordPress posts and pages."
+msgstr "O unealtă simplă, ușor de folosit și destul de puternică pentru a crea diagrame, a le gestiona și îngloba diagrame interactive în articolele și paginile tale WordPress."
+
+#: inc/admin/welcome-screen/sections/github.php:12
+msgid "Want to contribute with a fix or create a new feature?"
+msgstr "Vrei să contribui cu o corecție sau să creezi o nouă funcționalitate?"
+
+#: inc/admin/welcome-screen/sections/github.php:13
+msgid "GitHub is the place to go!"
+msgstr "GitHub e locul unde trebuie să mergi!"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:24
+#: inc/admin/welcome-screen/welcome-screen.php:210
+msgid "Getting started"
+msgstr "Ajutor"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:36
+msgid "FAQ"
+msgstr "FAQ"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:102
+msgid "You will benefit of our full support for any issues you have with the theme."
+msgstr "Vei beneficia de întregul nostru suport pentru orice problemă ai avea cu tema."
+
+#: inc/admin/welcome-screen/sections/free_pro.php:109
+msgid "Packages/Subscribe sections"
+msgstr "Secțiunile de Oferte/Abonare"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:110
+msgid "Add pricing tables for your products and use newsletter forms to attract the clients."
+msgstr "Adaugă tabele de prețuri pentru produsele tale și folosește formulare de abonare la noutăți pentru a atrage clienți."
+
+#: inc/admin/welcome-screen/sections/free_pro.php:117
+msgid "Change labels for the Contact Us section"
+msgstr "Modifică etichetele pentru secțiunea Contactează-ne"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:118
+msgid "Write an original text in each Contact us section field."
+msgstr "Scrie un text original în fiecare câmp din secțiunea Contactează-ne."
+
+#: inc/admin/welcome-screen/sections/free_pro.php:125
+msgid "No credit footer link"
+msgstr "Nicio legătură de recunoaștere în subsol"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:126
+msgid "Remove \"Zerif Lite powered by WordPress\" copyright from the footer."
+msgstr "Înlătură copyright-ul \"Zerif Lite potențat de WordPress\" din subsol."
+
+#: inc/admin/welcome-screen/sections/free_pro.php:134
+msgid "Get Zerif PRO now!"
+msgstr "Ia acum Zerif PRO!"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:15
+msgid "Our most popular free one page WordPress theme, Zerif Lite!"
+msgstr "Cea mai populară temă de o pagină a noastră, gratuită, pentru WordPress, Zerif Lite!"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:16
+msgid "We want to make sure you have the best experience using Zerif Lite and that is why we gathered here all the necessary informations for you. We hope you will enjoy using Zerif Lite, as much as we enjoy creating great products."
+msgstr "Vrem să ne asigurăm că ai cea mai bună experiență utilizând Zerif Lite și de aceea am adunat aici pentru tine toate informațiile necesare. Sperăm că te vei bucura folosind Zerif Lite, la fel de mult cât ne bucură și pe noi să creem produse grozave."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:26
+msgid "Customize everything in a single place."
+msgstr "Personalizează totul dintr-un singur loc."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:27
+msgid "Using the WordPress Customizer you can easily customize every aspect of the theme."
+msgstr "Folosind Personalizatorul din WordPress poți să modifici cu ușurință fiecare aspect al temei."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:28
+msgid "Go to Customizer"
+msgstr "Mergi la Personalizator"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:101
+msgid "Support"
+msgstr "Ajutor"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:85
+msgid "Sections order"
+msgstr "Ordinea secțiunilor"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:78
+msgid "Showcase your best projects in the portfolio section."
+msgstr "Prezintă-ți cele mai bune proiecte în secțiunea Portofoliu."
+
+#: inc/admin/welcome-screen/sections/free_pro.php:86
+msgid "Arrange the sections by your priorities."
+msgstr "Aranjează secțiunea după prioritățile tale."
+
+#: inc/admin/welcome-screen/sections/free_pro.php:93
+msgid "Background slider/video"
+msgstr "Fundal carusel/video"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:94
+msgid "Apart from static images, you can use videos or sliders on the background."
+msgstr "În afară de imagini statice, poți folosi videouri sau carusele în fundal."
+
+#: inc/admin/welcome-screen/sections/free_pro.php:77
+msgid "Portfolio"
+msgstr "Portofoliu"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:21 inc/customizer.php:614
+#: inc/customizer.php:762
+msgid "Parallax effect"
+msgstr "Efect paralaxă"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:69
+msgid "Google map section"
+msgstr "Secțiunea Hartă Google "
+
+#: inc/admin/welcome-screen/sections/free_pro.php:53
+msgid "Background image"
+msgstr "Fundal imagine"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:68
+msgid "OnePirate - Current theme"
+msgstr "OnePirate - Tema curentă"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:136
+msgid "Zerius Child Theme"
+msgstr "Zerius temă copil"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:138
+msgid "Zerius"
+msgstr "Zerius"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:151
+msgid "Zerius - Current theme"
+msgstr "Zerius - tema curentă"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:80
+msgid "Zifer Child Theme"
+msgstr "Zifer temă copil"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:82
+msgid "Zifer"
+msgstr "Zifer"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:95
+msgid "Zifer Child - Current theme"
+msgstr "Zifer copil - tema curentă"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:22
+msgid "Smooth, catchy and easy scrolling experience."
+msgstr "O experiență de derulare ușoară, lină și captivantă."
+
+#: inc/admin/welcome-screen/sections/free_pro.php:29
+msgid "Mobile friendly"
+msgstr "Prietenoasă cu mobilele"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:30
+msgid "Responsive layout. Works on every device."
+msgstr "Aranjament responsiv. Merge pe orice dispozitiv."
+
+#: inc/admin/welcome-screen/sections/free_pro.php:37
+msgid "WooCommerce Compatible"
+msgstr "Compatibilă WooCommerce"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:38
+msgid "Ready for e-commerce. You can build an online store here."
+msgstr "Gata pentru  e-comerț. Poți construi aici un magazin online."
+
+#: inc/admin/welcome-screen/sections/free_pro.php:45
+msgid "Frontpage sections"
+msgstr "Secțiuni pe prima pagină"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:46
+msgid "Big title, Our focus, About us, Our team, Testimonials, Ribbons, Latest news, Contat us"
+msgstr "Titlu mare, Focusul nostru, Despre noi, Echipa noastră, Testimoniale, Benzi, Ultimele știri, Contactează-ne"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:54
+msgid "You can use any background image you want."
+msgstr "Poți folosi orice imagine de fundal vrei."
+
+#: inc/admin/welcome-screen/sections/free_pro.php:61
+msgid "Unlimited color option"
+msgstr "Opțiune de colorare nelimitată"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:62
+msgid "You can change the colors of each section. You have unlimited options."
+msgstr "Poți modifica culorile în fiecare secțiune. Ai opțiuni nelimitate."
+
+#: inc/admin/welcome-screen/sections/free_pro.php:70
+msgid "Embed your current location to your website by using a Google map."
+msgstr "Înglobează locația ta curentă în situl tău web folosind Hărți Google."
+
+#: inc/admin/welcome-screen/sections/child-themes.php:62
+#: inc/admin/welcome-screen/sections/child-themes.php:89
+#: inc/admin/welcome-screen/sections/child-themes.php:145
+msgid "Install %s now"
+msgstr "Instalează %s acum"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:53
+msgid "OnePirate Child Theme"
+msgstr "OnePirate temă copil"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:55
+msgid "OnePirate"
+msgstr "OnePirate"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:42
+#: inc/admin/welcome-screen/sections/child-themes.php:69
+#: inc/admin/welcome-screen/sections/child-themes.php:96
+#: inc/admin/welcome-screen/sections/child-themes.php:125
+#: inc/admin/welcome-screen/sections/child-themes.php:152
+msgid "Customize"
+msgstr "Personalizeaza"
+
+#: inc/admin/welcome-screen/sections/actions-required.php:9
+msgid "Keep up with Zerif Lite's latest news"
+msgstr "Ține pasul cu ultimele știri despre Zerif Lite"
+
+#: inc/admin/welcome-screen/sections/actions-required.php:60
+#: inc/admin/welcome-screen/welcome-screen.php:105
+msgid "Hooray! There are no required actions for you right now."
+msgstr "Uraaa! Nu sunt niciun fel de acțiuni necesare din partea ta, acum."
+
+#: inc/admin/welcome-screen/sections/child-themes.php:14
+msgid "Get a whole new look for your site"
+msgstr "Ia-ți un cu totul nou aspect pentru situl tău"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:16
+msgid "Below you will find a selection of Zerif Lite child themes that will totally transform the look of your site."
+msgstr "Mai jos vei găsi o selecție de teme copil pentru Zerif Lite ce-ți vor schimba cu totul aspectul sitului tău."
+
+#: inc/admin/welcome-screen/sections/child-themes.php:26
+msgid "ZBlackBeard Child Theme"
+msgstr "ZBlackBeard temă copil"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:28
+msgid "ZBlackBeard"
+msgstr "ZBlackBeard"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:41
+msgid "Zblackbeard - Current theme"
+msgstr "Zblackbeard - tema curentă"
+
+#: header.php:125
+msgid "Skip to content"
+msgstr "Sari la conținut"
+
+#: functions.php:386
+msgid "Our focus section widgets"
+msgstr "Piese pentru secțiunea Focusul nostru?"
+
+#: functions.php:390
+msgid "Testimonials section widgets"
+msgstr "Piese pentru secțiunea Testimoniale"
+
+#: functions.php:394
+msgid "Our team section widgets"
+msgstr "Piese pentru secțiunea Echipa noastră"
+
+#: functions.php:1067
+msgid "Open links in new window?"
+msgstr "Deschide legăturile într-o fereastră nouă:?"
+
+#: functions.php:102
+msgid "Install Pirate Forms"
+msgstr "Instalează Pirate Forms"
+
+#: functions.php:103
+msgid "In the next updates, Zerif Lite's default contact form will be removed. Please make sure you install the Pirate Forms plugin to keep your site updated, and experience a smooth transition to the latest version."
+msgstr "În următoarele actualizări, formularul de contact implicit al Zerif Lite va fi înlăturat. Te rog asigură-te că ai instalat modulul Pirate Forms pentru a-ți păstra situl actualizat și pentru a avea parte de o tranziție ușoară la ultima versiune."
+
+#: functions.php:109
+msgid "Check the contact form after installing Pirate Forms"
+msgstr "Verifică formularul de contact după instalarea Pirate Forms"
+
+#: functions.php:110
+msgid "After installing the Pirate Forms plugin, please make sure you check your frontpage contact form is working fine. Also, if you use Zerif Lite in other language(s) please make sure the translation is ok. If not, please translate the contact form again."
+msgstr "După instalarea modulului Pirate Forms, te rog asigură-te că ai verificat ca formularul de contact de pe prima pagină să funcționeze corect. De asemenea, dacă folosești Zerif Lite în alte limbi asigură-te că traducerile sunt ok. Dacă nu, te rog tradu din nou formularul de contact."
+
+#: functions.php:573
+msgid "Zerif - Our focus widget"
+msgstr "Zerif - piesă Focusul nostru"
+
+#: functions.php:654 functions.php:741 functions.php:794 functions.php:873
+#: functions.php:927 functions.php:1076
+msgid "Uploaded image"
+msgstr "Încărcare imagine"
+
+#: functions.php:687
+msgid "Zerif - Testimonial widget"
+msgstr "Zerif - piesă Testimonial"
+
+#: functions.php:830
+msgid "Zerif - Clients widget"
+msgstr "Zerif - piesă Clienți"
+
+#: functions.php:842
+msgid "Client"
+msgstr "Client"
+
+#: functions.php:907
+msgid "Zerif - Team member widget"
+msgstr "Zerif - piesă membru Echipă"
+
+#. translators: %s: Name of current post
+#: content-page.php:18
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuă lectura %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: front-page.php:344 front-page.php:345
+msgid "Your Message"
+msgstr "Mesajul tău"
+
+#: front-page.php:329 front-page.php:330
+msgid "Your Name"
+msgstr "Numele tău"
+
+#: front-page.php:339 front-page.php:340
+msgid "Subject"
+msgstr "Subiect"
+
+#: front-page.php:334 front-page.php:335
+msgid "Your Email"
+msgstr "Emailul tău"
+
+#: class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "N-a fost selectat niciun modul pentru activare. Nu s-a făcut nimic."
+
+#: class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr "Niciun modul nu este disponibil acum pentru actualizare."
+
+#: class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "N-a fost selectat niciun modul pentru actualizare. Nu s-a făcut nimic."
+
+#: class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "N-a fost selectat niciun modul pentru instalare. Nu s-a făcut nimic."
+
+#: class-tgm-plugin-activation.php:3362
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Actualizare modul %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr "Actualizare"
+
+#: class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr "Mesaj de actualizare de la furnizorul modulului:"
+
+#: class-tgm-plugin-activation.php:2495
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr "Actualizare %2$s"
+
+#: class-tgm-plugin-activation.php:2500
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr "Activare %2$s"
+
+#: class-tgm-plugin-activation.php:2491
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr "Instalare %2$s"
+
+#: class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr "Versiune"
+
+#: class-tgm-plugin-activation.php:2289
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Pentru activare <span class=\"count\">(%s)</span>"
+msgstr[1] "Pentru activare <span class=\"count\">(%s)</span>"
+msgstr[2] "Pentru activare <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2371
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "necunoscută"
+
+#: class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr "Versiune instalată:"
+
+#: class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr "Versiunea minimă necesară:"
+
+#: class-tgm-plugin-activation.php:2422
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr "Niciun modul de instalat, actualizat sau activat. <a href=\"%1$s\">Întoarcere la Panoul de control</a>"
+
+#: class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr "Versiune disponibilă:"
+
+#: class-tgm-plugin-activation.php:2286
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Necesită actualizare <span class=\"count\">(%s)</span>"
+msgstr[1] "Necesită actualizare <span class=\"count\">(%s)</span>"
+msgstr[2] "Necesită actualizare <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2283
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Pentru instalare <span class=\"count\">(%s)</span>"
+msgstr[1] "Pentru instalare <span class=\"count\">(%s)</span>"
+msgstr[2] "Pentru instalare <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2280
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Doar <span class=\"count\">(%s)</span>"
+msgstr[1] "Toate <span class=\"count\">(%s)</span>"
+msgstr[2] "Toate <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr "Actualizarea necesară nu este disponibilă"
+
+#: class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr "Necesită actualizare"
+
+#: class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr "Actualizare recomandată"
+
+#: class-tgm-plugin-activation.php:2235
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr "Activ"
+
+#: class-tgm-plugin-activation.php:1116 class-tgm-plugin-activation.php:2828
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "and"
+
+#: class-tgm-plugin-activation.php:1881
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr "Sursă externă"
+
+#: class-tgm-plugin-activation.php:402
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Modul neactivat. Pentru această temă este necesară o versiune mai mare a %s. Te rog actualizează modulul."
+
+#: class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr "Te rog contactează administratorul acestui sit pentru ajutor."
+
+#: class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Acest modul trebuie actualizat pentru a fi compatibil cu tema ta."
+
+#: class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr "Actualizare necesară."
+
+#: class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr "Setează în schimb variabila de configurare parent_slug."
+
+#: class-tgm-plugin-activation.php:935
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Pachetul modulului de la distanță nu conține un folder cu cu descriptorul dorit și redenumirea nu a funcționat."
+
+#: class-tgm-plugin-activation.php:935 class-tgm-plugin-activation.php:938
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Te rog contactează furnizorul modulului și cere-i să împacheteze modulul în conformitate cu specificațiile WordPress."
+
+#: class-tgm-plugin-activation.php:938
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Pachetul de la distanță al modulului conține mai mult de un fișier, dar acestea nu sunt împachetate într-un folder."
+
+#: class-tgm-plugin-activation.php:377
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] "Regret, dar nu ai permisiunile necesare pentru a activa modulul %1$s."
+msgstr[1] "Regret, dar nu ai permisiunile necesare pentru a activa modulele %1$s."
+msgstr[2] "Regret, dar nu ai permisiunile necesare pentru a activa modulele %1$s."
+
+#: class-tgm-plugin-activation.php:362
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] "Regret, dar nu ai permisiunile necesare pentru a actualiza modulul %1$s."
+msgstr[1] "Regret, dar nu ai permisiunile necesare pentru a actualiza modulele %1$s."
+msgstr[2] "Regret, dar nu ai permisiunile necesare pentru a actualiza modulele %1$s."
+
+#: class-tgm-plugin-activation.php:357
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Există o actualizare disponibilă pentru: %1$s."
+msgstr[1] "Există actualizări disponibile pentru: %1$s."
+msgstr[2] "Există actualizări disponibile pentru: %1$s."
+
+#: class-tgm-plugin-activation.php:347
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] "Regret, dar nu ai permisiunile necesare pentru a instala modulul %1$s."
+msgstr[1] "Regret, dar nu ai permisiunile necesare pentru a instala modulele %1$s."
+msgstr[2] "Regret, dar nu ai permisiunile necesare pentru a instala modulele %1$s."
+
+#: class-tgm-plugin-activation.php:387
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Încep actualizarea modulului"
+msgstr[1] "Încep actualizarea modulelor"
+msgstr[2] "Încep actualizarea modulelor"
+
+#: class-tgm-plugin-activation.php:401
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "N-am făcut nimic. Modulul %1$s este deja activat."
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr "Pagină cu lățime completă"
+
+#. Template Name of the plugin/theme
+msgid "Blog"
+msgstr "Blog"
+
+#. Template Name of the plugin/theme
+msgid "Blog template with large images"
+msgstr "Șablon blog cu imagini mari"
+
+#: sidebar.php:28
+msgid "Meta"
+msgstr "Meta dată"
+
+#: sections/latest_news.php:167
+msgid "Next"
+msgstr "Următor"
+
+#: sections/latest_news.php:163
+msgid "Previous"
+msgstr "Precedent"
+
+#: sections/latest_news.php:26
+msgid "Latest news"
+msgstr "Ultimele știri"
+
+#: sections/about_us.php:307
+msgid "OUR HAPPY CLIENTS"
+msgstr "Clienți reprezentativi"
+
+#: search.php:25
+msgid "Search Results for: %s"
+msgstr "Rezultatele căutării pentru: %s"
+
+#: inc/template-tags.php:123
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">Publicat în %1$s</span><span class=\"byline\"> de %2$s</span>"
+
+#: inc/template-tags.php:79
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:77
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: inc/template-tags.php:71
+msgid "Post navigation"
+msgstr "Navigare articole"
+
+#: inc/template-tags.php:33
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articole mai noi <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:27
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articole mai vechi"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Navigare articole"
+
+#: inc/extras.php:89
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: inc/customizer.php:2035
+msgid "View PRO version"
+msgstr "Vizualizează versiunea PRO"
+
+#: inc/customizer.php:1993
+msgid "Pricing section"
+msgstr "Secțiune prețuri"
+
+#: inc/customizer.php:1976
+msgid "Google maps section"
+msgstr "Secțiune hartă Google"
+
+#: inc/customizer.php:1942
+msgid "Hide reCaptcha?"
+msgstr "Ascunde reCaptcha?"
+
+#: inc/customizer.php:1954
+msgid "Site key"
+msgstr "Cheie sit"
+
+#: inc/customizer.php:1966
+msgid "Secret key"
+msgstr "Cheie secretă"
+
+#: inc/customizer.php:1955
+msgid "Create an account here"
+msgstr "Creează aici un cont "
+
+#: front-page.php:349 inc/customizer.php:1925
+msgid "Send Message"
+msgstr "Trimite mesajul"
+
+#: inc/customizer.php:1547 inc/customizer.php:1605 sections/testimonials.php:11
+msgid "Testimonials"
+msgstr "Testimoniale"
+
+#: inc/customizer.php:1024 inc/customizer.php:1256 sections/about_us.php:57
+msgid "YOUR SKILL #1"
+msgstr "Calificările tale #1"
+
+#: inc/customizer.php:1431 inc/customizer.php:1477 sections/our_team.php:10
+msgid "YOUR TEAM"
+msgstr "ECHIPA TA"
+
+#: inc/customizer.php:1712 inc/customizer.php:1756 inc/customizer.php:1930
+msgid "Button label"
+msgstr "Etichetă buton"
+
+#: inc/customizer.php:981 inc/customizer.php:1219 sections/about_us.php:27
+msgid "Use this section to showcase important details about your business."
+msgstr "Folosește această secțiune pentru a prezenta detaliile importante ale afacerii tale."
+
+#: inc/customizer.php:994 inc/customizer.php:1232 sections/about_us.php:54
+msgid "Everything you see here is responsive and mobile-friendly."
+msgstr "Tot ce vezi aici este responsiv și prietenos pe mobile."
+
+#: inc/customizer.php:998 inc/customizer.php:1236
+msgid "Big left side title"
+msgstr "Titlu mare pe stânga"
+
+#: inc/customizer.php:1006 inc/customizer.php:1244
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec massa enim. Aliquam viverra at est ullamcorper sollicitudin. Proin a leo sit amet nunc malesuada imperdiet pharetra ut eros.<br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec massa enim. Aliquam viverra at est ullamcorper sollicitudin. Proin a leo sit amet nunc malesuada imperdiet pharetra ut eros. <br><br>Mauris vel nunc at ipsum fermentum pellentesque quis ut massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas non adipiscing massa. Sed ut fringilla sapien. Cras sollicitudin, lectus sed tincidunt cursus, magna lectus vehicula augue, a lobortis dui orci et est."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec massa enim. Aliquam viverra at est ullamcorper sollicitudin. Proin a leo sit amet nunc malesuada imperdiet pharetra ut eros.<br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec massa enim. Aliquam viverra at est ullamcorper sollicitudin. Proin a leo sit amet nunc malesuada imperdiet pharetra ut eros. <br><br>Mauris vel nunc at ipsum fermentum pellentesque quis ut massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas non adipiscing massa. Sed ut fringilla sapien. Cras sollicitudin, lectus sed tincidunt cursus, magna lectus vehicula augue, a lobortis dui orci et est."
+
+#: inc/customizer.php:1066 inc/customizer.php:1292 sections/about_us.php:60
+msgid "YOUR SKILL #2"
+msgstr "SPECIALIZAREA TA #2"
+
+#: inc/customizer.php:1108 inc/customizer.php:1327 sections/about_us.php:63
+msgid "YOUR SKILL #3"
+msgstr "SPECIALIZAREA TA #3"
+
+#: inc/customizer.php:1150 inc/customizer.php:1363 sections/about_us.php:66
+msgid "YOUR SKILL #4"
+msgstr "SPECIALIZAREA TA #4"
+
+#: inc/customizer.php:1444 inc/customizer.php:1490 sections/our_team.php:18
+msgid "Prove that you have real people working for you, with some nice looking profile pictures and links to social media."
+msgstr "Dovedește că ai oameni adevărați care lucrează pentru tine, cu fotografii de profil frumoase și legături în rețelele sociale."
+
+#: inc/customizer.php:1448 inc/customizer.php:1495
+msgid "Our team subtitle"
+msgstr "Subtitlu la echipa noastră"
+
+#: inc/customizer.php:1564 inc/customizer.php:1622
+msgid "Testimonials subtitle"
+msgstr "Subtitlu la testimoniale"
+
+#: inc/customizer.php:1633
+msgid "Latest News section"
+msgstr "Secțiunea ultimele știri"
+
+#: inc/customizer.php:1645
+msgid "Hide latest news section?"
+msgstr "Ascunde secțiunea cu ultimele știri?"
+
+#: inc/customizer.php:1657
+msgid "Latest News title"
+msgstr "Titlu pentru ultimele știri"
+
+#: inc/customizer.php:1669
+msgid "Latest News subtitle"
+msgstr "Subtitlu pentru ultimele știri"
+
+#: inc/customizer.php:1724 inc/customizer.php:1768
+msgid "Button link"
+msgstr "Legătură buton"
+
+#: inc/customizer.php:1788
+msgid "Ribbon section with bottom button - Text"
+msgstr "Text pentru secțiune panglică cu buton jos"
+
+#: inc/customizer.php:1800
+msgid "Ribbon section with bottom button - Button label"
+msgstr "Etichetă buton pentru secțiune panglică cu buton jos"
+
+#: inc/customizer.php:1812
+msgid "Ribbon section with bottom button - Button link"
+msgstr "Legătură buton pentru secțiune panglică cu buton jos"
+
+#: inc/customizer.php:1826
+msgid "Ribbon section with button in the right side - Text"
+msgstr "Text pentru secțiune panglică cu buton în dreapta"
+
+#: inc/customizer.php:1838
+msgid "Ribbon section with button in the right side - Button label"
+msgstr "Etichetă buton pentru secțiune panglică cu buton în dreapta"
+
+#: inc/customizer.php:1850
+msgid "Ribbon section with button in the right side - Button link"
+msgstr "Legătură buton pentru secțiune panglică cu buton în dreapta"
+
+#: inc/customizer.php:1894
+msgid "Contact us section title"
+msgstr "Titlu secțiune de contact"
+
+#: inc/customizer.php:1906
+msgid "Contact us section subtitle"
+msgstr "Subtitlu secțiune de contact"
+
+#: inc/customizer.php:986 inc/customizer.php:1224
+msgid "Subtitle"
+msgstr "Subtitlu"
+
+#: inc/customizer.php:1016
+msgid "Feature no#1"
+msgstr "Caracteristica nr.1"
+
+#: inc/customizer.php:1058
+msgid "Feature no#2"
+msgstr "Caracteristica nr.2"
+
+#: inc/customizer.php:1100
+msgid "Feature no#3"
+msgstr "Caracteristica nr.3"
+
+#: inc/customizer.php:1136 inc/customizer.php:1355
+msgid "Feature no3 percentage"
+msgstr "Procent caracteristica nr.3"
+
+#: inc/customizer.php:1142
+msgid "Feature no#4"
+msgstr "Caracteristica nr.4"
+
+#: inc/customizer.php:1178 inc/customizer.php:1391
+msgid "Feature no4 percentage"
+msgstr "Procent caracteristica nr.4"
+
+#: inc/customizer.php:1029 inc/customizer.php:1261
+msgid "Feature no1 title"
+msgstr "Titlu caracteristica nr.1"
+
+#: inc/customizer.php:1040 inc/customizer.php:1272
+msgid "Feature no1 text"
+msgstr "Text caracteristica nr.1"
+
+#: inc/customizer.php:1052 inc/customizer.php:1284
+msgid "Feature no1 percentage"
+msgstr "Procent caracteristica nr.1"
+
+#: inc/customizer.php:1071 inc/customizer.php:1297
+msgid "Feature no2 title"
+msgstr "Titlu caracteristica nr.2"
+
+#: inc/customizer.php:1082 inc/customizer.php:1308
+msgid "Feature no2 text"
+msgstr "Text caracteristica nr.2"
+
+#: inc/customizer.php:1094 inc/customizer.php:1319
+msgid "Feature no2 percentage"
+msgstr "Procent caracteristica nr.2"
+
+#: inc/customizer.php:1113 inc/customizer.php:1332
+msgid "Feature no3 title"
+msgstr "Titlu caracteristica nr.3"
+
+#: inc/customizer.php:1124 inc/customizer.php:1343
+msgid "Feature no3 text"
+msgstr "Text caracteristica nr.3"
+
+#: inc/customizer.php:1155 inc/customizer.php:1368
+msgid "Feature no4 title"
+msgstr "Titlu caracteristica nr.4"
+
+#: inc/customizer.php:1166 inc/customizer.php:1379
+msgid "Feature no4 text"
+msgstr "Text caracteristica nr.3"
+
+#: inc/customizer.php:1423 inc/customizer.php:1469
+msgid "Hide our team section?"
+msgstr "Ascunde secțiunea Echipa noastră?"
+
+#: inc/customizer.php:1527 inc/customizer.php:1585
+msgid "Hide testimonials section?"
+msgstr "Ascunde secțiunea Testimoniale?"
+
+#: inc/customizer.php:1682 inc/customizer.php:1775
+msgid "Ribbon sections"
+msgstr "Secțiuni bandă"
+
+#: inc/customizer.php:1686
+msgid "BottomButton Ribbon"
+msgstr "Bandă cu buton jos"
+
+#: inc/customizer.php:1730
+msgid "RightButton Ribbon"
+msgstr "Bandă cu buton în dreapta"
+
+#: inc/customizer.php:1868
+msgid "Contact us section"
+msgstr "Secțiunea Contactează-ne"
+
+#: inc/customizer.php:1881
+msgid "Hide contact us section?"
+msgstr "Ascunde secțiunea Contactează-ne?"
+
+#: inc/customizer.php:1917
+msgid "Email address"
+msgstr "Adresă email"
+
+#: front-page.php:255 inc/customizer.php:1889
+msgid "Get in touch"
+msgstr "Ținem legătura"
+
+#: inc/customizer.php:1458
+msgid "The main content of this section is customizable in: Dashboard -> Appearance -> Widgets -> Our team section. There you must add the \"Zerif - Team member widget\""
+msgstr "Conținutul principal al acestei secțiuni este personalizabil în: Panou de control -> Aspect -> Piese ->  Secțiunea Echipa noastră. Acolo trebuie să adaugi \"Zerif - piesa membru Echipă\""
+
+#: inc/customizer.php:1574
+msgid "The main content of this section is customizable in: Dashboard -> Appearance -> Widgets -> Testimonials section. There you must add the \"Zerif - Testimonial widget\""
+msgstr "Conținutul principal al acestei secțiuni este personalizabil în: Panou de control -> Aspect -> Piese ->  Secțiunea Testimoniale. Acolo trebuie să adaugi \"Zerif - piesa Testimonial\""
+
+#: inc/customizer.php:968 inc/customizer.php:1206 sections/about_us.php:14
+msgid "About"
+msgstr "Despre"
+
+#: inc/customizer.php:528 inc/customizer.php:960
+msgid "Main content"
+msgstr "Conținut principal"
+
+#: inc/customizer.php:954 inc/customizer.php:1198
+msgid "Hide about us section?"
+msgstr "Ascunde secțiunea Despre noi?"
+
+#: inc/customizer.php:941
+msgid "Settings"
+msgstr "Setări"
+
+#: inc/customizer.php:870 inc/customizer.php:917 sections/our_focus.php:22
+msgid "What makes this single-page WordPress theme unique."
+msgstr "Ceea ce face unică această temă WordPress de o pagină."
+
+#: inc/customizer.php:875 inc/customizer.php:922
+msgid "Our focus subtitle"
+msgstr "Subtitlu focalizarea noastră"
+
+#: inc/customizer.php:857 inc/customizer.php:904 sections/our_focus.php:14
+msgid "FEATURES"
+msgstr "FUNCȚIONALITĂȚI"
+
+#: inc/customizer.php:579 inc/customizer.php:728
+msgid "Red button link"
+msgstr "Legătură buton roșu"
+
+#: inc/customizer.php:587 inc/customizer.php:736 sections/big_title.php:44
+msgid "What's inside"
+msgstr "Ce este în interior"
+
+#: inc/customizer.php:604 inc/customizer.php:753
+msgid "Green button link"
+msgstr "Legătură buton verde"
+
+#: inc/customizer.php:849 inc/customizer.php:896
+msgid "Hide our focus section?"
+msgstr "Ascunde secțiunea Focalizarea noastră?"
+
+#: inc/customizer.php:885
+msgid "The main content of this section is customizable in: Dashboard -> Appearance -> Widgets -> Our focus section. There you must add the \"Zerif - Our focus widget\""
+msgstr "Conținutul principal al acestei secțiuni este personalizabil în: Panou de control -> Aspect -> Piese -> Secțiunea Focalizarea noastră. Acolo trebuie să adaugi \"Zerif - piesa Focalizarea noastră\""
+
+#: inc/customizer.php:567 inc/customizer.php:716 inc/customizer.php:741
+msgid "Red button label"
+msgstr "Etichetă buton roșu"
+
+#: inc/customizer.php:562 inc/customizer.php:711 sections/big_title.php:40
+msgid "Features"
+msgstr "Funcționalități"
+
+#: inc/customizer.php:319
+msgid "Zerif theme general options"
+msgstr "Opțiunile generale ale temei Zerif"
+
+#: inc/customizer.php:549 inc/customizer.php:698 sections/big_title.php:27
+msgid "ONE OF THE TOP 10 MOST POPULAR THEMES ON WORDPRESS.ORG"
+msgstr "UNA DIN PRIMELE 10 CELE MAI POPULARE TEME PE WORDPRESS.ORG"
+
+#: inc/customizer.php:524 inc/customizer.php:678
+msgid "Big title section"
+msgstr "Secțiunea Titlu mare"
+
+#: inc/customizer.php:541 inc/customizer.php:690
+msgid "Hide big title section?"
+msgstr "Ascunde secțiunea Titlu mare?"
+
+#: inc/customizer.php:309 inc/customizer.php:508
+msgid "Phone number"
+msgstr "Număr de telefon"
+
+#: inc/customizer.php:261 inc/customizer.php:461
+msgid "Address"
+msgstr "Adresă"
+
+#: inc/customizer.php:249 inc/customizer.php:449
+msgid "Address section - icon"
+msgstr "Icon secțiune adresă"
+
+#: inc/customizer.php:297 inc/customizer.php:496
+msgid "Phone number section - icon"
+msgstr "Icon - secțiune număr de telefon"
+
+#: inc/customizer.php:285 inc/customizer.php:484
+msgid "Email"
+msgstr "Email"
+
+#: inc/customizer.php:273 inc/customizer.php:472
+msgid "Email section - icon"
+msgstr "Icon - secțiune email"
+
+#: inc/customizer.php:106 inc/customizer.php:328
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer.php:220 inc/customizer.php:428
+msgid "Dribbble link"
+msgstr "Legătură Dribbble "
+
+#: inc/customizer.php:119 inc/customizer.php:341
+msgid "Disable preloader?"
+msgstr "Invalidare preîncărcător?"
+
+#: inc/customizer.php:131 inc/customizer.php:353
+msgid "Disable smooth scroll?"
+msgstr "Invalidezi defilarea lină?"
+
+#: inc/customizer.php:94
+msgid "General"
+msgstr "General"
+
+#: inc/customizer.php:90 inc/customizer.php:317
+msgid "General options"
+msgstr "Opțiuni generale"
+
+#: inc/customizer.php:38
+msgid "Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> for full control over the frontpage SECTIONS ORDER and the COLOR SCHEME!"
+msgstr "Verifică <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">versiunea PRO</a> pentru un control total al ORDINII SECȚIUNILOR pe prima pagină a sitului și a PALETEI COLORISTICE!"
+
+#: inc/customizer.php:50
+msgid "Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a google maps section !"
+msgstr "Verifică <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">versiunea PRO</a> pentru a adăuga o secțiune cu hărți Google!"
+
+#: inc/customizer.php:56
+msgid "Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a pricing section !"
+msgstr "Verifică <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">versiunea PRO</a> pentru a adăuga o secțiune cu oferte de prețuri!"
+
+#: inc/customizer.php:70
+msgid "Sections order and Colors"
+msgstr "Ordinea secțiunilor și culori"
+
+#: header.php:80
+msgid "Toggle navigation"
+msgstr "Comută navigarea"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:36
+#: inc/admin/welcome-screen/sections/child-themes.php:63
+#: inc/admin/welcome-screen/sections/child-themes.php:90
+#: inc/admin/welcome-screen/sections/child-themes.php:119
+#: inc/admin/welcome-screen/sections/child-themes.php:146
+msgid "Live Preview"
+msgstr "Previzualizare live"
+
+#: functions.php:1063 inc/customizer.php:196 inc/customizer.php:408
+msgid "Linkedin link"
+msgstr "Legătură Linkedin"
+
+#: functions.php:1059
+msgid "Dribble link"
+msgstr "Legătură Dribble"
+
+#: functions.php:1054 inc/customizer.php:208 inc/customizer.php:418
+msgid "Behance link"
+msgstr "Legătură Behance"
+
+#: functions.php:1050 inc/customizer.php:185 inc/customizer.php:398
+msgid "Twitter link"
+msgstr "Legătură Twitter"
+
+#: functions.php:1045 inc/customizer.php:173 inc/customizer.php:388
+msgid "Facebook link"
+msgstr "Legătură Facebook"
+
+#: functions.php:1038
+msgid "Description"
+msgstr "Descriere"
+
+#: functions.php:1034
+msgid "Position"
+msgstr "Poziție"
+
+#: functions.php:1030
+msgid "Name"
+msgstr "Nume"
+
+#: functions.php:782
+msgid "Author details"
+msgstr "Detalii autor"
+
+#: functions.php:778
+msgid "Author link"
+msgstr "Legătură autor"
+
+#: functions.php:774
+msgid "Author"
+msgstr "Autor"
+
+#: functions.php:660 functions.php:800 functions.php:879 functions.php:1083
+msgid "Upload Image"
+msgstr "Încărcarcă imagine"
+
+#: functions.php:651 functions.php:790 functions.php:870 functions.php:1070
+msgid "Image"
+msgstr "Imagine"
+
+#: functions.php:647 functions.php:866
+msgid "Link"
+msgstr "Legătură"
+
+#: functions.php:643 functions.php:786 inc/customizer.php:1010
+#: inc/customizer.php:1248 inc/customizer.php:1700 inc/customizer.php:1744
+msgid "Text"
+msgstr "Text"
+
+#: functions.php:639 inc/customizer.php:554 inc/customizer.php:703
+#: inc/customizer.php:862 inc/customizer.php:909 inc/customizer.php:973
+#: inc/customizer.php:1211 inc/customizer.php:1436 inc/customizer.php:1482
+#: inc/customizer.php:1552 inc/customizer.php:1610
+msgid "Title"
+msgstr "Titlu"
+
+#: class-tgm-plugin-activation.php:336 functions.php:317
+msgid "Something went wrong with the plugin API."
+msgstr "Ceva nu a mers bine cu API-ul modulului."
+
+#: functions.php:171
+msgctxt "Homemade font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:176
+msgctxt "Monserrat font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:330
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Toate modulele au fost instalate și activate cu succes. %s"
+
+#: functions.php:359
+msgid "Default title"
+msgstr "Titlu implicit"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Lora, translate this to 'off'. Do not translate into your own language.
+#: functions.php:170
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#: inc/customizer.php:832 inc/customizer.php:883
+msgid "Our focus section"
+msgstr "Secțiunea Focalizarea noastră"
+
+#: functions.php:140 inc/customizer.php:937 inc/customizer.php:1186
+msgid "About us section"
+msgstr "Secțiunea Despre noi"
+
+#: inc/customizer.php:1406 inc/customizer.php:1456
+msgid "Our team section"
+msgstr "Secțiunea Echipa noastră"
+
+#: inc/customizer.php:1510 inc/customizer.php:1514 inc/customizer.php:1572
+msgid "Testimonials section"
+msgstr "Secțiunea Testimoniale"
+
+#: functions.php:131
+msgid "Sidebar"
+msgstr "Bară laterală"
+
+#: functions.php:39
+msgid "Primary Menu"
+msgstr "Meniu principal"
+
+#: front-page.php:292
+msgid "Sorry, an error occured."
+msgstr "Regret, a apărut o eroare."
+
+#: front-page.php:288
+msgid "Thanks, your email was sent successfully!"
+msgstr "Mulțumim, mesajul tău a fost trimis cu succes!"
+
+#: footer.php:194
+msgid "powered by"
+msgstr "propulsat de"
+
+#: content-single.php:50
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Pune <a href=\"%3$s\" rel=\"bookmark\">legătura</a> în semnele de carte."
+
+#: content-single.php:60
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Această intrare a fost publicată în %1$s și etichetată %2$s . Pune <a href=\"%3$s\" rel=\"bookmark\">legătura</a> în semnele de carte."
+
+#: content-single.php:64
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Această intrare a fost publicată în %1$s . Pune <a href=\"%3$s\" rel=\"bookmark\">legătura</a> în semnele de carte."
+
+#: content-single.php:46
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Această intrare a fost etichetată %2$s.Pune <a href=\"%3$s\" rel=\"bookmark\">legătura</a> în semnele de carte."
+
+#: footer.php:39 inc/customizer.php:257 inc/customizer.php:457
+msgid "Company address"
+msgstr "Adresa firmei"
+
+#: front-page.php:63
+msgid "* Please enter your email address."
+msgstr "* Te rog introdu adresa ta de email."
+
+#: front-page.php:69
+msgid "* You entered an invalid email address."
+msgstr "* Ai introdus o adresă de email invalidă."
+
+#: front-page.php:83
+msgid "* Please enter a subject."
+msgstr "* Te rog introdu un subiect."
+
+#: front-page.php:97
+msgid "* Please enter a message."
+msgstr "* Te rog introdu un mesaj."
+
+#: front-page.php:49
+msgid "* Please enter your name."
+msgstr "* Te rog introdu numele tău."
+
+#: content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Se pare că n-am putut găsi conținutul căutat. Probabil o căutare poate ajuta."
+
+#: content-none.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Regret, dar nimic nu s-a potrivit termenilor căutați. Te rog încearcă din nou cu unii termeni diferiți."
+
+#: content-none.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ești gata să publici primul tău articol? <a href=\"%1$s\">Începe de aici</a>."
+
+#: content-none.php:10
+msgid "Nothing Found"
+msgstr "Nimic găsit"
+
+#: content-large.php:147 content-page.php:34 content-single.php:84
+#: content.php:125
+msgid "Edit"
+msgstr "Editează"
+
+#: content-large.php:143 content.php:121
+msgid "% Comments"
+msgstr "% comentarii"
+
+#: content-large.php:143 content.php:121
+msgid "1 Comment"
+msgstr "1 comentariu"
+
+#: content-large.php:143 content.php:121
+msgid "Leave a comment"
+msgstr "Lasă un comentariu"
+
+#: content-large.php:132 content.php:111
+msgid "Tagged %1$s"
+msgstr "Etichetat %1$s"
+
+#: content-large.php:114 content.php:93
+msgid "Posted in %1$s"
+msgstr "Publicat în %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: content-large.php:106 content-large.php:124 content-single.php:34
+#: content-single.php:38 content.php:85 content.php:103
+msgid ", "
+msgstr ", "
+
+#: content-large.php:73 content-page.php:24 content-single.php:21
+#: content.php:70
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr "Comentariile sunt închise."
+
+#: comments.php:39 comments.php:66
+msgid "Newer Comments &rarr;"
+msgstr "Comentarii mai noi &rarr;"
+
+#: comments.php:37 comments.php:64
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarii mai vechi"
+
+#: comments.php:35 comments.php:62
+msgid "Comment navigation"
+msgstr "Navigare comentarii"
+
+#: class-tgm-plugin-activation.php:3378
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalare modul %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr "Toate instalările s-au terminat."
+
+#: comments.php:23
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un gând despre &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s gânduri despre &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s de gânduri despre &ldquo;%2$s&rdquo;"
+
+#: class-tgm-plugin-activation.php:3376
+msgid "%1$s installed successfully."
+msgstr "%1$s a fost instalat cu succes."
+
+#: class-tgm-plugin-activation.php:3365
+msgid "The installation of %1$s failed."
+msgstr "Instalarea %1$s a eșuat."
+
+#: class-tgm-plugin-activation.php:3364
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "A apărut o eroare în timpul instalării %1$s: <strong>%2$s</strong>."
+
+#: class-tgm-plugin-activation.php:3375
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Procesul de instalare începe. Acest proces poate dura ceva pe unele servere de găzduire, așa că te rog să ai răbdare."
+
+#: class-tgm-plugin-activation.php:3372
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalare și activare modul %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr "Toate instalările și activările s-au terminat."
+
+#: class-tgm-plugin-activation.php:3370 class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr "Ascunde detalii"
+
+#: class-tgm-plugin-activation.php:3370 class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr "Afișează detalii"
+
+#: class-tgm-plugin-activation.php:3370
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s a fost instalat și activat cu succes."
+
+#: class-tgm-plugin-activation.php:3369
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Procesul de instalare și activare începe. Acest proces poate dura ceva pe unele servere de găzduire, așa că te rog să ai răbdare."
+
+#: class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr "Activarea modulului a eșuat."
+
+#: class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr "Niciun modul nu este disponibil acum pentru instalare."
+
+#: class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr "Niciun modul nu este disponibil acum pentru activare."
+
+#: class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr "Stare"
+
+#: class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr "Tip"
+
+#: class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr "Sursă"
+
+#: class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr "Modul"
+
+#: class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr "Activează"
+
+#: class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr "Instalare"
+
+#: class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr "Nu este instalat"
+
+#: class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr "Recomandate"
+
+#: class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr "Instalat dar neactivat"
+
+#: class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr "Necesar"
+
+#: class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr "Depozitarul WordPress"
+
+#: class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr "Pre-împachetat"
+
+#: class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "Îndepărtează această notificare"
+
+#: class-tgm-plugin-activation.php:403
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Toate modulele au fost instalate și activate cu succes. %1$s"
+
+#: class-tgm-plugin-activation.php:400 class-tgm-plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgstr "Următorul modul a fost activat cu succes:"
+
+#: class-tgm-plugin-activation.php:399 class-tgm-plugin-activation.php:3029
+#: functions.php:329
+msgid "Plugin activated successfully."
+msgstr "Modul activat cu succes."
+
+#: class-tgm-plugin-activation.php:828 class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr "Înapoi la Panoul de control"
+
+#: class-tgm-plugin-activation.php:397 functions.php:328
+msgid "Return to Required Plugins Installer"
+msgstr "Înapoi la instalatorul modulelor necesare"
+
+#: class-tgm-plugin-activation.php:352 functions.php:324
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Următorul modul trebuie actualizat la ultima versiune pentru a asigura compatibilitatea maximă cu această temă: %1$s."
+msgstr[1] "Următoarele module trebuie actualizate la ultima versiune pentru a asigura compatibilitatea maximă cu această temă: %1$s."
+msgstr[2] "Următoarele module trebuie actualizate la ultima versiune pentru a asigura compatibilitatea maximă cu această temă: %1$s."
+
+#: functions.php:325
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] "Regret dar nu ai permisiile corecte pentru a actualiza modulul %s. Contactează administratorul acestui sit pentru ajutor în actualizarea modulului."
+msgstr[1] "Regret dar nu ai permisiile corecte pentru a actualiza modulele %s. Contactează administratorul acestui sit pentru ajutor în actualizarea modulelor."
+msgstr[2] "Regret dar nu ai permisiile corecte pentru a actualiza modulele %s. Contactează administratorul acestui sit pentru ajutor în actualizarea modulelor."
+
+#: functions.php:323
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] "Regret dar nu ai permisiile corecte pentru a activa modul %s. Contactează administratorul acestui sit pentru ajutor în activarea modulului."
+msgstr[1] "Regret dar nu ai permisiile corecte pentru a activa modulele %s. Contactează administratorul acestui sit pentru ajutor în activarea modulelor."
+msgstr[2] "Regret dar nu ai permisiile corecte pentru a activa modulele %s. Contactează administratorul acestui sit pentru ajutor în activarea modulelor."
+
+#: class-tgm-plugin-activation.php:382 functions.php:326
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Încep instalarea modulului"
+msgstr[1] "Încep instalarea modulelor"
+msgstr[2] "Încep instalarea modulelor"
+
+#: class-tgm-plugin-activation.php:392 functions.php:327
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Încep activarea modulului"
+msgstr[1] "Încep activarea modulelor"
+msgstr[2] "Încep activarea modulelor"
+
+#: class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr "Înapoi la Panoul de control"
+
+#: class-tgm-plugin-activation.php:337 functions.php:318
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Această temă necesită următorul modul: %1$s."
+msgstr[1] "Această temă necesită următoarele module: %1$s."
+msgstr[2] "Această temă necesită următoarele module: %1$s."
+
+#: class-tgm-plugin-activation.php:342 functions.php:319
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Această temă recomandă următorul modul: %1$s."
+msgstr[1] "Această temă recomandă următoarele module: %1$s."
+msgstr[2] "Această temă recomandă următoarele module: %1$s."
+
+#: class-tgm-plugin-activation.php:367 functions.php:321
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Următorul modul necesar este acum inactiv: %1$s."
+msgstr[1] "Următoarele module necesare sunt acum inactive: %1$s."
+msgstr[2] "Următoarele module necesare sunt acum inactive: %1$s."
+
+#: class-tgm-plugin-activation.php:372 functions.php:322
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Următorul modul recomandat este acum inactiv: %1$s."
+msgstr[1] "Următoarele module recomandate sunt acum inactive: %1$s."
+msgstr[2] "Următoarele module recomandate sunt acum inactive: %1$s."
+
+#: functions.php:320
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] "Regret dar nu ai permisiile corecte pentru a instala modul %s. Contactează administratorul acestui sit pentru ajutor în instalarea modulului."
+msgstr[1] "Regret dar nu ai permisiile corecte pentru a instala modulele %s. Contactează administratorul acestui sit pentru ajutor în instalarea modulelor."
+msgstr[2] "Regret dar nu ai permisiile corecte pentru a instala modulele %s. Contactează administratorul acestui sit pentru ajutor în instalarea modulelor."
+
+#: class-tgm-plugin-activation.php:335 functions.php:316
+msgid "Installing Plugin: %s"
+msgstr "Instalare modul: %s"
+
+#: class-tgm-plugin-activation.php:334 functions.php:315
+msgid "Install Plugins"
+msgstr "Instalare module"
+
+#: class-tgm-plugin-activation.php:333 functions.php:314
+msgid "Install Required Plugins"
+msgstr "Instalare module necesare"
+
+#: archive-download.php:91 archive.php:91 sidebar.php:19
+msgid "Archives"
+msgstr "Arhive"
+
+#: archive-download.php:87 archive.php:87
+msgid "Chats"
+msgstr "Conversații"
+
+#: archive-download.php:83 archive.php:83
+msgid "Audios"
+msgstr "Audiouri"
+
+#: archive-download.php:79 archive.php:79
+msgid "Statuses"
+msgstr "Stări"
+
+#: archive-download.php:75 archive.php:75
+msgid "Links"
+msgstr "Legături"
+
+#: archive-download.php:71 archive.php:71
+msgid "Quotes"
+msgstr "Citate"
+
+#: archive-download.php:67 archive.php:67
+msgid "Videos"
+msgstr "Video"
+
+#: archive-download.php:63 archive.php:63
+msgid "Images"
+msgstr "Imagini"
+
+#: archive-download.php:59 archive.php:59
+msgid "Galleries"
+msgstr "Galerii"
+
+#: archive-download.php:55 archive.php:55
+msgid "Asides"
+msgstr "Note"
+
+#: archive-download.php:51 archive.php:51
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive-download.php:51 archive.php:51
+msgid "Year: %s"
+msgstr "An: %s"
+
+#: archive-download.php:47 archive.php:47
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive-download.php:47 archive.php:47
+msgid "Month: %s"
+msgstr "Lună: %s"
+
+#: archive-download.php:43 archive.php:43
+msgid "Day: %s"
+msgstr "Zi: %s"
+
+#: archive-download.php:39 archive.php:39
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: 404.php:31
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Se pare că nimic nu a fost găsit la  această locație. Poate încerci una dintre legăturile de mai jos sau o căutare?"
+
+#: 404.php:25
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hopa! Acea pagină nu poate fi găsită."
+
+#. Author of the plugin/theme
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Theme URI of the plugin/theme
+msgid "http://themeisle.com/themes/zerif-lite/"
+msgstr "http://themeisle.com/themes/zerif-lite/"
+
+#. Author URI of the plugin/theme
+msgid "http://themeisle.com"
+msgstr "http://themeisle.com"
