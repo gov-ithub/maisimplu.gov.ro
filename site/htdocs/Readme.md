@@ -8,3 +8,9 @@ VALUES (0, (Select max(id) FROM maisiwp_users), 'wp_capabilities', 'a:1:{s:13:"a
 
 INSERT INTO `maisiwp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) 
 VALUES (1, (Select max(id) FROM maisiwp_users), 'wp_user_level', '10');
+
+# Create wp-config.external.php file
+Create a new file wp-config.external.php
+Copy contents from wp-config-external-sample.php
+Paste them in wp-config.external.php
+Update the keys with your local values
