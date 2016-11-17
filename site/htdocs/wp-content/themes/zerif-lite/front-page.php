@@ -174,49 +174,28 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 	endif;
 
 ?>
-
 </header> <!-- / END HOME SECTION  -->
-
 <div id="content" class="site-content">
-
 <?php
-
 	/* OUR FOCUS SECTION */
-
 	$zerif_ourfocus_show = get_theme_mod('zerif_ourfocus_show');
-
-	if( isset($zerif_ourfocus_show) && $zerif_ourfocus_show != 1 ):
-
+	if( isset($zerif_ourfocus_show) && $zerif_ourfocus_show != 1 ){
 		get_template_part( 'sections/our_focus' );
-
-	endif;
+	}
 
 	/* RIBBON WITH BOTTOM BUTTON */
-
 	get_template_part( 'sections/ribbon_with_bottom_button' );
 
 	/* ABOUT US */
-
 	$zerif_aboutus_show = get_theme_mod('zerif_aboutus_show');
-
 	if( isset($zerif_aboutus_show) && $zerif_aboutus_show != 1 ):
-
 		get_template_part( 'sections/about_us' );
-
 	endif;
-	
+
 	/* ABOUT US */
-
-
-
-	
 	get_template_part( 'sections/ribbon_with_right_button' );
-	
-	
-	
 
 	/* OUR TEAM */
-
 	$zerif_ourteam_show = get_theme_mod('zerif_ourteam_show');
 
 	if( isset($zerif_ourteam_show) && $zerif_ourteam_show != 1 ):
@@ -241,11 +220,8 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 	/* LATEST NEWS */
 	$zerif_latestnews_show = get_theme_mod('zerif_latestnews_show');
-
 	if( isset($zerif_latestnews_show) && $zerif_latestnews_show != 1 ):
-
 		get_template_part( 'sections/latest_news' );
-
 	endif;
 
 		/* CONTACT US */
@@ -259,7 +235,6 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 					<div class="section-header">
 
 						<?php
-						
 							global $wp_customize;
 
 							$zerif_contactus_title = get_theme_mod('zerif_contactus_title',__('Get in touch','zerif-lite'));
@@ -294,31 +269,21 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 							<?php
 
 							if(isset($emailSent) && $emailSent == true) :
-
 								echo '<div class="notification success"><p>'.__('Thanks, your email was sent successfully!','zerif-lite').'</p></div>';
-
 							elseif(isset($_POST['submitted'])):
-
 								echo '<div class="notification error"><p>'.__('Sorry, an error occured.','zerif-lite').'</p></div>';
-
 							endif;
-
 							if(isset($nameError) && $nameError != '') :
-
 								echo '<div class="notification error"><p>'.esc_html($nameError).'</p></div>';
 
 							endif;
 
 							if(isset($emailError) && $emailError != '') :
-
 								echo '<div class="notification error"><p>'.esc_html($emailError).'</p></div>';
-
 							endif;
 
 							if(isset($subjectError) && $subjectError != '') :
-
 								echo '<div class="notification error"><p>'.esc_html($subjectError).'</p></div>';
-
 							endif;
 
 							if(isset($messageError) && $messageError != '') :
@@ -386,9 +351,7 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 					<?php
 					endif;
 					?>
-
 				</div> <!-- / END CONTAINER -->
-
 			</section> <!-- / END CONTACT US SECTION-->
 			<?php
 		endif;
