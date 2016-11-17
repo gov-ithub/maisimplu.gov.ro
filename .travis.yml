@@ -18,4 +18,4 @@ before_script:
  
 script:
   # other script steps might be done before running the actual SonarQube analysis
-  - sonar-scanner -Dsonar.login=$SONAR_TOKEN
+  # - sonar-scanner -Dsonar.login=$SONAR_TOKEN
