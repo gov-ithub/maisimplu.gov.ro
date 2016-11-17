@@ -4,8 +4,8 @@ php:
   - '5.4'
 sudo: false
 
-addons:
-  sonarqube: true
+#addons:
+  #sonarqube: true
   
 env:
   global:
