@@ -6,9 +6,9 @@ sudo: false
 
 addons:
   sonarqube: true
-  apt:
-    packages:
-      - oracle-java8-installer
+  # apt:
+    # packages:
+      # - oracle-java8-installer
 
   
 env:
