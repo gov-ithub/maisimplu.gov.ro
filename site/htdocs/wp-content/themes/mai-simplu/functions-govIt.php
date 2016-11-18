@@ -1,6 +1,9 @@
 <?php
 defined('ABSPATH') or die("Cannot access pages directly.");
 
+// Load Migration script that will run after the theme is activated
+require_once(ABSPATH . 'wp-content/themes/mai-simplu/theme-migration.php');
+
 /**
  *  Add google analitycs code
  */
