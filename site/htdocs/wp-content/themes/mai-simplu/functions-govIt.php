@@ -4,7 +4,7 @@ defined('ABSPATH') or die("Cannot access pages directly.");
 /**
  *  Add google analitycs code
  */
-add_action( 'wp_head', 'govit_add_analytics_code' );
+add_action( 'wp_footer', 'govit_add_analytics_code' );
 function govit_add_analytics_code(){
 	// The old code had 2 Google analytics codes.
 	// One for the 404 page and one general
