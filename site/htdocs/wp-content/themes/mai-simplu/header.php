@@ -42,7 +42,6 @@
 <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/ie.css" type="text/css">
 <![endif]-->
 
-<title><?php wp_title( '-', true, 'right' ); ?></title>
 <?php wp_head(); ?>
 
 </head>

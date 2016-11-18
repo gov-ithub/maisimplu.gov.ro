@@ -50,3 +50,14 @@ function govit_add_facebook_code(){
 		</script>
 	<?php
 }
+
+
+/**
+ *  Theme Init functionalities
+ *  TODO : Talk to see if we still need the code bellow. Facebook SDK is already added by the WP-FB AutoConnect plugin
+ */
+function theme_slug_setup() {
+	// Theme Supports
+   add_theme_support( 'title-tag' );
+}
+add_action( 'after_setup_theme', 'theme_slug_setup' );
