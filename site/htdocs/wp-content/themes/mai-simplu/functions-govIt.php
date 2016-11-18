@@ -29,3 +29,24 @@ function govit_add_analytics_code(){
 		</script>
 	<?php
 }
+
+/**
+ *  Add google analitycs code
+ *  TODO : Talk to see if we still need the code bellow. Facebook SDK is already added by the WP-FB AutoConnect plugin
+ */
+add_action( 'wp_footer', 'govit_add_facebook_code' );
+function govit_add_facebook_code(){
+	?>
+		<!-- FACEBOOK SDK -->
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1151519601555654";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+	<?php
+}

@@ -42,27 +42,8 @@
 <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/ie.css" type="text/css">
 <![endif]-->
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1151519601555654";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<?php
-
-if ( ! function_exists( '_wp_render_title_tag' ) ) :
-    function zerif_old_render_title() {
-?>
 <title><?php wp_title( '-', true, 'right' ); ?></title>
-<?php
-    }
-    add_action( 'wp_head', 'zerif_old_render_title' );
-endif;
-
-wp_head(); ?>
+<?php wp_head(); ?>
 
 </head>
 
