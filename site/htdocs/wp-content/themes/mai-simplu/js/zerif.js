@@ -500,20 +500,20 @@ if( isMobile.any() ) {
 jQuery(window).load(zerif_home_latest_news);
 jQuery(window).resize(zerif_home_latest_news);
 function zerif_home_latest_news(){
-    if( jQuery( '#carousel-homepage-latestnews').length > 0 ) {
-        jQuery( '#carousel-homepage-latestnews div.item' ).height('auto');
+    if( jQuery( '.carousel-homepage-latestnews').length > 0 ) {
+        jQuery( '.carousel-homepage-latestnews div.item' ).height('auto');
         if( isMobile.any() || (!isMobile.any() && jQuery('.container').outerWidth()>768) ) {
 
-            if( jQuery( '#carousel-homepage-latestnews div.item' ).length < 2 ) {
-                jQuery( '#carousel-homepage-latestnews > a' ).css('display','none');
+            if( jQuery( '.carousel-homepage-latestnews div.item' ).length < 2 ) {
+                jQuery( '.carousel-homepage-latestnews > a' ).css('display','none');
             }
             var maxheight = 0;
-            jQuery( '#carousel-homepage-latestnews div.item' ).each(function(){
+            jQuery( '.carousel-homepage-latestnews div.item' ).each(function(){
                 if( jQuery(this).height() > maxheight ) {
                     maxheight = jQuery(this).height();
                 }
             });
-            jQuery( '#carousel-homepage-latestnews div.item' ).height(maxheight);
+            jQuery( '.carousel-homepage-latestnews div.item' ).height(maxheight);
         }
     }
 }
