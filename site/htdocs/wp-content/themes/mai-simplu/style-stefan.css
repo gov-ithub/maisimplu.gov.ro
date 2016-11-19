@@ -1,0 +1,65 @@
+/** VOTE SYSTEM */
+.govithub-proposal-share-buttons-container {
+	text-align: right;
+}
+
+.govithub-bubble-button {
+	padding: 8px 15px;
+	border: 1px solid #eaeaea;
+	text-align: center;
+	display: inline-block;
+	margin-right: 5px;
+	border-radius: 4px;
+}
+
+/* Fix .row override from style.css@3297 */
+.govithub-proposal-rating-wrapper .row {
+	margin-left: -15px;
+	margin-right: -15px;
+	float: none;
+	width: auto;
+}
+
+/** SHARE BUTTONS */
+.govithub-proposal-rating-status {
+	font-size: 13px;
+	color: #999;
+	padding: 7px 0;
+}
+
+.govithub-facebook-share-button,
+.govithub-google-share-button {
+	display: inline-block;
+	padding: 8px 20px;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+.govithub-facebook-share-button:hover,
+.govithub-facebook-share-button:focus,
+.govithub-facebook-share-button:visited,
+.govithub-google-share-button:hover,
+.govithub-google-share-button:focus,
+.govithub-google-share-button:visited {
+	color:#fff;
+	text-decoration: none;
+}
+
+.govithub-facebook-share-button i,
+.govithub-google-share-button i {
+	padding-right: 15px;
+}
+
+.govithub-proposal-share-buttons-container .govithub-google-share-button {
+	margin-right: 0px;
+}
+
+.govithub-facebook-share-button {
+	background: #3b5998;
+}
+
+.govithub-google-share-button {
+	background: #dd4b39;
+}
+

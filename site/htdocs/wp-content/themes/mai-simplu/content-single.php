@@ -2,13 +2,11 @@
 
 	<header class="entry-header">
 
-		<h1 class="entry-title"><?php the_title(); ?></h1><?php if(function_exists('the_ratings')) { the_ratings(); } ?>
-
-		<div class="entry-meta">
-
-			<?php //zerif_posted_on(); ?>
-
-		</div><!-- .entry-meta -->
+		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<?php
+			get_template_part( 'sections/proposal', 'meta' );
+			// if(function_exists('the_ratings')) { the_ratings(); }
+		?>
 
 	</header><!-- .entry-header -->
 
