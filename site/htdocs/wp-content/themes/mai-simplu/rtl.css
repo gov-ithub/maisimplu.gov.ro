@@ -1392,15 +1392,15 @@ article{
 
 /*----  SECTION:  HOME > LATEST NEWS   ----*/
 
-#carousel-homepage-latestnews .carousel-inner .item .latestnews-title {
+.carousel-homepage-latestnews .carousel-inner .item .latestnews-title {
 	float: none;
 }
 
-#carousel-homepage-latestnews .item .latestnews-box .latestnews-title a:before {
+.carousel-homepage-latestnews .item .latestnews-box .latestnews-title a:before {
 	right: 12.5%;
 }
 
-#carousel-homepage-latestnews {
+.carousel-homepage-latestnews {
 	margin: 0 30px;
 }
 
@@ -1410,11 +1410,11 @@ article{
 .carousel-control.right {
 	margin-left: -45px;
 }
-#carousel-homepage-latestnews .glyphicon-chevron-left:before{
+.carousel-homepage-latestnews .glyphicon-chevron-left:before{
 
 	float: right;
 }
-#carousel-homepage-latestnews .glyphicon-chevron-right:before{
+.carousel-homepage-latestnews .glyphicon-chevron-right:before{
 	float: right;
 }
 

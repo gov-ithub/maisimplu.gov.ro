@@ -7,10 +7,8 @@
 
  //require_once(ABSPATH . 'wp-content/themes/mai-simplu/functions.external.php');
 
-
-
-
-
+// Load custom functionality developed by maisimplu@GovItHub team
+require_once(ABSPATH . 'wp-content/themes/mai-simplu/functions-govIt.php');
 
 function zerif_setup() {
 

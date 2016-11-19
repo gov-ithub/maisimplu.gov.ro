@@ -7,26 +7,17 @@
 	if( !empty($zerif_total_posts) && ($zerif_total_posts > 0) ):
 
 		echo '<section class="latest-news" id="latestnews">';
-
 			echo '<div class="container">';
 
 				/* SECTION HEADER */
-
 				echo '<div class="section-header">';
-
 					$zerif_latestnews_title = get_theme_mod('zerif_latestnews_title');
-
 					/* title */
 					if( !empty($zerif_latestnews_title) ):
-
 						echo '<h2 class="dark-text">' . wp_kses_post( $zerif_latestnews_title ) . '</h2>';
-
 					else:
-
 						echo '<h2 class="dark-text">' . __('Latest news','mai-simplu') . '</h2>';
-
 					endif;
-
 					/* subtitle */
 					$zerif_latestnews_subtitle = get_theme_mod('zerif_latestnews_subtitle');
 
@@ -44,7 +35,7 @@
 
 				echo '<div class="clear"></div>';
 
-				echo '<div id="carousel-homepage-latestnews" class="carousel slide" data-ride="carousel">';
+				echo '<div id="carousel-homepage-latestnews" class="carousel slide carousel-homepage-latestnews" data-ride="carousel">';
 
 					/* Wrapper for slides */
 
