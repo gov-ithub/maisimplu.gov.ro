@@ -20,7 +20,7 @@
 			            <div class="service-icon">
 				
 								
-					<a href="http://maisimplu.gov.ro/propunere/companie/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/02/comp2.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
+					<a href="<?php echo site_url(); ?>/propunere/companie/"><i class="pixeden" style="background:url(<?php echo site_url(); ?>/wp-content/uploads/2016/02/comp2.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
 				
 			
             </div>
@@ -30,7 +30,7 @@
 
 			<p>Vă rugăm să folosiți această variantă dacă doriți să simplificați o procedura specifică activității unei companii sau alte organizații în raport cu o autoritate a statului.</p>	
 
-<div class="buttons"><a href="http://maisimplu.gov.ro/propunere/companie/" class="btn btn-primary custom-button red-btn">Propune o imbunatatire pentru companii</a>	</div>	
+<div class="buttons"><a href="<?php echo site_url(); ?>/propunere/companie/" class="btn btn-primary custom-button red-btn">Propune o imbunatatire pentru companii</a>	</div>	
         </div>
 
         
@@ -39,7 +39,7 @@
 			            <div class="service-icon">
 				
 								
-					<a href="http://maisimplu.gov.ro/propunere/cetateni/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/02/perso1.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
+					<a href="<?php echo site_url(); ?>/propunere/cetateni/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/02/perso1.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
 				
 				
             </div>
@@ -49,7 +49,7 @@
 
 			<p>Vă rugăm să folosiți această variantă dacă doriți să simplificați o procedura specifică activității unei persoane fizice în raport cu o autoritate a statului. &nbsp;<br /></p>
 
-<div class="buttons"><a href="http://maisimplu.gov.ro/propunere/cetateni/" class="btn btn-primary custom-button green-btn">Propune o imbunatatire pentru persoane fizice</a>	</div>
+<div class="buttons"><a href="<?php echo site_url(); ?>/propunere/cetateni/" class="btn btn-primary custom-button green-btn">Propune o imbunatatire pentru persoane fizice</a>	</div>
         </div>
 	
 	

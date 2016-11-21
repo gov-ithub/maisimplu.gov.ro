@@ -9,7 +9,7 @@
 		<?php if ( is_user_logged_in() ) { ?>
 			<div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
 				<div class="service-icon">
-					<a href="http://maisimplu.gov.ro/dashboard/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/02/login.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
+					<a href="<?php echo site_url(); ?>/dashboard/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/02/login.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
 				</div>
 
 				<h3 class="red-border-bottom">1. Ești autentificat</h3>
@@ -19,7 +19,7 @@
 			<div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
 
 				<div class="service-icon">
-					<a href="http://maisimplu.gov.ro/propunere/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/02/Prop1.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
+					<a href="<?php echo site_url(); ?>/propunere/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/02/Prop1.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
 				</div>
 
 				<h3 class="red-border-bottom">2. Spune-ne ce să simplificăm!</h3>
@@ -33,7 +33,7 @@
 			<div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
 
 				<div class="service-icon">
-					<a href="http://maisimplu.gov.ro/inregistrare/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/02/perso1.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
+					<a href="<?php echo site_url(); ?>/inregistrare/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/02/perso1.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
 				</div>
 				<h3 class="red-border-bottom">1. Creează-ți un cont de utilizator</h3>
 				<!-- FOCUS HEADING -->
@@ -48,7 +48,7 @@
 
 			<div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
 				<div class="service-icon">
-					<a href="http://maisimplu.gov.ro/cont-nou-autentificare/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/02/Prop1.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
+					<a href="<?php echo site_url(); ?>/cont-nou-autentificare/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/02/Prop1.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
 				</div>
 				<h3 class="red-border-bottom">2. Spune-ne ce să simplificăm!</h3>
 				<!-- FOCUS HEADING -->
@@ -58,7 +58,7 @@
 			<div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
 
 				<div class="service-icon">
-					<a href="http://maisimplu.gov.ro/lista-propuneri/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/02/intern1.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
+					<a href="<?php echo site_url(); ?>/lista-propuneri/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/02/intern1.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
 				</div>
 				<h3 class="red-border-bottom">3. Distribuie / susține o propunere!</h3>
 				<!-- FOCUS HEADING -->
@@ -75,7 +75,7 @@
 			<div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
 
 				<div class="service-icon">
-					<a href="http://maisimplu.gov.ro/formular-monitorizare-implementarea-masurilor/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/07/raporteaza.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
+					<a href="<?php echo site_url(); ?>/formular-monitorizare-implementarea-masurilor/"><i class="pixeden" style="background:url(http://maisimplu.gov.ro/wp-content/uploads/2016/07/raporteaza.png) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
 				</div>
 
 				<h3 class="red-border-bottom">4. Raporteaza implementarea defectuoasa</h3>
