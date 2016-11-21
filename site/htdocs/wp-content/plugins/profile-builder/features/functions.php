@@ -826,7 +826,7 @@ function wppb_add_html_tag_required_to_fields( $extra_attributes, $field, $form_
 	}
 	return $extra_attributes;
 }
-add_filter( 'wppb_extra_attribute', 'wppb_add_html_tag_required_to_fields', 10, 3 );
+//add_filter( 'wppb_extra_attribute', 'wppb_add_html_tag_required_to_fields', 10, 3 );
 
 /**
  * Add HTML tag 'required' to WooCommerce fields
