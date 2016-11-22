@@ -63,3 +63,7 @@
 	background: #dd4b39;
 }
 
+/** VARIOUS TWEAKS **/
+#disqus_thread {
+	clear: both;
+}
