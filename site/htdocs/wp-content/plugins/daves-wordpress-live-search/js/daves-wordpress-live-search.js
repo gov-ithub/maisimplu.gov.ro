@@ -149,8 +149,10 @@ LiveSearch.handleAJAXResults = function(e) {
         if(e.results.length === 0) {
                 // Hide the search results, no results to show
                 LiveSearch.hideResults();
+				LiveSearch.invokeCallbacks('ZeroResults');
         }
         else {
+				LiveSearch.invokeCallbacks('BeforeDisplayResults');
                 // Render the result template
                 renderedResult = LiveSearch.compiledResultTemplate({
 					'searchResults': e.results,
@@ -175,9 +177,11 @@ LiveSearch.handleAJAXResults = function(e) {
                 // I'm not comfortable changing the HTML for the results list yet
                 // so I'm using this click handler to make clicking the result li act the
                 // same as clicking the title link
-                jQuery('#dwls_search_results').bind('click.dwls', function() {
-                   window.location.href = jQuery(this).find('a.daves-wordpress-live-search_title').attr('href');
+                jQuery('#dwls_search_results').bind('click.dwls', function(e) {
+                   window.location.href = jQuery(e.target).parent('li').find('a.daves-wordpress-live-search_title').attr('href');
                 });
+
+				LiveSearch.invokeCallbacks('AfterDisplayResults');
         }
 
         if(LiveSearch.activeRequests.length === 0) {
@@ -305,6 +309,7 @@ LiveSearch.displayIndicator = function() {
 
 		jQuery(".search_results_activity_indicator").css('left', indicatorX);
 
+		LiveSearch.invokeCallbacks('BeforeDisplaySpinner');
 		Spinners.create('.search_results_activity_indicator', {
 			radii:     [spinnerRadius.inner, spinnerRadius.outer],
 			color:     '#888888',
@@ -313,6 +318,7 @@ LiveSearch.displayIndicator = function() {
 			opacity:   0.8,
 			speed:     0.7
 		}).play();
+		LiveSearch.invokeCallbacks('AfterDisplaySpinner');
 	}
 
 };
@@ -321,7 +327,9 @@ LiveSearch.displayIndicator = function() {
  * Hide the "spinning wheel" AJAX activity indicator
  */
 LiveSearch.removeIndicator = function() {
+	LiveSearch.invokeCallbacks('BeforeHideSpinner');
 	jQuery(".search_results_activity_indicator").remove();
+	LiveSearch.invokeCallbacks('AfterHideSpinner');
 };
 
 ///////////////////

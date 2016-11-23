@@ -3,8 +3,8 @@ Contributors: csixty4
 Donate link: http://catguardians.org
 Tags: search, AJAX, live search
 Requires at least: 3.6
-Tested up to: 4.3
-Stable tag: 4.4.1
+Tested up to: 4.6
+Stable tag: 4.5
 License: MIT
 License URI: http://daveross.mit-license.org
 
@@ -70,6 +70,12 @@ Features I want to implement in future releases:
 1. "No results found" message (optional)
 
 == Changelog ==
+
+= 4.5 =
+* 2016-08-29 Dave Ross <dave@davidmichaelross.com>
+* Sprinkled more JavaScript pseudo-events throughout the code
+* Fixes deprecation warning on PHP 7.x
+* Fixed issue where clicking anywhere but the title on 2nd+ search result went to 1st result
 
 = 4.4.1 =
 * 2015-10-15 Dave Ross <dave@davidmichaelross.com>
