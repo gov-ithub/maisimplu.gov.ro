@@ -1,11 +1,12 @@
 <?php
 
 //General Info
-global $jfb_name, $jfb_version, $jfb_homepage;
+global $jfb_name, $jfb_version, $jfb_homepage, $jfb_apiver;
 $jfb_name       = "WP-FB AutoConnect";
-$jfb_version    = "4.2.1";
+$jfb_version    = "4.3.0";
 $jfb_homepage   = "http://www.justin-klein.com/projects/wp-fb-autoconnect";
 $jfb_data_url   = plugins_url(dirname(plugin_basename(__FILE__)));
+$jfb_apiver     = "v2.7";
 
 //Localization
 load_plugin_textdomain("wp-fb-autoconnect", false, dirname( plugin_basename(__FILE__) ) . '/languages');
