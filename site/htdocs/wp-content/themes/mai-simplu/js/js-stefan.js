@@ -4,7 +4,7 @@
 	GovItHubMaiSimplu.init = function(){
 		var that = this;
 		jQuery(document).on('click', '.govithub-rating-trigger', function(){
-			var voteType = $( this ).data('rating'),
+			var ratingType = $( this ).data('rating'),
 				isUserLoggedIn = GovItHubMaiSimpluData.isUserLoggedIn;
 
 			// Display a popup to ask the user to login
@@ -29,11 +29,10 @@
 	 * Will perform the voting action
 	 * Will send an Ajax call to the server
 	 */
-	GovItHubMaiSimplu.vote = function(){
-		alert( 'please login' );
+	GovItHubMaiSimplu.vote = function( ratingType ){
+		alert( ratingType );
 
 	}
 
-
 	GovItHubMaiSimplu.init();
-})(jQuery)
+})(jQuery);
