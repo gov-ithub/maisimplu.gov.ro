@@ -5,7 +5,7 @@ Tags: user registration, user registration form, user fields, extra user fields,
 
 Requires at least: 3.1
 Tested up to: 4.6.1
-Stable tag: 2.5.0
+Stable tag: 2.5.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -150,6 +150,11 @@ This plugin adds/removes user fields in the front-end. Both default and extra pr
 10. Profile Builder Login Widget
 
 == Changelog ==
+= 2.5.1 =
+* Improvements regarding caching plugins and user registration
+* Added a search field in the admin area on the Users with unconfirmed email address screen
+* Improved queries for displaying users in the admin area on the Users with unconfirmed email address screen
+
 = 2.5.0 =
 * We now delete cache when updating a user with email confirmation so solve issues with cache-ing plugins
 * Fixed select2 JS error when select2 addon is inactive but select2 fields are still in front-end.

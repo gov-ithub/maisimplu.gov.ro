@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: Justin_K
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=T88Y2AZ53836U
-Tags: facebook connect, login with facebook, facebook autoconnect, facebook, connect, widget, login, logon, wordpress, buddypress
+Tags: facebook connect, login with facebook, facebook autoconnect, facebook, social login, widget, login, logon, buddypress
 Requires at least: 2.5
-Tested up to: 4.4
-Stable tag: 4.2.1
+Tested up to: 4.5.3
+Stable tag: 4.3.0
 
 A lightweight but powerful Facebook login plugin, easy to setup and transparent to new and returning users alike.  Supports Buddypress.
 
@@ -80,6 +80,18 @@ For more information on exactly how this plugin's login process works and how it
 
 
 == Changelog ==
+= 4.3.0 (2016-07-19) =
+* Facebook API calls are now versioned (v2.7)
+* Detect the actual API version used by your app, & show under 'Support Info' 
+* Facebook JS api now uses sdk.js instead of all.js
+* Remove the FB.init ChannelURL & oauth params (deprecated)
+* Fix error_logs that may appear if WP_DEBUG is defined & usage stats are enabled
+* Tested with WP 4.5.3
+
+= 4.2.2 (2016-04-21) =
+* Fix deprecated Widget constructor
+* Verified with WP 4.5
+
 = 4.2.1 (2016-01-19) =
 * Fix a php shorttag
 

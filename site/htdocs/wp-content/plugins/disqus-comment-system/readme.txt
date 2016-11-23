@@ -1,9 +1,9 @@
 === Disqus Comment System ===
 Contributors: disqus, alexkingorg, crowdfavorite, zeeg, tail, thetylerhayes, ryanv12
 Tags: comments, threaded, email, notification, spam, avatars, community, profile, widget, disqus
-Requires at least: 2.8
-Tested up to: 4.0
-Stable tag: 2.84
+Requires at least: 3.2
+Tested up to: 4.6.1
+Stable tag: 2.86
 
 The Disqus comment system replaces your WordPress comment system with your comments hosted and powered by Disqus.
 
@@ -50,7 +50,7 @@ The Disqus for WordPress plugin seamlessly integrates using the Disqus API and b
 
 = More documentation =
 
-Go to [http://disqus.com/help/wordpress](http://disqus.com/help/wordpress)
+Go to [https://disqus.com/help/wordpress](https://disqus.com/help/wordpress)
 
 == Screenshots ==
 
@@ -59,6 +59,18 @@ Go to [http://disqus.com/help/wordpress](http://disqus.com/help/wordpress)
 3. Moderation Interface
 
 == Changelog ==
+
+= 2.86 =
+
+* Don't attempt to use cURL on IIS servers
+* Check is dsq_sync_forum is scheduled before scheduling
+* Add updates for Travis CI
+* Fixes a bug in the upgrade process
+
+= 2.85 =
+
+* Fixes deprecation warnings on sites running PHP7
+* Removes a javascript alert from the admin
 
 = 2.84 =
 
@@ -320,6 +332,6 @@ INSERT INTO `wp_options` (blog_id, option_name, option_value, autoload) VALUES (
 
 == Support ==
 
-* Visit http://disqus.com/help/wordpress for help documentation.
+* Visit https://disqus.com/help/wordpress for help documentation.
 
-* Visit http://help.disqus.com for help from our support team.
+* Visit https://help.disqus.com for help from our support team.

@@ -107,6 +107,7 @@ function wppb_activate_signup( $key ) {
                 $meta['user_pass'] = wp_hash_password( $meta['user_pass'] );
 
             $wpdb->update( $wpdb->users, array('user_pass' => $meta['user_pass'] ), array('ID' => $user_id) );
+			wp_cache_delete( $user_id, 'users' );
         }
 
 		wppb_notify_user_registration_email($bloginfo, $user_login, $user_email, 'sending', $password, $wppb_generalSettings['adminApproval']);

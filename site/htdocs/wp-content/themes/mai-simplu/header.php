@@ -113,45 +113,45 @@
 
 				<?php if ( current_user_can('contributor') ) : ?>
 					<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146">
-						<strong><a href="/institutie/">Meniu Institutie</a></strong>
+						<strong><a href="<?php echo site_url(); ?>/institutie/">Meniu Institutie</a></strong>
 						<ul class="sub-menu">
 							<li><del datetime="2016-07-13T11:57:42+00:00">1. Inregistrare</del>
 								<br />
-									<a href="/institutie/editare-informatii-cont/">Editare cont</a></li>
+									<a href="<?php echo site_url(); ?>/institutie/editare-informatii-cont/">Editare cont</a></li>
 									<li><del datetime="2016-07-13T11:57:42+00:00">2. Autentificare</del>
 								<br />
 									<a href="<?php echo wp_logout_url(); ?>">Ieşire</a>
 							</li>
 
-							<li><a href="/completare-informatii-despre-institutia-care-raporteaza/">3. Completare informatii institutie</a></li>
-							<li><a href="/completare-informatii-servicii/">4. Transmitere raport sintetic</a></li>
-							<li><a href="/institutie/transmitere-raport-detaliat-cu-privire-la-serviciile-publice/">5. Transmitere raport detaliat</a></li>
-							<li><a href="/informatii-privind-pcue/">6. Informatii privind PCUe</a></li>
+							<li><a href="<?php echo site_url(); ?>/completare-informatii-despre-institutia-care-raporteaza/">3. Completare informatii institutie</a></li>
+							<li><a href="<?php echo site_url(); ?>/completare-informatii-servicii/">4. Transmitere raport sintetic</a></li>
+							<li><a href="<?php echo site_url(); ?>/institutie/transmitere-raport-detaliat-cu-privire-la-serviciile-publice/">5. Transmitere raport detaliat</a></li>
+							<li><a href="<?php echo site_url(); ?>/informatii-privind-pcue/">6. Informatii privind PCUe</a></li>
 						</ul>
 					</li>
 				<?php endif; ?>
-					<li id="menu-item-135" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-135"><a href="/">Acasă</a></li>
+					<li id="menu-item-135" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-135"><a href="<?php echo site_url(); ?>/">Acasă</a></li>
 				<?php if ( ! is_user_logged_in() ) : ?>
-					<li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-136"><a href="/inregistrare/">Creează cont !</a></li>
+					<li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-136"><a href="<?php echo site_url(); ?>/inregistrare/">Creează cont !</a></li>
 				<?php endif; ?>
 
 				<?php if ( is_user_logged_in() ) : ?>
-					<li id="menu-item-142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-142"><a href="/propunere/">Propune o îmbunatațire !</a>
+					<li id="menu-item-142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-142"><a href="<?php echo site_url(); ?>/propunere/">Propune o îmbunatațire !</a>
 						<ul class="sub-menu">
-							<li id="menu-item-1441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144"><a href="/propunere/companie/">Propunere companie</a></li>
-							<li id="menu-item-143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143"><a href="/propunere/cetateni/">Propunere cetățeni</a></li>
+							<li id="menu-item-1441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144"><a href="<?php echo site_url(); ?>/propunere/companie/">Propunere companie</a></li>
+							<li id="menu-item-143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143"><a href="<?php echo site_url(); ?>/propunere/cetateni/">Propunere cetățeni</a></li>
 						</ul>
 					</li>
 				<?php endif; ?>
 
 				<?php if ( is_user_logged_in() ) { ?>
-					<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="/dashboard/">Propunerile mele</a></li>
+					<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="<?php echo site_url(); ?>/dashboard/">Propunerile mele</a></li>
 				<?php } else { ?>
-					<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="/autentificare/">Autentificare</a></li>
+					<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="<?php echo site_url(); ?>/autentificare/">Autentificare</a></li>
 				<?php } ?>
-					<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a href="/lista-propuneri/">Toate Propunerile</a>
+					<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a href="<?php echo site_url(); ?>/lista-propuneri/">Toate Propunerile</a>
 						<ul class="sub-menu">
-							<li id="menu-item-1442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144"><a href="/lista-propuneri/cele-mai-populare-propuneri/">Cele mai populare</a></li>
+							<li id="menu-item-1442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144"><a href="<?php echo site_url(); ?>/lista-propuneri/cele-mai-populare-propuneri/">Cele mai populare</a></li>
 						</ul>
 					</li>
 				</ul>

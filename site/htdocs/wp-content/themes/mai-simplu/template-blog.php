@@ -7,7 +7,7 @@ get_header(); ?>
 
 </header> <!-- / END HOME SECTION  -->
 
-<h1 class="page-title">Toate propunerile</h1><a href="http://maisimplu.gov.ro/lista-propuneri/cele-mai-populare-propuneri/">(vezi populare)</a>
+<h1 class="page-title">Toate propunerile</h1><a href="<?php echo site_url(); ?>/lista-propuneri/cele-mai-populare-propuneri/">(vezi populare)</a>
 
 <div id="content" class="site-content">
 

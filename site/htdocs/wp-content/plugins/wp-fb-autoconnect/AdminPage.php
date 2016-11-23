@@ -102,7 +102,7 @@ function jfb_admin_notices()
  */
 function jfb_admin_page()
 {
-    global $jfb_name, $jfb_version, $opt_jfb_app_token;
+    global $jfb_name, $jfb_version, $opt_jfb_app_token, $jfb_apiver;
     global $opt_jfb_app_id, $opt_jfb_api_key, $opt_jfb_api_sec, $opt_jfb_email_to, $opt_jfb_email_logs, $opt_jfb_email_logs_missingpost, $opt_jfb_delay_redir, $jfb_homepage;
     global $opt_jfb_ask_perms, $opt_jfb_mod_done, $opt_jfb_ask_stream, $opt_jfb_stream_content;
     global $opt_jfb_bp_avatars, $opt_jfb_wp_avatars, $opt_jfb_valid, $opt_jfb_fulllogerr, $opt_jfb_disablenonce, $opt_jfb_show_credit;
@@ -153,21 +153,19 @@ function jfb_admin_page()
     {
         update_option( $opt_jfb_valid, 0 );
         $shownTab = 0;
-		
-		//This is the only graph call that doesn't come back as a JSON object, so I use wp_remote_get() directly (rather than jfb_api_get).
-		$response = wp_remote_get("https://graph.facebook.com/oauth/access_token?client_id=" . $_POST[$opt_jfb_api_key] . "&client_secret=" . $_POST[$opt_jfb_api_sec] . "&grant_type=client_credentials", array( 'sslverify' => false ));
-		if( is_array($response) && strpos($response['body'], 'access_token=') !== FALSE )
+		$response = jfb_api_get("https://graph.facebook.com/$jfb_apiver/oauth/access_token?client_id=" . $_POST[$opt_jfb_api_key] . "&client_secret=" . $_POST[$opt_jfb_api_sec] . "&grant_type=client_credentials");        
+		if( isset($response['access_token']) )
 		{
             //We got a valid app access token!  Note: this plugin doesn't actually use the app-token after this initial 
             //validation; I simply cache it so it can be accessible to users wishing to further interact with Facebook 
             //via hooks & filters. App tokens never expire unless the app secret is refreshed.
             $shownTab = 1;
             update_option( $opt_jfb_valid, 1 );
-            update_option( $opt_jfb_app_token, substr($response['body'], 13) );
+            update_option( $opt_jfb_app_token, $response['access_token'] );
 			
 			//Now I can use the app token to fetch the app's name.  This isn't really necessary - just a final double-confirmation,
 			//and to show a 'nicer' message to the user when they save.
-			$result = jfb_api_get("https://graph.facebook.com/" . $_POST[$opt_jfb_api_key] . "?access_token=" . get_option($opt_jfb_app_token));
+			$result = jfb_api_get("https://graph.facebook.com/$jfb_apiver/" . $_POST[$opt_jfb_api_key] . "?fields=id,name&access_token=" . get_option($opt_jfb_app_token));
 			if(!$result || isset($result['error']))
 			{
             	?><div class="error"><p><?php 
@@ -183,7 +181,7 @@ function jfb_admin_page()
 		}
 		else
 		{
-			$result = jfb_api_process($response);
+			$result = $response;
             ?><div class="error"><p><?php _e("Failed to validate your App ID and Secret.", "wp-fb-autoconnect")?><br/>
             Error Message: <i><?php echo (isset($result['error']['message'])?$result['error']['message']:"Unknown"); ?></i></p></div><?php
 		}
@@ -430,12 +428,13 @@ WP Locale:          <?php echo get_locale() . "\n";?>
 WP Debug:           <?php echo (defined('WP_DEBUG') && WP_DEBUG?"Yes":"No") . "\n"; ?>
 WP Engine:          <?php echo ((defined('WPMU_PLUGIN_DIR') && file_exists(WPMU_PLUGIN_DIR . "/wpengine-common/plugin.php"))?"Yes":"No") . "\n";?>
 Facebook App:       <?php echo (get_option($opt_jfb_app_id)?get_option($opt_jfb_app_id):"&lt;Unset&gt;") . "\n"?>
-Facebook API:       <?php echo (class_exists('Facebook')?"Already present!":"OK") . "\n" ?>
+Facebook PHP API:   <?php echo (class_exists('Facebook')?"Already present!":"OK") . "\n" ?>
 Facebook Reachable: <?php 
-                $result = jfb_api_get("https://graph.facebook.com");
-                if(!$result)                                echo "NO (Empty Reply)\n";
-                else if (isset($result['error']['code']))   echo "OK\n"; //I expect it to be "error" - this means that I could contact the graph API, and it gave a response.
-                else                                        echo "ERROR\n"; ?>
+                $result = wp_remote_get("https://graph.facebook.com/$jfb_apiver", array( 'sslverify' => false ));
+                if(is_wp_error($result))                             echo "ERROR (wp_error - unreachable)\n";
+                else if (NULL == json_decode($result['body'], true)) echo "ERROR (json_decode - invalid)\n";
+                else                                                 echo "OK\n"; ?>
+Facebook Graph:     <?php echo $result['headers']['facebook-api-version'] . "\n";?>
 Facebook Validated: <?php echo (get_option($opt_jfb_valid)?"OK":"NO")."\n";?>
 Server:             <?php echo substr($_SERVER['SERVER_SOFTWARE'], 0, 65) . (strlen($_SERVER['SERVER_SOFTWARE'])>65?"...":""); ?>  
 Browser:            <?php $browser = jfb_get_browser(); echo $browser['shortname'] . " " . $browser['version'] . " for " . $browser['platform'] . "\n"; ?>
