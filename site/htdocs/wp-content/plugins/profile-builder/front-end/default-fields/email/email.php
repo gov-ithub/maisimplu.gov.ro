@@ -69,16 +69,24 @@ function wppb_check_email_value( $message, $field, $request_data, $form_location
             }
         }
 	}
-	
+
 	$users = $wpdb->get_results( $wpdb->prepare( "SELECT * FROM {$wpdb->users} WHERE user_email = %s", $request_data['email'] ) );
+
 	if ( !empty( $users ) ){
 		if ( $form_location == 'register' )
 			return __( 'This email is already in use.', 'profile-builder' ) .'<br/>'. __( 'Please try a different one!', 'profile-builder' );
 		
 		if ( $form_location == 'edit_profile' ){
-            if( isset( $_GET['edit_user'] ) && ! empty( $_GET['edit_user'] ) )
+            $url_parts = parse_url( $_SERVER['HTTP_REFERER'] );
+            if( isset( $url_parts['query'] ) ) {
+                parse_str( $url_parts['query'], $query );
+            }
+
+            if( isset( $_GET['edit_user'] ) && ! empty( $_GET['edit_user'] ) ) {
                 $current_user_id = $_GET['edit_user'];
-            else{
+            } elseif( defined( 'DOING_AJAX' ) && DOING_AJAX && isset( $query['edit_user'] ) && ! empty( $query['edit_user'] ) ) {
+                $current_user_id = $query['edit_user'];
+            } else {
                 $current_user = wp_get_current_user();
                 $current_user_id = $current_user->ID;
             }
@@ -95,10 +103,11 @@ add_filter( 'wppb_check_form_field_default-e-mail', 'wppb_check_email_value', 10
 /* handle field save */
 function wppb_userdata_add_email( $userdata, $global_request ){
 	// apply filter to allow stripping slashes if necessary
-	$global_request['email'] = apply_filters( 'wppb_before_processing_email_from_forms', $global_request['email'] );
-	if ( isset( $global_request['email'] ) )
-		$userdata['user_email'] = sanitize_text_field( trim( $global_request['email'] ) );
-	
+	if ( isset( $global_request['email'] ) ) {
+        $global_request['email'] = apply_filters( 'wppb_before_processing_email_from_forms', $global_request['email'] );
+        $userdata['user_email'] = sanitize_text_field( trim( $global_request['email'] ) );
+    }
+
 	return $userdata;
 }
 add_filter( 'wppb_build_userdata', 'wppb_userdata_add_email', 10, 2 );
