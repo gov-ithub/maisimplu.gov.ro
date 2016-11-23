@@ -451,7 +451,7 @@ class Wordpress_Creation_Kit_PB{
 		}
 		$list .= apply_filters( 'wck_metabox_content_footer_'.$meta , '', $id );
 		$list .= '</table>';
-		
+
 		$list = apply_filters('wck_metabox_content_'.$meta, $list, $id);
 		return $list;
 	}
@@ -463,12 +463,13 @@ class Wordpress_Creation_Kit_PB{
 
 		$wck_element_class = '';
 		$wck_element_class = apply_filters( "wck_element_class_{$meta}", $wck_element_class, $meta, $results, $element_id );
-		
+
 		$list = '';
-		$list .= '<tr id="element_'.$element_id.'" ' . $wck_element_class . '>'; 
-		$list .= '<td style="text-align:center;vertical-align:middle;" class="wck-number">'. $entry_nr .'</td>'; 
+		$list .= '<tr id="element_'.$element_id.'" ' . $wck_element_class . '>';
+		$list .= apply_filters( 'wck_add_content_before_columns', '', $list );
+		$list .= '<td style="text-align:center;vertical-align:middle;" class="wck-number">'. $entry_nr .'</td>';
 		$list .= '<td class="wck-content"><ul>' . "\r\n";
-		
+
 		$j = 0;				
 		
 		if( !empty( $fields ) ){
@@ -506,7 +507,7 @@ class Wordpress_Creation_Kit_PB{
 									$details['type'] = 'nested-repeater';
 									
 				$list .= '<li class="row-'. esc_attr( Wordpress_Creation_Kit_PB::wck_generate_slug( $details['title'], $details ) ) .'" data-type="'.$details['type'].'"><strong>'.$details['title'].': </strong>'.$display_value.' </li>' . "\r\n";
-				
+
 				$list = apply_filters( "wck_after_listed_{$meta}_element_{$j}", $list, $element_id, $value );
 
 				$j++;
@@ -533,6 +534,7 @@ class Wordpress_Creation_Kit_PB{
 		$list .= '</td>';				
 		$list .= '<td style="text-align:center;vertical-align:middle;" class="wck-edit"><a href="javascript:void(0)" class="button-secondary"  onclick=\'showUpdateFormMeta("'.esc_js($meta).'", "'.esc_js($id).'", "'.esc_js($element_id).'", "'.esc_js($edit_nonce).'")\' title="'. __( 'Edit this item', 'profile-builder' ) .'">'. apply_filters( 'wck_edit_button', __('Edit','wck'), $meta ) .'</a></td>';
 		$list .= '<td style="text-align:center;vertical-align:middle;" class="wck-delete"><a href="javascript:void(0)" class="mbdelete" onclick=\'removeMeta("'.esc_js($meta).'", "'.esc_js($id).'", "'.esc_js($element_id).'", "'.esc_js($delete_nonce).'")\' title="'. __( 'Delete this item', 'profile-builder' ) .'">'. apply_filters( 'wck_delete_button', __( 'Delete', 'wck' ), $meta) .'</a></td>';
+		$list .= apply_filters( 'wck_add_content_after_columns', '', $list );
 
 		$list .= "</tr> \r\n";
 

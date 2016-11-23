@@ -386,16 +386,19 @@ class Profile_Builder_Form_Creator{
         <form enctype="multipart/form-data" method="post" id="<?php if( $this->args['form_type'] == 'register' ) echo 'wppb-register-user';  else if( $this->args['form_type'] == 'edit_profile' ) echo 'wppb-edit-user'; if( isset($this->args['form_name']) && $this->args['form_name'] != "unspecified" ) echo '-' . $this->args['form_name']; ?>" class="wppb-user-forms<?php if( $this->args['form_type'] == 'register' ) echo ' wppb-register-user';  else if( $this->args['form_type'] == 'edit_profile' ) echo ' wppb-edit-user'; echo $wppb_user_role_class; ?>" action="<?php echo apply_filters( 'wppb_form_action', '' ); ?>">
 			<?php
             do_action( 'wppb_form_args_before_output', $this->args );
-			echo apply_filters( 'wppb_before_form_fields', '<ul>', $this->args['form_type'] );
+
+			echo apply_filters( 'wppb_before_form_fields', '<ul>', $this->args['form_type'], $this->args['ID'] );
 			echo $this->wppb_output_form_fields( $_REQUEST, $field_check_errors, $this->args['form_fields'] );
-			echo apply_filters( 'wppb_after_form_fields', '</ul>', $this->args['form_type'] );
-			
-			echo apply_filters( 'wppb_before_send_credentials_checkbox', '<ul>', $this->args['form_type'] );
+			echo apply_filters( 'wppb_after_form_fields', '</ul>', $this->args['form_type'], $this->args['ID'] );
+
+			echo apply_filters( 'wppb_before_send_credentials_checkbox', '<ul>', $this->args['form_type'], $this->args['ID'] );
 			$this->wppb_add_send_credentials_checkbox( $_REQUEST, $this->args['form_type'] );
 			echo apply_filters( 'wppb_after_send_credentials_checkbox', '</ul>', $this->args['form_type'] );
+
+            $wppb_form_submit_extra_attr = apply_filters( 'wppb_form_submit_extra_attr', '', $this->args['form_type'], $this->args['ID'] );
 			?>
-			<p class="form-submit">
-				<?php 
+			<p class="form-submit" <?php echo $wppb_form_submit_extra_attr; ?> >
+				<?php
 				if( $this->args['form_type'] == 'register' )
 					$button_name = ( current_user_can( 'create_users' ) ? __( 'Add User', 'profile-builder' ) : __( 'Register', 'profile-builder' ) );
 					
@@ -428,11 +431,11 @@ class Profile_Builder_Form_Creator{
 		
 	}
 	
-	function wppb_output_form_fields( $global_request, $field_check_errors, $form_fields ){
-
+	function wppb_output_form_fields( $global_request, $field_check_errors, $form_fields, $called_from = NULL ){
 		$output_fields = '';
-		
+
 		if( !empty( $form_fields ) ){
+		    $output_fields .= apply_filters( 'wppb_output_before_first_form_field', '', $this->args['ID'], $this->args['form_type'], $form_fields, $called_from );
 			foreach( $form_fields as $field ){
 				$error_var = ( ( array_key_exists( $field['id'], $field_check_errors ) ) ? ' wppb-field-error' : '' );
 				$specific_message = ( ( array_key_exists( $field['id'], $field_check_errors ) ) ? $field_check_errors[$field['id']] : '' );
@@ -446,10 +449,12 @@ class Profile_Builder_Form_Creator{
 				$output_fields .= apply_filters( 'wppb_output_before_form_field', '<li class="'. $css_class .'" id="wppb-form-element-'. $field['id'] .'">', $field, $error_var, $this->args['role'] );
 				$output_fields .= apply_filters( 'wppb_output_form_field_'.Wordpress_Creation_Kit_PB::wck_generate_slug( $field['field'] ), '', $this->args['form_type'], $field, $this->wppb_get_desired_user_id(), $field_check_errors, $global_request, $this->args['role'], $this );
 				$output_fields .= apply_filters( 'wppb_output_specific_error_message', $specific_message );
-				$output_fields .= apply_filters( 'wppb_output_after_form_field', '</li>', $field );
+				$output_fields .= apply_filters( 'wppb_output_after_form_field', '</li>', $field, $this->args['ID'], $this->args['form_type'], $called_from );
 			}
+
+			$output_fields .= apply_filters( 'wppb_output_after_last_form_field', '', $this->args['ID'], $this->args['form_type'], $called_from );
 		}
-		
+
 		return apply_filters( 'wppb_output_fields_filter', $output_fields );
 	}
 		
@@ -488,7 +493,7 @@ class Profile_Builder_Form_Creator{
 					$output_field_errors[$field['id']] = '<span class="wppb-form-error">' . $error_for_field  . '</span>';
 			}
 		}
-		
+
 		return apply_filters( 'wppb_output_field_errors_filter', $output_field_errors, $this->args['form_fields'], $global_request, $this->args['form_type'] );
 	}
 	
@@ -657,7 +662,7 @@ class Profile_Builder_Form_Creator{
             <form method="GET" action="" id="select_user_to_edit_form">
                 <p class="wppb-form-field">
                     <label for="edit_user"><?php _e('User to edit:', 'profile-builder') ?></label>
-                    <select id="wppb-edit-user" name="edit_user">
+                    <select id="wppb-user-to-edit" name="edit_user">
                         <?php
                         foreach( $users as $user ){
                             ?>
@@ -667,7 +672,7 @@ class Profile_Builder_Form_Creator{
                         ?>
                     </select>
                 </p>
-                <script type="text/javascript">jQuery('#wppb-edit-user').change(function () {
+                <script type="text/javascript">jQuery('#wppb-user-to-edit').change(function () {
 						window.location.href = "<?php echo htmlspecialchars_decode( esc_js( esc_url_raw( add_query_arg( array( 'edit_user' => '=' ) ) ) ) ) ?>" + jQuery(this).val();
                     });</script>
             </form>

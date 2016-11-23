@@ -259,7 +259,8 @@ function wppb_print_cpt_script( $hook ){
 		( $hook == 'profile-builder_page_profile-builder-wppb_emailCustomizer' ) ||
 		( $hook == 'profile-builder_page_profile-builder-wppb_emailCustomizerAdmin' ) ||
 		( $hook == 'profile-builder_page_profile-builder-add-ons' ) ||
-		( $hook == 'profile-builder_page_profile-builder-woocommerce-sync') ||
+		( $hook == 'profile-builder_page_profile-builder-woocommerce-sync' ) ||
+        ( $hook == 'profile-builder_page_profile-builder-bbpress') ||
 		( $hook == 'admin_page_profile-builder-pms-promo') ) {
 			wp_enqueue_style( 'wppb-back-end-style', WPPB_PLUGIN_URL . 'assets/css/style-back-end.css', false, PROFILE_BUILDER_VERSION );
 	}
@@ -819,7 +820,7 @@ function wppb_get_date_by_timezone() {
  * @param array $field Field description.
  * @return string $extra_attributes
  */
-function wppb_add_html_tag_required_to_fields( $extra_attributes, $field, $form_location = NULL ) {
+function wppb_add_html_tag_required_to_fields( $extra_attributes, $field, $form_location ) {
 	if ( $field['field'] != "Checkbox" && isset( $field['required'] ) && $field['required'] == 'Yes' ){
 		if( !( ( $field['field'] == "Default - Password" || $field['field'] == "Default - Repeat Password" ) && $form_location == 'edit_profile' ) )
 			$extra_attributes .= ' required ';
@@ -866,23 +867,25 @@ function wppb_manage_required_attribute() {
 	if ($wppb_shortcode_on_front) {
 		?>
 		<script type="text/javascript">
-			jQuery(document).on( "wppbAddRequiredAttributeEvent", "input[type='text'], input[type='email'], input[type='hidden'], textarea, select option, input[type='checkbox'], input[type='radio']", wppbAddRequired );
+			jQuery(document).on( "wppbAddRequiredAttributeEvent", "input[type='text'], input[type='email'], input[type='hidden'], textarea, select, input[type='checkbox'], input[type='radio']", wppbAddRequired );
 			function wppbAddRequired(event) {
-				if( jQuery( event.target ).attr( "wppb_cf_temprequired" ) ){
-					jQuery( event.target ).removeAttr( "wppb_cf_temprequired" );
-					jQuery( event.target ).attr( "required", "required" );
+				var element = wppbEventTargetRequiredElement( event.target );
+				if( jQuery( element ).attr( "wppb_cf_temprequired" ) ){
+					jQuery( element  ).removeAttr( "wppb_cf_temprequired" );
+					jQuery( element  ).attr( "required", "required" );
 				}
 			}
 
-			jQuery(document).on( "wppbRemoveRequiredAttributeEvent", "input[type='text'], input[type='email'], input[type='hidden'], textarea, select option, input[type='checkbox'], input[type='radio']",wppbRemoveRequired );
+			jQuery(document).on( "wppbRemoveRequiredAttributeEvent", "input[type='text'], input[type='email'], input[type='hidden'], textarea, select, input[type='checkbox'], input[type='radio']",wppbRemoveRequired );
 			function wppbRemoveRequired(event) {
-				if ( jQuery( event.target ).attr( "required" ) ) {
-					jQuery(event.target).removeAttr( "required" );
-					jQuery(event.target).attr( "wppb_cf_temprequired", "wppb_cf_temprequired" );
+				var element = wppbEventTargetRequiredElement( event.target );
+				if ( jQuery( element ).attr( "required" ) ) {
+					jQuery( element ).removeAttr( "required" );
+					jQuery( element ).attr( "wppb_cf_temprequired", "wppb_cf_temprequired" );
 				}
 			}
 
-			jQuery(document).on( "wppbToggleRequiredAttributeEvent", "input[type='text'], input[type='email'], input[type='hidden'], textarea, select option, input[type='checkbox'], input[type='radio']",wppbToggleRequired );
+			jQuery(document).on( "wppbToggleRequiredAttributeEvent", "input[type='text'], input[type='email'], input[type='hidden'], textarea, select, input[type='checkbox'], input[type='radio']",wppbToggleRequired );
 			function wppbToggleRequired(event) {
 				if ( jQuery( event.target ).attr( "required" ) ) {
 					jQuery( event.target ).removeAttr( "required" );
@@ -892,6 +895,16 @@ function wppb_manage_required_attribute() {
 					jQuery( event.target ).attr( "required", "required" );
 				}
 			}
+
+			function wppbEventTargetRequiredElement( htmlElement ){
+				if ( htmlElement.nodeName == "OPTION" ){
+					// <option> is the target element, so we need to get the parent <select>, in order to apply the required attribute
+					return htmlElement.parentElement;
+				}else{
+					return htmlElement;
+				}
+			}
+
 		</script>
 		<?php
 	}

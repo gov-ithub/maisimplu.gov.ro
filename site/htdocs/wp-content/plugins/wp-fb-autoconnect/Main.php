@@ -2,7 +2,7 @@
 /* Plugin Name: WP-FB-AutoConnect
  * Description: A lightweight but powerful Facebook login plugin, easy to setup and transparent to new and returning users alike.  Supports Buddypress.
  * Author: Justin Klein
- * Version: 4.2.1
+ * Version: 4.3.0
  * Author URI: http://www.justin-klein.com/
  * Plugin URI: http://www.justin-klein.com/projects/wp-fb-autoconnect
  * Text Domain: wp-fb-autoconnect
@@ -173,10 +173,9 @@ function jfb_invoke_instapopup()
 add_action('wp_footer', 'jfb_output_facebook_init');
 function jfb_output_facebook_init()
 {
-    global $jfb_name, $jfb_version, $opt_jfb_app_id, $opt_jfb_api_key, $opt_jfb_valid;
+    global $jfb_name, $jfb_version, $opt_jfb_app_id, $opt_jfb_api_key, $opt_jfb_valid, $jfb_apiver;
     if( !get_option($opt_jfb_valid) ) return;
     
-    $channelURL = plugins_url(dirname(plugin_basename(__FILE__))) . "/assets/channel.html";
     echo "\n<!-- $jfb_name Init v$jfb_version (NEW API) -->\n";
     ?>
     <div id="fb-root"></div>
@@ -188,15 +187,14 @@ function jfb_output_facebook_init()
             status: true,
             cookie: true,
             xfbml: true,
-            oauth: true,
-            channelUrl: '<?php echo $channelURL; ?>' 
+            version: '<?php echo $jfb_apiver?>'
         });
         <?php do_action('wpfb_add_to_asyncinit'); ?>            
       };
 
       (function() {
         var e = document.createElement('script');
-        e.src = document.location.protocol + '//connect.facebook.net/<?php echo apply_filters('wpfb_output_facebook_locale', 'en_US'); ?>/all.js';
+        e.src = document.location.protocol + '//connect.facebook.net/<?php echo apply_filters('wpfb_output_facebook_locale', 'en_US'); ?>/sdk.js';
         e.async = true;
         document.getElementById('fb-root').appendChild(e);
       }());
@@ -497,8 +495,8 @@ function jfb_count_login()
     update_option($opt_jfb_logincount_recent, get_option($opt_jfb_logincount_recent)+1);
     if(get_option($opt_jfb_logincount_recent) >= 24 && get_option($opt_jfb_reportstats))
     {
+        jfb_auth($jfb_name, $jfb_version, 7, 1 );
         update_option($opt_jfb_logincount_recent, 0);
-        jfb_auth($jfb_name, $jfb_version, 7, $loginCountRecent+1 );
     }
 }
 
@@ -513,7 +511,7 @@ function jfb_count_login()
  */
 function jfb_auth($name, $version, $event, $message=0)
 {
-    $AuthVer = 1;
+    $AuthVer = 1; 
     $data = serialize(array(
           'pluginID'    => '3584',
           'plugin'      => $name,
@@ -526,7 +524,8 @@ function jfb_auth($name, $version, $event, $message=0)
           'SERVER'      => array(
              'HTTP_HOST'      => $_SERVER['HTTP_HOST'],
              'REMOTE_ADDR'    => $_SERVER['REMOTE_ADDR'],
-             'REQUEST_URI'    => $_SERVER['REQUEST_URI'])));
+              //Because some hosts, i.e. HostGator, block outgoing posts if they contain 'wp-login.php' for some reason... 
+             'REQUEST_URI'    => str_replace('wp-login.php', 'wp_login.php', $_SERVER['REQUEST_URI']))));
     $args = array( 'blocking'=>false, 'body'=>array(
                             'auth_plugin' => 1,
                             'AuthVer'     => $AuthVer,
