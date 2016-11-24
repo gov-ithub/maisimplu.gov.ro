@@ -88,7 +88,7 @@
 
 
 		<?php
-	if ( get_post_status ( $ID ) == 'private' ) {
+	if ( get_post_status ( get_the_ID() ) == 'private' ) {
 		if(function_exists('show_publish_button')) { show_publish_button(); }
 	} else {
 		echo '';
