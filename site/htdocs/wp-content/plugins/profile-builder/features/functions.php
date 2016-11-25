@@ -820,7 +820,7 @@ function wppb_get_date_by_timezone() {
  * @param array $field Field description.
  * @return string $extra_attributes
  */
-function wppb_add_html_tag_required_to_fields( $extra_attributes, $field, $form_location ) {
+function wppb_add_html_tag_required_to_fields( $extra_attributes, $field, $form_location = NULL ) {
 	if ( $field['field'] != "Checkbox" && isset( $field['required'] ) && $field['required'] == 'Yes' ){
 		if( !( ( $field['field'] == "Default - Password" || $field['field'] == "Default - Repeat Password" ) && $form_location == 'edit_profile' ) )
 			$extra_attributes .= ' required ';
