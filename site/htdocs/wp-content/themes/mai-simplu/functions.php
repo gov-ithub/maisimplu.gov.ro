@@ -267,9 +267,12 @@ function zerif_scripts() {
     // ADD GOVIT STEFAN STYLE
     // TODO : MOVE CONTENT TO STYLE.CSS AND REMOVE ON DEPLOY
     wp_enqueue_style('govithubstefan', get_template_directory_uri() . '/style-stefan.css', array(), 'v2');
+    wp_enqueue_style('magnificpopup', get_template_directory_uri() . '/css/magnific-popup.css', array(), 'v2');
+    wp_enqueue_script('magnificpopup', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array("jquery"), 'v2', true);
     wp_enqueue_script('govithubstefan', get_template_directory_uri() . '/js/js-stefan.js', array("jquery"), 'v2', true);
     wp_localize_script('govithubstefan', 'GovItHubMaiSimpluData', array(
-        'isUserLoggedIn' => is_user_logged_in()
+        'isUserLoggedIn' => is_user_logged_in(),
+        'ajax_url' => admin_url( 'admin-ajax.php' ),
     ));
 
 	add_editor_style('/css/custom-editor-style.css');

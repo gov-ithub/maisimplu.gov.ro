@@ -81,12 +81,7 @@
 
 		<?php edit_post_link( __( 'Edit', 'mai-simplu' ), '<span class="edit-link">', '</span>' ); ?>
 <br />&nbsp;<br />
-
-
-		<div class="fb-like" data-href="<?php the_permalink(); ?>" data-width="600" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-
-
-
+		<div class="fb-like" data-href="<?php the_permalink(); ?>" data-width="600" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
 		<?php
 	if ( get_post_status ( get_the_ID() ) == 'private' ) {
 		if(function_exists('show_publish_button')) { show_publish_button(); }

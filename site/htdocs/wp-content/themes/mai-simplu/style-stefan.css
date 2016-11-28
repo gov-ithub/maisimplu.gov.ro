@@ -12,6 +12,15 @@
 	border-radius: 4px;
 }
 
+.govithub-bubble-button:active,
+.govithub-bubble-button:focus {
+	outline:none;
+}
+
+.govithub-bubble-button:hover {
+	border-color:#c3c3c3;
+}
+
 /* Fix .row override from style.css@3297 */
 .govithub-proposal-rating-wrapper .row {
 	margin-left: -15px;
@@ -59,11 +68,61 @@
 	background: #3b5998;
 }
 
+.govithub-facebook-share-button:hover{
+	background: #4f77ca;
+}
+
 .govithub-google-share-button {
 	background: #dd4b39;
 }
 
+.govithub-google-share-button:hover {
+	background: #e46050;
+}
+
+
 /** VARIOUS TWEAKS **/
 #disqus_thread {
 	clear: both;
+}
+
+/** Animations */
+.pulsate {
+	animation: pulsate 1s ease-out;
+	animation-iteration-count: 1;
+}
+@keyframes pulsate {
+	0% {
+		color:#999;
+		opacity: 0.5;
+	}
+	50% {
+		color:#666;
+	}
+	100% {
+		color:#999;
+		opacity: 1;
+	}
+}
+.govithub-fix-bar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100% !important;
+	padding: 10px;
+	background: #fff;
+	border-top: 1px solid #eaeaea;
+	box-shadow: 10px 0px 10px #e0e0e0;
+	z-index: 999;
+	text-align: left;
+}
+
+/** Need login popup **/
+.govithub-need-login-popup {
+	text-align: center;
+}
+.govithub-need-login-popup .govithub-login-button {
+	padding: 10px;
+	margin-top: 20px;
+	margin-right: 10px;
 }
