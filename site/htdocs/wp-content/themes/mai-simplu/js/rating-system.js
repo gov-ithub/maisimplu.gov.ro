@@ -11,9 +11,22 @@
 		this.showFollowVoteBar();
 		// Vote buttons functionality
 		this.addVoteFunctionality();
+		// Image pop-up
+		this.initImagePopUp();
 
 	}
 
+	/**
+	 * Will allow the user to open blog images in pop-ups
+	 */
+	GovItHubMaiSimplu.initImagePopUp = function(){
+
+		$('.govithub-image-popup').magnificPopup({
+			type:'image',
+			mainClass: 'mfp-zoom-in',
+		});
+
+	}
 
 	/**
 	 * Will show the voting bar at the bottom of the page while the user is scrolling

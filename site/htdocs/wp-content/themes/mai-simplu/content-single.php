@@ -13,6 +13,20 @@
 	<div class="entry-content">
 
 		<?php
+
+			if( has_post_thumbnail() ){
+
+				$thumb   = get_post_thumbnail_id();
+				$feature_image = wp_get_attachment_url( $thumb );
+
+				echo '<span class="govithub-featured-image">';
+					echo '<a href="' . $feature_image . '" class="govithub-image-popup" >';
+						the_post_thumbnail( 'govithub-blog' );
+					echo '</a>';
+				echo '</span>';
+
+			}
+
 			the_content();
 
 			wp_link_pages( array(
