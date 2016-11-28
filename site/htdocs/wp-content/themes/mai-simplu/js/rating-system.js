@@ -98,7 +98,7 @@
 		var template = '<div class="govithub-need-login-popup">';
 		template += 'Trebuie sa fi inregistrat pentru a putea vota.';
 		template += '<a href="http://maisimplu.gov.ro/inregistrare/" class="btn btn-primary govithub-login-button green-btn">Creează cont !</a>';
-		template += '<a href="http://maisimplu.gov.ro/autentificare/" class="btn btn-primary govithub-login-button">Autentificare</a>';
+		template += '<a href="http://maisimplu.gov.ro/autentificare/" class="btn btn-danger govithub-login-button">Autentificare</a>';
 		template += '</div>';
 
 		this.showMessage( template );
