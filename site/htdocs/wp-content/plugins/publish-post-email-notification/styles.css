@@ -1,0 +1,35 @@
+.error_admin_massemail{
+ color:red;
+ font-size:10px;
+
+} 
+
+ #succMsg{
+     background:#FFFFE0;
+     border: 1px solid #9ADF8F;
+     color:#556652 !important;
+     width:100% !important;
+     padding:8px 8px 8px 36px;
+     text-align:left;
+     margin:2px;
+     margin-left: 0px;
+     margin-top: 30px;
+     width:750px !important;
+}
+#errMsg{
+
+     background:#FFCECE;
+     border: 1px solid #DF8F8F;
+     color:#665252 !important;
+     width:100% !important;
+     padding:8px 8px 8px 36px; 
+     text-align:left;
+     margin:5px;
+     margin-left: 0px;
+     margin-top: 30px;
+     width:750px !important;
+     
+}   
+ 
+
+
