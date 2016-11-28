@@ -58,8 +58,6 @@ function govithub_rating_update( $old_value, $new_value ){
 		)
 	);
 
-	var_dump( $result );
-
 }
 
 
