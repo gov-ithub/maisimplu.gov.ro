@@ -5,6 +5,12 @@ defined('ABSPATH') or die("Cannot access pages directly.");
 require_once(ABSPATH . 'wp-content/themes/mai-simplu/theme-migration.php');
 require_once(ABSPATH . 'wp-content/themes/mai-simplu/modules/class-ratings.php');
 
+// Register our image size
+add_action( 'after_setup_theme', 'govithub_theme_setup' );
+function govithub_theme_setup() {
+	add_image_size( 'govithub-blog', 400, 300, true );
+}
+
 /**
  *  Add google analitycs code
  */

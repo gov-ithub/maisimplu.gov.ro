@@ -126,3 +126,26 @@
 	margin-top: 20px;
 	margin-right: 10px;
 }
+
+/** Blog **/
+.govithub-featured-image {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+.govithub-image-popup{
+	border-bottom:5px solid transparent;
+	display: inline-block;
+	transition: all .5s ease-in;
+}
+.govithub-image-popup:hover {
+	border-bottom:5px solid #e96656;
+}
+
+.govithub-image-popup img{
+	display: inline-block;
+	transition: all .5s ease-in;
+}
+.govithub-image-popup:hover img {
+	opacity: 0.7;
+}
