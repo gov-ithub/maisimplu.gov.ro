@@ -3,6 +3,7 @@ defined('ABSPATH') or die("Cannot access pages directly.");
 
 // Load Migration script that will run after the theme is activated
 require_once(ABSPATH . 'wp-content/themes/mai-simplu/theme-migration.php');
+require_once(ABSPATH . 'wp-content/themes/mai-simplu/modules/class-ratings.php');
 
 /**
  *  Add google analitycs code
