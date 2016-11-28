@@ -149,3 +149,14 @@
 .govithub-image-popup:hover img {
 	opacity: 0.7;
 }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 767px) {
+	.govithub-bubble-button{
+		margin-bottom: 15px;
+	}
+
+	.govithub-proposal-share-buttons-container{
+		text-align: left;
+	}
+}
