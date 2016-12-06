@@ -11,6 +11,7 @@
 	echo '<div id="carousel-homepage-latestnews1" class="carousel slide carousel-homepage-latestnews" data-ride="carousel">';
 					/* Wrapper for slides */
 					echo '<div class="carousel-inner" role="listbox">';
+						$zerif_total_posts = get_option('posts_per_page'); /* number of latest posts to show */
 						$zerif_latest_loop = new WP_Query( array( 'post_type' => 'post','category_name' =>'Măsuri de simplificare', 'posts_per_page' => $zerif_total_posts, 'order' => 'DESC','ignore_sticky_posts' => true ) );
 						$newSlideActive = '<div class="item active">';
 						$newSlide 		= '<div class="item">';

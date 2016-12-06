@@ -149,6 +149,12 @@
 				<?php } else { ?>
 					<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="<?php echo site_url(); ?>/autentificare/">Autentificare</a></li>
 				<?php } ?>
+					<?php
+					$category_id = get_cat_ID( 'Focus grup' );
+					$category_link = get_category_link( $category_id );
+
+					?>
+					<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="<?php echo $category_link; ?>">Focus grup</a></li>
 					<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a href="<?php echo site_url(); ?>/lista-propuneri/">Toate Propunerile</a>
 						<ul class="sub-menu">
 							<li id="menu-item-1442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144"><a href="<?php echo site_url(); ?>/lista-propuneri/cele-mai-populare-propuneri/">Cele mai populare</a></li>

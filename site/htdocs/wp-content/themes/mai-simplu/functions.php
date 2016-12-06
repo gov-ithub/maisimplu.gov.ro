@@ -209,25 +209,17 @@ function zerif_slug_fonts_url() {
 function zerif_scripts() {
 
 	wp_enqueue_style('zerif_font', zerif_slug_fonts_url(), array(), null );
-
     wp_enqueue_style( 'zerif_font_all', '//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,600,700,700italic,800,800italic');
-
     wp_enqueue_style('zerif_bootstrap_style', get_template_directory_uri() . '/css/bootstrap.css');
-
     wp_style_add_data( 'zerif_bootstrap_style', 'rtl', 'replace' );
-
     wp_enqueue_style('zerif_fontawesome', get_template_directory_uri() . '/css/font-awesome.min.css', array(), 'v1');
-
     wp_enqueue_style('zerif_pixeden_style', get_template_directory_uri() . '/css/pixeden-icons.css', array('zerif_fontawesome'), 'v1');
-
     wp_enqueue_style('zerif_style', get_stylesheet_uri(), array('zerif_pixeden_style'), 'v1');
-
     wp_enqueue_style('zerif_responsive_style', get_template_directory_uri() . '/css/responsive.css', array('zerif_style'), 'v1');
 
+
     if ( wp_is_mobile() ){
-
         wp_enqueue_style( 'zerif_style_mobile', get_template_directory_uri() . '/css/style-mobile.css', array('zerif_bootstrap_style', 'zerif_style'),'v1' );
-
     }
 
     wp_enqueue_script('jquery');
@@ -270,6 +262,17 @@ function zerif_scripts() {
 
         endif;
     }
+
+
+    // TODO : MOVE CONTENT TO STYLE.CSS AND REMOVE ON DEPLOY
+    wp_enqueue_style('govithubcss', get_template_directory_uri() . '/style-govithub.css', array(), 'v2');
+    wp_enqueue_style('magnificpopup', get_template_directory_uri() . '/css/magnific-popup.css', array(), 'v2');
+    wp_enqueue_script('magnificpopup', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array("jquery"), 'v2', true);
+    wp_enqueue_script('govithubjs', get_template_directory_uri() . '/js/rating-system.js', array("jquery"), 'v2', true);
+    wp_localize_script('govithubjs', 'GovItHubMaiSimpluData', array(
+        'isUserLoggedIn' => is_user_logged_in(),
+        'ajax_url' => admin_url( 'admin-ajax.php' ),
+    ));
 
 	add_editor_style('/css/custom-editor-style.css');
 

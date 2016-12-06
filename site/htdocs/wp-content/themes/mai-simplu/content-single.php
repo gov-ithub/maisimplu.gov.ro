@@ -2,19 +2,31 @@
 
 	<header class="entry-header">
 
-		<h1 class="entry-title"><?php the_title(); ?></h1><?php if(function_exists('the_ratings')) { the_ratings(); } ?>
-
-		<div class="entry-meta">
-
-			<?php //zerif_posted_on(); ?>
-
-		</div><!-- .entry-meta -->
+		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<?php
+			get_template_part( 'sections/proposal', 'meta' );
+			// if(function_exists('the_ratings')) { the_ratings(); }
+		?>
 
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 
 		<?php
+
+			if( has_post_thumbnail() ){
+
+				$thumb   = get_post_thumbnail_id();
+				$feature_image = wp_get_attachment_url( $thumb );
+
+				echo '<span class="govithub-featured-image">';
+					echo '<a href="' . $feature_image . '" class="govithub-image-popup" >';
+						the_post_thumbnail( 'govithub-blog' );
+					echo '</a>';
+				echo '</span>';
+
+			}
+
 			the_content();
 
 			wp_link_pages( array(
@@ -83,14 +95,9 @@
 
 		<?php edit_post_link( __( 'Edit', 'mai-simplu' ), '<span class="edit-link">', '</span>' ); ?>
 <br />&nbsp;<br />
-
-
-		<div class="fb-like" data-href="<?php the_permalink(); ?>" data-width="600" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-
-
-
+		<div class="fb-like" data-href="<?php the_permalink(); ?>" data-width="600" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
 		<?php
-	if ( get_post_status ( $ID ) == 'private' ) {
+	if ( get_post_status ( get_the_ID() ) == 'private' ) {
 		if(function_exists('show_publish_button')) { show_publish_button(); }
 	} else {
 		echo '';
