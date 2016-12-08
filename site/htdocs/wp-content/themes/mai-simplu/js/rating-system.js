@@ -73,7 +73,7 @@
 				voteType = $( this ).data('rating'),
 				isUserLoggedIn = GovItHubMaiSimpluData.isUserLoggedIn,
 				iconHolder = $(this).children('.fa'),
-				voteCountHolder = $('.govithub-proposal-rating-status-holder');
+				voteCountHolder =  $( this ).closest('.govithub-proposal-rating-wrapper').find('.govithub-proposal-rating-status-holder');
 
 			// Don't allow the user to spam the voting buttons
 			if( that.voteState.isVoting ) {
