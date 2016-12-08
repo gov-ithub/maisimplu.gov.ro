@@ -10,7 +10,7 @@ addons:
 env:
   global:
     - JAVA_OPTS='-Xmx3072m'
-    - SONAR_RUNNER_OPTS="-Xmx2048m -XX:MaxPermSize=1024m -XX:ReservedCodeCacheSize=512m"
+    # - SONAR_RUNNER_OPTS="-Xmx2048m -XX:MaxPermSize=1024m -XX:ReservedCodeCacheSize=512m"
     - secure: "Xv2H4pcsnf1dIrP+NmiuIHGGPmqoXrqoKlxpoh/znymrJMhzekfeX2jIHi8SIAiJcNUVT4VaN8lY2WwnlTDxw4NdSgFwKBdt6Pf62aJqg3sv4nXQTlylv4OXM9/lHWSzGpzC3VbFyGlpMW3SthETpxR5S6qIx3swEgQ9wP73wT9AagIPfQK5Ujr+QK8BapRjEfuGCZdDLx3b6lLSpNy/dSdkEfnls/xt/I5vcDN0YqZtnCj4tF+4gh2vwq2FwB7DCHWmbmxfjUq9Goj7B9OR6KnzPAqJYh4nQ6fTMOZsNxp8AWG/PTtX9LHUYpARb5Z9I0scnUd4diPvCVWbEYEQBULnrJDx6jSy4+Zb/8Mqib1hEz41elFJ5LYtkWBRt/cEGcPB2Iy2ZP05mJzNUZHxQlr61XASKoZ396YC5mpQEoSxI0LeB80X399zYWUot8AfsaJiyjTdkdKKaiTV/hTW6r1R0e2/6H41kwF7qeARXstRKicTPbn7pQ1B5C8CUGjZFanTtA6Ll11CAyQtcidxT7Mgmv74WKRkovTpNKqCY4Q2TcM0QPWbfkmJHxke6p0V/EReXJNJ7XdxiI4EMIMwH3R8mI+lWb15eIquw9ZJ1edi960r9GVXknnSRznTrhV//e1x1Mjm5jmOdavHrj9Ud6BZcCSj26rUkcvpNcYKDfQ="
 
 #before_script:
