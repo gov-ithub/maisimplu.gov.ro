@@ -64,10 +64,20 @@ function govit_add_facebook_code(){
 
 /**
  *  Theme Init functionalities
- *  TODO : Talk to see if we still need the code bellow. Facebook SDK is already added by the WP-FB AutoConnect plugin
  */
 function theme_slug_setup() {
 	// Theme Supports
    add_theme_support( 'title-tag' );
 }
 add_action( 'after_setup_theme', 'theme_slug_setup' );
+
+/**
+ *  Remove update nag for normal users
+ */
+function hide_update_notice_to_all_but_admin_users()
+{
+	if (!current_user_can('update_core')) {
+		remove_action( 'admin_notices', 'update_nag', 3 );
+	}
+}
+add_action( 'admin_head', 'hide_update_notice_to_all_but_admin_users', 1 );
