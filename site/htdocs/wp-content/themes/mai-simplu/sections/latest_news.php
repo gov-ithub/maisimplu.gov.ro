@@ -157,11 +157,9 @@
 						echo '<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>';
 						echo '<span class="sr-only">'.__('Next','mai-simplu').'</span>';
 					echo '</a>';
-				echo '</div><!-- #carousel-homepage-latestnews --><a href="http://maisimplu.gov.ro/lista-propuneri/" class="btn btn-primary custom-button green-btn">vezi toate propunerile din platformă</a>';
+				echo '</div><!-- #carousel-homepage-latestnews --><a href="'.site_url().'/lista-propuneri/" class="btn btn-primary custom-button green-btn">vezi toate propunerile din platformă</a>';
 
 			echo '</div><!-- .container -->';
 		echo '</section>';
 
-endif; ?>
-
-
+endif;
