@@ -117,8 +117,8 @@
 						echo '<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>';
 						echo '<span class="sr-only">'.__('Next','mai-simplu').'</span>';
 					echo '</a>';
-				echo '</div><!-- #carousel-homepage-latestnews1 --><a href="http://maisimplu.gov.ro/masuri-de-simplificare/" class="btn btn-primary custom-button green-btn">vezi toate măsurile de simplificare</a>
-				<a target="_blank" title="RAPORTEAZA IMPLEMENTAREA DEFECTUOASA !" href="http://maisimplu.gov.ro/formular-monitorizare-implementarea-masurilor/"><img alt="Raporteaza masura" src="http://maisimplu.gov.ro/wp-content/uploads/2016/07/raporteaza-masura.png" height="42" width="42"></a>
+				echo '</div><!-- #carousel-homepage-latestnews1 --><a href="'.site_url().'/masuri-de-simplificare/" class="btn btn-primary custom-button green-btn">vezi toate măsurile de simplificare</a>
+				<a target="_blank" title="RAPORTEAZA IMPLEMENTAREA DEFECTUOASA !" href="'.site_url().'/formular-monitorizare-implementarea-masurilor/"><img alt="Raporteaza masura" src="http://maisimplu.gov.ro/wp-content/uploads/2016/07/raporteaza-masura.png" height="42" width="42"></a>
 				';
  ?>
 
