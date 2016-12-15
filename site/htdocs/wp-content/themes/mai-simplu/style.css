@@ -91,7 +91,7 @@ a img {
 	border: 0;
 }
 body {
-	font-family: 'Lato', sans-serif !important;
+	font-family: 'Open Sans', sans-serif !important;
 	font-size: 14px;
 	color: #808080;
 	font-weight: normal;
@@ -894,13 +894,13 @@ a:active {
 .widget .widget-title {
 	color: #404040;
 	text-transform: uppercase;
-	margin-bottom: 30px;
+	margin-bottom: 35px;
 	font-weight: bold;
 	font-size: 17px;
 	position: relative;
 	text-align: left;
 	margin-top: 30px;
-	padding-bottom: 5px;
+	padding-bottom: 15px;
 	float: none;
 }
 .widget .widget-title:before{
@@ -3239,6 +3239,8 @@ article .posted-on a:hover{
 	font-size: 20px;
 	margin-top: 0;
 	padding-top: 0;
+	padding-bottom: 15px;
+	margin-bottom: 25px;
 }
 .listpost-content-wrap .entry-content {
 	margin-top: 1em;

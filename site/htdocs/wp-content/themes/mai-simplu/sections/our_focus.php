@@ -65,7 +65,7 @@
 
 				<p>Spune-le și prietenilor tăi despre propunerea ta sau exprimă-ți părerea față de o altă propunere din platformă prin formularul de comentarii.</p>
 
-				<form role="search" method="get" class="search-form" action="http://maisimplu.gov.ro/">
+				<form role="search" method="get" class="search-form" action="<?php echo site_url(); ?>">
 					<label>
 						<span class="screen-reader-text">Caută o propunere afată în platforma</span>
 						<input type="search" class="search-field" placeholder="Caută o propunere..." value="" name="s" title="Căutare:" />
@@ -81,7 +81,7 @@
 				<h3 class="red-border-bottom">4. Raporteaza implementarea defectuoasa</h3>
 				<!-- FOCUS HEADING -->
 
-				<p>În continuare, Guvernul României va monitoriza implementarea <a target="_blank" href="http://maisimplu.gov.ro/masuri-de-simplificare/">acestor măsuri</a>, colectând informaţii prin intermediul <a target="_blank" href="http://maisimplu.gov.ro/formular-monitorizare-implementarea-masurilor/">acestui formular</a>.</p>
+				<p>În continuare, Guvernul României va monitoriza implementarea <a target="_blank" href="<?php echo site_url(); ?>/masuri-de-simplificare/">acestor măsuri</a>, colectând informaţii prin intermediul <a target="_blank" href="<?php echo site_url(); ?>/formular-monitorizare-implementarea-masurilor/">acestui formular</a>.</p>
 
 			</div>
 		</div> <!-- END ROW -->

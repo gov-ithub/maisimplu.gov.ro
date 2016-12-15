@@ -174,13 +174,13 @@ function zerif_slug_fonts_url() {
     * supported by Lora, translate this to 'off'. Do not translate
     * into your own language.
     */
-    $lato = _x( 'on', 'Lato font: on or off', 'mai-simplu' );
+    $lato = _x( 'off', 'Lato font: on or off', 'mai-simplu' );
     $homemade = _x( 'on', 'Homemade font: on or off', 'mai-simplu' );
     /* Translators: If there are characters in your language that are not
     * supported by Open Sans, translate this to 'off'. Do not translate
     * into your own language.
     */
-    $monserrat = _x( 'on', 'Monserrat font: on or off', 'mai-simplu' );
+    $monserrat = _x( 'off', 'Monserrat font: on or off', 'mai-simplu' );
      if ( 'off' !== $lato || 'off' !== $monserrat|| 'off' !== $homemade ) {
         $font_families = array();
 

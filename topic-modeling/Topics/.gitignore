@@ -1,0 +1,5 @@
+﻿#R scripts 
+
+vis/
+scripts/configure.R
+textmining/
