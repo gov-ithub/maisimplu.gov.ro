@@ -16,11 +16,11 @@ function govit_do_migration(){
 
 	// Create focus group category
 	wp_insert_term(
-		'Părerea ta',
+		'Focus grup',
 		'category',
 		array(
 		  'description'	=> 'Categorie pentru părerea ta.',
-		  'slug' 		=> 'parerea-ta'
+		  'slug' 		=> 'focus-grup'
 		)
 	);
 
