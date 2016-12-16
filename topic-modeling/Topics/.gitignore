@@ -3,3 +3,6 @@
 vis/
 scripts/configure.R
 textmining/
+
+# history
+.RHistory
