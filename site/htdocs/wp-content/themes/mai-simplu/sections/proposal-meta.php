@@ -12,6 +12,7 @@
 	<div class="govithub-votebar-placeholder"></div>
 	<div class="row govithub-vote-share-bar">
 		<div class="col-sm-6">
+			<span>Votează</span>
 			<a href="#" class="govithub-bubble-button govithub-rating-plus-button govithub-rating-trigger" data-postId="<?php the_ID(); ?>" data-rating="plus" title="Voteaza pozitiv"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 			<a href="#" class="govithub-bubble-button govithub-rating-minus-button govithub-rating-trigger" data-postId="<?php the_ID(); ?>" data-rating="minus" title="Voteaza negativ"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
 			<a href="<?php echo get_permalink(); ?>#disqus_thread" class="govithub-bubble-button govithub-rating-comments-button"><i class="fa fa-comments" aria-hidden="true"></i></a>
