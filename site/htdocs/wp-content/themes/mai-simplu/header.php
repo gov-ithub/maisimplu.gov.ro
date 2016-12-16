@@ -150,7 +150,7 @@
 					<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="<?php echo site_url(); ?>/autentificare/">Autentificare</a></li>
 				<?php } ?>
 					<?php
-					$category_id = get_cat_ID( 'Focus grup' );
+					$category_id = get_cat_ID( 'Părerea ta' );
 					$category_link = get_category_link( $category_id );
 
 					?>
