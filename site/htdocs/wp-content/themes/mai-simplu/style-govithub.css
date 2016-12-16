@@ -160,3 +160,11 @@
 		text-align: left;
 	}
 }
+
+/** Blog Styles */
+.entry-content {
+	word-wrap: break-word;
+}
+a.btn-danger:visited {
+	color: #FFFFFF;
+}
