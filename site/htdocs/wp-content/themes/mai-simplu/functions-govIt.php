@@ -89,7 +89,8 @@ add_action( 'admin_head', 'hide_update_notice_to_all_but_admin_users', 1 );
 *  Add subscription details after user register
 */
 add_action('wppb_register_success', 'maiSimpluRegisterSubscriptionHook', 10, 3 );
-function maiSimpluRegisterSubscriptionHook( $request, $form_name, $user_id ){
+function maiSimpluRegisterSubscriptionHook( $request, $form_name, $user_id )
+{
     if(!empty($user_id))
     {
         if($request['subscription_register'] == 'Da')
@@ -104,4 +105,72 @@ function maiSimpluRegisterSubscriptionHook( $request, $form_name, $user_id ){
             );
         }
     }
+}
+/* Subscriptions script */
+wp_enqueue_script('govithubjs', get_template_directory_uri() . '/js/subscriptions.js', array("jquery"), 'v1', true);
+/*
+*  Set subscription for a specific post
+*/
+function follow_request() 
+{
+    if ( isset($_REQUEST) ) {
+        
+        global $wpdb;
+        $userId = get_current_user_id();
+        $id = $_REQUEST['id'];
+        $state = $_REQUEST['state'];
+        
+        switch($state):
+            case 'follow':
+                $wpdb->insert(
+                    'maisiwp_subscriptions', 
+                    array(
+                        'subscription_userid' => $userId,
+                        'subscription_postid' => $id,
+                        'subscription_startdate' => date('Y-m-d H:i:s')
+                    )
+                );
+                echo 'unfollow';
+                break;
+            case 'unfollow':
+                $wpdb->update(
+                    'maisiwp_subscriptions', 
+                    array(
+                        'subscription_enabled' => 0,
+                        'subscription_enddate' => date('Y-m-d H:i:s')
+                    ),
+                    array(
+                        'subscription_userid' => $userId,
+                        'subscription_postid' => $id,
+                        'subscription_enabled' => 1
+                    )
+                );
+                echo 'follow';
+                break;
+        endswitch;
+    }
+    die();
+}
+add_action( 'wp_ajax_follow_request', 'follow_request' );
+// add_action( 'wp_ajax_nopriv_follow_request', 'follow_request' );
+/*
+*  Get status of subscription for a single post
+*/
+function follow_status($postid) 
+{
+    $userId = get_current_user_id();
+    global $wpdb;
+    $subscriptionDB = $wpdb->get_results(
+        "SELECT subscription_id
+            FROM maisiwp_subscriptions
+            WHERE subscription_userid = $userId
+                AND subscription_postid = $postid
+                AND subscription_enabled = 1
+        "
+    );
+    
+    if(count($subscriptionDB) > 0)
+        return 'unfollow';
+    else 
+        return 'follow';
 }
