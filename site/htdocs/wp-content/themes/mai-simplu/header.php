@@ -143,16 +143,9 @@
 						</ul>
 					</li>
 				<?php endif; ?>
-
-				<?php if ( is_user_logged_in() ) { ?>
-					<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="<?php echo site_url(); ?>/dashboard/">Propunerile mele</a></li>
-				<?php } else { ?>
-					<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="<?php echo site_url(); ?>/autentificare/">Autentificare</a></li>
-				<?php } ?>
 					<?php
 					$category_id = get_cat_ID( 'Părerea ta' );
 					$category_link = get_category_link( $category_id );
-
 					?>
 					<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="<?php echo $category_link; ?>">Părerea ta</a></li>
 					<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a href="<?php echo site_url(); ?>/lista-propuneri/">Toate Propunerile</a>
@@ -160,6 +153,17 @@
 							<li id="menu-item-1442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144"><a href="<?php echo site_url(); ?>/lista-propuneri/cele-mai-populare-propuneri/">Cele mai populare</a></li>
 						</ul>
 					</li>
+					
+					<?php if ( is_user_logged_in() ) { ?>
+                    <li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="javascript:void(0);">Cont</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-1451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1451"><a href="<?php echo site_url(); ?>/dashboard/">Propunerile mele</a></li>
+                            <li id="menu-item-1452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1452"><a href="<?php echo site_url(); ?>/abonamente/">Notificari pe email</a></li>
+                        </ul>
+                    </li>
+                    <?php } else { ?>
+                    <li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="<?php echo site_url(); ?>/autentificare/">Autentificare</a></li>
+                    <?php } ?>
 				</ul>
 				<?php //wp_nav_menu( array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav navbar-right responsive-nav main-nav-list', 'fallback_cb'     => 'zerif_wp_page_menu')); ?>
 			</nav>
