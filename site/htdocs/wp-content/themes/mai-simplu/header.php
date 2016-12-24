@@ -158,7 +158,7 @@
                     <li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="javascript:void(0);">Cont</a>
                         <ul class="sub-menu">
                             <li id="menu-item-1451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1451"><a href="<?php echo site_url(); ?>/dashboard/">Propunerile mele</a></li>
-                            <li id="menu-item-1452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1452"><a href="<?php echo site_url(); ?>/abonamente/">Notificari pe email</a></li>
+                            <li id="menu-item-1452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1452"><a href="<?php echo site_url(); ?>/notificari-pe-email/">Notificari pe email</a></li>
                         </ul>
                     </li>
                     <?php } else { ?>
