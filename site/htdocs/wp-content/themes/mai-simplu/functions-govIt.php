@@ -174,3 +174,36 @@ function follow_status($postid)
     else 
         return 'follow';
 }
+/*
+*  Generate output for page "Notificari pe e-mail"
+*/
+add_shortcode('unique_shortcode_name', 'generate_content');
+function generate_content($attributes) {
+    // Parses the parameters/attributes and makes them available as variables.
+    extract(shortcode_atts(array(
+        'foo' => 'default value for foo',
+        'bar' => 'bla bla',
+    ), $attributes));
+
+    // Generate stuff
+    $output = 'output ' . $bar;
+
+    return $output;
+}
+
+add_action('caldera_forms_submit_complete', 'form_subscriptie_submit_complet', 55);
+function form_subscriptie_submit_complet($form) {
+ 
+    //put form field data into an array $data
+    $data= array();
+    foreach( $form[ 'fields' ] as $field_id => $field){
+        $data[ $field['slug'] ] = Caldera_Forms::get_field_data( $field_id, $form );
+    }
+    
+    //get embedded post ID.
+    $embeded_post_id = absint( $_POST[ '_cf_cr_pst' ] );
+    
+    /** DO SOMETHING WITH $data here **/
+    echo '<pre>';print_r($data);echo '</pre>';
+ 
+}
